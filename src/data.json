@@ -1,0 +1,11 @@
+[
+    { "name": "Kitap", "icon": "faBook" },
+    { "name": "Kahve", "icon": "faCoffee" },
+    { "name": "Ev", "icon": "faHome" },
+    { "name": "Kullanıcı", "icon": "faUser" },
+    { "name": "Araba", "icon": "faCar" },
+    { "name": "Telefon", "icon": "faPhone" },
+    { "name": "Kalp", "icon": "faHeart" },
+    { "name": "Yıldız", "icon": "faStar" }
+  ]
+  
