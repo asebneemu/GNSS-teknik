@@ -1,11 +1,12 @@
 [
-    { "name": "Kitap", "icon": "faBook" },
-    { "name": "Kahve", "icon": "faCoffee" },
-    { "name": "Ev", "icon": "faHome" },
-    { "name": "Kullanıcı", "icon": "faUser" },
-    { "name": "Araba", "icon": "faCar" },
-    { "name": "Telefon", "icon": "faPhone" },
-    { "name": "Kalp", "icon": "faHeart" },
-    { "name": "Yıldız", "icon": "faStar" }
-  ]
-  
+  { "name": "GNSS", "icon": "public/navbar-icons/gnss.png" },
+  { "name": "TOTAL STATION", "icon": "navbar-icons/tstation.png" },
+  { "name": "İHA", "icon": "navbar-icons/iha.png" },
+  { "name": "LİDAR", "icon": "navbar-icons/lidar.png" },
+  { "name": "NİVO", "icon": "navbar-icons/nivo.png" },
+  { "name": "BATİMETRİ", "icon": "navbar-icons/batimetri.png" },
+  { "name": "MAKİNE KONTROL", "icon": "navbar-icons/mk.png" },
+  { "name": "SENSÖR", "icon": "navbar-icons/sensor.png" },
+  { "name": "YAZILIM", "icon": "navbar-icons/yazilim.png" },
+  { "name": "AKSESUAR", "icon": "navbar-icons/aksesuar.png" }
+]

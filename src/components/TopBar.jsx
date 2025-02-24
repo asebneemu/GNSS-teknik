@@ -7,7 +7,7 @@ export default function TopBar() {
   const [searchActive, setSearchActive] = useState(false);
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center my-8 lg:px-24 py-10 lg:py-4 border-b border-gray-300 bg-[#F5F5F5]">
+    <div className="relative flex flex-col lg:flex-row items-center my-8 lg:px-24 py-10 lg:py-4 border-b border-gray-300 ">
       
       {/* Sabitlenmiş Dil & Tema Butonları */}
       <div className="absolute top-0 right-6 flex items-center space-x-4">

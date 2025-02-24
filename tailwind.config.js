@@ -1,16 +1,5 @@
+// tailwind.config.js
 module.exports = {
-    content: [
-      "./src/**/*.{html,js,jsx,ts,tsx}",
-    ],
-    theme: {
-      extend: {
-        height: {
-          '50vh': '50vh',
-          '75vh': '75vh',
-          '90vh': '90vh',
-        }
-      },
-    },
-    plugins: [],
-  }
-  
+  mode: "jit", // JIT modunu aç
+  purge: ["./src/**/*.{js,jsx,ts,tsx}"], // Kullanılan dosya yollarını tanımla
+};

@@ -22,7 +22,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="w-full flex items-center justify-center relative">
+    <div className="w-full flex items-center justify-center relative mb-20 banner-slider">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
@@ -54,11 +54,6 @@ export default function Banner() {
                 </h2>
                 <p className="text-gray-600 mt-2 hidden lg:block">
                   Açıklama metni buraya gelecek. Açıklama metni buraya gelecek.
-                  Açıklama metni buraya gelecek. Açıklama metni buraya gelecek.
-                  Açıklama metni buraya gelecek. Açıklama metni buraya gelecek.
-                  Açıklama metni buraya gelecek. Açıklama metni buraya gelecek.
-                  Açıklama metni buraya gelecek. Açıklama metni buraya gelecek.
-                  Açıklama metni buraya gelecek.
                 </p>
                 <button className="mt-4 px-4 py-2 bg-gray-600 text-white rounded-md">
                   Hemen Keşfet
@@ -69,17 +64,25 @@ export default function Banner() {
         ))}
       </Swiper>
 
-      {/* Swiper buton stilleri */}
+      {/* Swiper buton ve pagination stilleri */}
       <style jsx>{`
+        .banner-slider .swiper {
+          min-height: 70vh !important;
+        }
+
+        .banner-slider .swiper-slide {
+          min-height: 70vh !important;
+        }
+
         @media (max-width: 1024px) {
-          .swiper-button-next,
-          .swiper-button-prev {
+          .banner-slider .swiper-button-next,
+          .banner-slider .swiper-button-prev {
             display: none !important; /* LG altında okları gizle */
           }
         }
 
-        .swiper-button-next,
-        .swiper-button-prev {
+        .banner-slider .swiper-button-next,
+        .banner-slider .swiper-button-prev {
           width: 80px;
           height: 80px;
           background: rgba(0, 0, 0, 0.7);
@@ -88,22 +91,22 @@ export default function Banner() {
           transition: all 0.3s ease;
         }
 
-        .swiper-button-next:hover,
-        .swiper-button-prev:hover {
+        .banner-slider .swiper-button-next:hover,
+        .banner-slider .swiper-button-prev:hover {
           background: white;
           color: black;
         }
 
-        .swiper-button-next {
+        .banner-slider .swiper-button-next {
           right: 5%;
         }
 
-        .swiper-button-prev {
+        .banner-slider .swiper-button-prev {
           left: 5%;
         }
 
         /* Pagination noktalarını çizgi yaptım */
-        .swiper-pagination-bullet {
+        .banner-slider .swiper-pagination-bullet {
           width: 20px;
           height: 4px;
           border-radius: 0;
@@ -111,7 +114,7 @@ export default function Banner() {
           transition: all 0.3s ease;
         }
 
-        .swiper-pagination-bullet-active {
+        .banner-slider .swiper-pagination-bullet-active {
           width: 40px;
           background: black;
         }

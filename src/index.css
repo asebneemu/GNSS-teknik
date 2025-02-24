@@ -2,11 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper {
-  min-height: 70vh !important;
-}
-
-.swiper-slide {
-  min-height: 70vh !important;
-}
-
