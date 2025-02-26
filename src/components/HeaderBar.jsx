@@ -1,18 +1,31 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faBook, faHome } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { useActiveNav } from "../context/ActiveNavContext";
+import { useNavigate } from "react-router-dom";
 
 export default function HeaderBar() {
+  const { setActiveMainPath, setActiveSecondaryPath } = useActiveNav();
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    setActiveMainPath(null); // ✅ Ana navbar aktifliği sıfırlanır
+    setActiveSecondaryPath(null); // ✅ İkinci navbar aktifliği sıfırlanır
+    navigate("/"); // ✅ Anasayfaya yönlendirilir
+  };
+
   return (
     <div className="w-full bg-gray-800 text-white text-sm">
       <div className="max-w-[80%] mx-auto flex items-center justify-between py-3 px-4">
         {/* Sol Taraf - Anasayfa ve Hakkımızda */}
         <div className="flex items-center space-x-6">
-          {/* Anasayfa Linki */}
-          <Link to="/" className="flex items-center space-x-2 hover:opacity-80">
+          {/* ✅ Anasayfa Linki */}
+          <button
+            onClick={handleHomeClick}
+            className="flex items-center space-x-2 hover:opacity-80 focus:outline-none"
+          >
             <FontAwesomeIcon icon={faHome} />
             <span>Anasayfa</span>
-          </Link>
+          </button>
 
           {/* Hakkımızda */}
           <div className="flex items-center space-x-2">
