@@ -13,7 +13,7 @@ import {
 
 const ContactSection = () => {
   return (
-    <div className="w-11/12 mx-auto py-10 flex justify-center">
+    <div className="w-10/12 mx-auto py-10 flex justify-center">
       {/* Ana divler */}
       <div className="w-full grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
         {/* İlk Ana Div */}

@@ -24,9 +24,6 @@ const BrandSlider = () => {
     <div className="w-10/12 mx-auto py-10 relative">
       {/* Başlık ve Oklar */}
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-xl font-bold bg-gradient-to-r from-orange-500 to-gray-500 text-transparent bg-clip-text">
-          MARKALARIMIZ
-        </h2>
         <div className="flex gap-4">
           <button className="swiper-button-prev-custom w-14 h-14 bg-gray-300 rounded-lg flex items-center justify-center text-2xl">
             ❮
@@ -35,13 +32,16 @@ const BrandSlider = () => {
             ❯
           </button>
         </div>
+        <h2 className="text-xl font-bold text-gray-800 text-center w-full">
+          MARKALARIMIZ
+        </h2>
       </div>
 
       {/* Slider */}
       <div className="w-10/12 mx-auto">
         <Swiper
           slidesPerView={3}
-          slidesPerGroup={3} // her kaydırmada 3 slayt kaydıracak
+          slidesPerGroup={3}
           spaceBetween={20}
           navigation={{
             nextEl: ".swiper-button-next-custom",
@@ -50,22 +50,10 @@ const BrandSlider = () => {
           modules={[Navigation]}
           className="mySwiper my-20"
           breakpoints={{
-            0: {
-              slidesPerView: 3, // en küçük ekranlar için 3 resim
-              spaceBetween: 10,
-            },
-            640: {
-              slidesPerView: 3, // sm ve altı 3 resim
-              spaceBetween: 10,
-            },
-            768: {
-              slidesPerView: 5, // md için 5 resim
-              spaceBetween: 10,
-            },
-            1024: {
-              slidesPerView: 7, // lg ve üstü için 7 resim
-              spaceBetween: 20,
-            },
+            0: { slidesPerView: 3, spaceBetween: 10 },
+            640: { slidesPerView: 3, spaceBetween: 10 },
+            768: { slidesPerView: 5, spaceBetween: 10 },
+            1024: { slidesPerView: 7, spaceBetween: 20 },
           }}
         >
           {brands.map((brand, index) => (
@@ -73,12 +61,13 @@ const BrandSlider = () => {
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="h-16 w-auto sm:h-12 md:h-14 lg:h-16" // responsive image height
+                className="h-16 w-auto sm:h-12 md:h-14 lg:h-16"
               />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
+      
     </div>
   );
 };

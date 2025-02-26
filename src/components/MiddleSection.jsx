@@ -3,7 +3,7 @@ import resimIki from "/resimler/resim-orta-2.jpg";
 
 const MiddleSection = () => {
   return (
-    <div className="py-10 my-10 px-8 md:w-11/12 md:mx-auto">
+    <div className="py-10 my-10 w-10/12 mx-auto">
       {/* Grid Layout */}
       <div className="grid lg:grid-cols-2 gap-8 items-stretch">
         

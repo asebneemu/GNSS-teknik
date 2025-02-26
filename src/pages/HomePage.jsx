@@ -7,6 +7,7 @@ import MiddleSection from "../components/MiddleSection";
 import MiddleSectionV2 from "../components/MiddleSectionV2";
 import Navbar from "../components/Navbar";
 import ReferenceSlider from "../components/ReferenceSlider";
+import SocialSidebar from "../components/SocialLinks";
 import TopBar from "../components/TopBar";
 
 export default function HomePage() {
@@ -21,7 +22,7 @@ export default function HomePage() {
       <MiddleSectionV2 />
       <ReferenceSlider />
       <ContactSection /> 
-      
+      <SocialSidebar />
     </div>
   );
 }

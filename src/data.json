@@ -1,12 +1,23 @@
-[
-  { "name": "GNSS", "icon": "public/navbar-icons/gnss.png" },
-  { "name": "TOTAL STATION", "icon": "navbar-icons/tstation.png" },
-  { "name": "İHA", "icon": "navbar-icons/iha.png" },
-  { "name": "LİDAR", "icon": "navbar-icons/lidar.png" },
-  { "name": "NİVO", "icon": "navbar-icons/nivo.png" },
-  { "name": "BATİMETRİ", "icon": "navbar-icons/batimetri.png" },
-  { "name": "MAKİNE KONTROL", "icon": "navbar-icons/mk.png" },
-  { "name": "SENSÖR", "icon": "navbar-icons/sensor.png" },
-  { "name": "YAZILIM", "icon": "navbar-icons/yazilim.png" },
-  { "name": "AKSESUAR", "icon": "navbar-icons/aksesuar.png" }
-]
+{
+  "mainNavbar": [
+    { "name": "GNSS", "icon": "public/navbar-icons/gnss-icon.png", "path": "/gnss" },
+    { "name": "TOTAL STATION", "icon": "navbar-icons/tstation.png", "path": "/total-station" },
+    { "name": "İHA", "icon": "navbar-icons/iha.png", "path": "/iha" },
+    { "name": "LİDAR", "icon": "navbar-icons/lidar2.png", "path": "/lidar" },
+    { "name": "NİVO", "icon": "navbar-icons/nivo2.png", "path": "/nivo" },
+    { "name": "BATİMETRİ", "icon": "navbar-icons/batimetri.png", "path": "/batimetri" },
+    { "name": "MAKİNE KONTROL", "icon": "navbar-icons/mk.png", "path": "/makine-kontrol" },
+    { "name": "SENSÖR", "icon": "navbar-icons/sensor.png", "path": "/sensor" },
+    { "name": "YAZILIM", "icon": "navbar-icons/yazilim.png", "path": "/yazilim" },
+    { "name": "AKSESUAR", "icon": "navbar-icons/aksesuar.png", "path": "/aksesuar" }
+  ],
+  "newNavbar": [
+    { "name": "CHCNAV", "icon": "navbar-icons/chcnav.png", "path": "/chcnav" },
+    { "name": "STEC", "icon": "navbar-icons/stec.png", "path": "/stec" },
+    { "name": "DJİ", "icon": "navbar-icons/dji.png", "path": "/dji" },
+    { "name": "AUTEL", "icon": "navbar-icons/autel.png", "path": "/autel" },
+    { "name": "SOKKİA", "icon": "navbar-icons/sokkia.png", "path": "/sokkia" },
+    { "name": "SENCEİVE", "icon": "navbar-icons/senceive.png", "path": "/senceive" },
+    { "name": "BENEWAKE", "icon": "navbar-icons/benewake.png", "path": "/benewake" }
+  ]
+}
