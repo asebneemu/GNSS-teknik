@@ -2,6 +2,7 @@
 import HeaderBar from "../components/HeaderBar";
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
+import NavbarSecondary from "../components/NavbarSecondary";
 
 export default function LidarPage() {
   return (
@@ -9,6 +10,7 @@ export default function LidarPage() {
       <HeaderBar />
       <TopBar />
       <Navbar />
+      <NavbarSecondary />
       <h1>LİDAR Sayfası İçeriği</h1>
     </div>
   );

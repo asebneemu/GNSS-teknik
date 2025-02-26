@@ -12,12 +12,12 @@
     { "name": "AKSESUAR", "icon": "navbar-icons/aksesuar.png", "path": "/aksesuar" }
   ],
   "newNavbar": [
-    { "name": "CHCNAV", "icon": "navbar-icons/chcnav.png", "path": "/chcnav" },
-    { "name": "STEC", "icon": "navbar-icons/stec.png", "path": "/stec" },
-    { "name": "DJİ", "icon": "navbar-icons/dji.png", "path": "/dji" },
-    { "name": "AUTEL", "icon": "navbar-icons/autel.png", "path": "/autel" },
-    { "name": "SOKKİA", "icon": "navbar-icons/sokkia.png", "path": "/sokkia" },
-    { "name": "SENCEİVE", "icon": "navbar-icons/senceive.png", "path": "/senceive" },
-    { "name": "BENEWAKE", "icon": "navbar-icons/benewake.png", "path": "/benewake" }
+    { "name": "CHCNAV", "icon": "marka-icons/chcnav.png", "path": "/chcnav", "filter": ["/gnss", "/total-station", "/lidar", "/batimetri", "/makine-kontrol", "/aksesuar"] },
+    { "name": "STEC", "icon": "marka-icons/stec.png", "path": "/stec", "filter": ["/gnss", "/total-station", "/nivo", "/batimetri", "/aksesuar"] },
+    { "name": "DJİ", "icon": "marka-icons/dji.png", "path": "/dji", "filter": ["/iha", "/lidar", "/aksesuar"] },
+    { "name": "AUTEL", "icon": "marka-icons/autel.png", "path": "/autel", "filter": ["/iha", "/aksesuar"] },
+    { "name": "SOKKİA", "icon": "marka-icons/sokkia.png", "path": "/sokkia", "filter": ["/total-station", "/lidar", "/aksesuar"] },
+    { "name": "SENCEİVE", "icon": "marka-icons/senceive.png", "path": "/senceive", "filter": ["/sensor", "/aksesuar"] },
+    { "name": "BENEWAKE", "icon": "marka-icons/benewake.png", "path": "/benewake", "filter": ["/lidar"] }
   ]
 }
