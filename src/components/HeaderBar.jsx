@@ -1,16 +1,20 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faBook, faHome } from "@fortawesome/free-solid-svg-icons";
 import { useActiveNav } from "../context/ActiveNavContext";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function HeaderBar() {
   const { setActiveMainPath, setActiveSecondaryPath } = useActiveNav();
   const navigate = useNavigate();
+  const location = useLocation(); // ✅ Mevcut sayfayı kontrol etmek için
 
   const handleHomeClick = () => {
-    setActiveMainPath(null); // ✅ Ana navbar aktifliği sıfırlanır
-    setActiveSecondaryPath(null); // ✅ İkinci navbar aktifliği sıfırlanır
-    navigate("/"); // ✅ Anasayfaya yönlendirilir
+    setActiveMainPath(null); // ✅ Ana navbar'ı sıfırla
+    setActiveSecondaryPath(null); // ✅ Alt navbar'ı sıfırla
+
+    if (location.pathname !== "/") {
+      navigate("/"); // ✅ Eğer zaten anasayfadaysak tekrar yönlendirme yapma
+    }
   };
 
   return (

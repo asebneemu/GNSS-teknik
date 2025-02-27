@@ -1,23 +1,248 @@
 {
   "mainNavbar": [
-    { "name": "GNSS", "icon": "public/navbar-icons/gnss-icon.png", "path": "/gnss" },
-    { "name": "TOTAL STATION", "icon": "navbar-icons/tstation.png", "path": "/total-station" },
+    {
+      "name": "GNSS",
+      "icon": "public/navbar-icons/gnss-icon.png",
+      "path": "/gnss"
+    },
+    {
+      "name": "TOTAL STATION",
+      "icon": "navbar-icons/tstation.png",
+      "path": "/total-station"
+    },
     { "name": "İHA", "icon": "navbar-icons/iha.png", "path": "/iha" },
     { "name": "LİDAR", "icon": "navbar-icons/lidar2.png", "path": "/lidar" },
     { "name": "NİVO", "icon": "navbar-icons/nivo2.png", "path": "/nivo" },
-    { "name": "BATİMETRİ", "icon": "navbar-icons/batimetri.png", "path": "/batimetri" },
-    { "name": "MAKİNE KONTROL", "icon": "navbar-icons/mk.png", "path": "/makine-kontrol" },
+    {
+      "name": "BATİMETRİ",
+      "icon": "navbar-icons/batimetri.png",
+      "path": "/batimetri"
+    },
+    {
+      "name": "MAKİNE KONTROL",
+      "icon": "navbar-icons/mk.png",
+      "path": "/makine-kontrol"
+    },
     { "name": "SENSÖR", "icon": "navbar-icons/sensor.png", "path": "/sensor" },
-    { "name": "YAZILIM", "icon": "navbar-icons/yazilim.png", "path": "/yazilim" },
-    { "name": "AKSESUAR", "icon": "navbar-icons/aksesuar.png", "path": "/aksesuar" }
+    {
+      "name": "YAZILIM",
+      "icon": "navbar-icons/yazilim.png",
+      "path": "/yazilim"
+    },
+    {
+      "name": "AKSESUAR",
+      "icon": "navbar-icons/aksesuar.png",
+      "path": "/aksesuar"
+    }
   ],
   "newNavbar": [
-    { "name": "CHCNAV", "icon": "marka-icons/chcnav.png", "path": "/chcnav", "filter": ["/gnss", "/total-station", "/lidar", "/batimetri", "/makine-kontrol", "/aksesuar"] },
-    { "name": "STEC", "icon": "marka-icons/stec.png", "path": "/stec", "filter": ["/gnss", "/total-station", "/nivo", "/batimetri", "/aksesuar"] },
-    { "name": "DJİ", "icon": "marka-icons/dji.png", "path": "/dji", "filter": ["/iha", "/lidar", "/aksesuar"] },
-    { "name": "AUTEL", "icon": "marka-icons/autel.png", "path": "/autel", "filter": ["/iha", "/aksesuar"] },
-    { "name": "SOKKİA", "icon": "marka-icons/sokkia.png", "path": "/sokkia", "filter": ["/total-station", "/lidar", "/aksesuar"] },
-    { "name": "SENCEİVE", "icon": "marka-icons/senceive.png", "path": "/senceive", "filter": ["/sensor", "/aksesuar"] },
-    { "name": "BENEWAKE", "icon": "marka-icons/benewake.png", "path": "/benewake", "filter": ["/lidar"] }
+    {
+      "name": "CHCNAV",
+      "icon": "marka-icons/chcnav.png",
+      "path": "/chcnav",
+      "filter": [
+        "/gnss",
+        "/total-station",
+        "/lidar",
+        "/batimetri",
+        "/makine-kontrol",
+        "/aksesuar"
+      ]
+    },
+    {
+      "name": "STEC",
+      "icon": "marka-icons/stec.png",
+      "path": "/stec",
+      "filter": ["/gnss", "/total-station", "/nivo", "/batimetri", "/aksesuar"]
+    },
+    {
+      "name": "DJİ",
+      "icon": "marka-icons/dji.png",
+      "path": "/dji",
+      "filter": ["/iha", "/lidar", "/aksesuar"]
+    },
+    {
+      "name": "AUTEL",
+      "icon": "marka-icons/autel.png",
+      "path": "/autel",
+      "filter": ["/iha", "/aksesuar"]
+    },
+    {
+      "name": "SOKKİA",
+      "icon": "marka-icons/sokkia.png",
+      "path": "/sokkia",
+      "filter": ["/total-station", "/lidar", "/aksesuar"]
+    },
+    {
+      "name": "SENCEİVE",
+      "icon": "marka-icons/senceive.png",
+      "path": "/senceive",
+      "filter": ["/sensor", "/aksesuar"]
+    },
+    {
+      "name": "BENEWAKE",
+      "icon": "marka-icons/benewake.png",
+      "path": "/benewake",
+      "filter": ["/lidar"]
+    }
+  ],
+  "socialLinks": [
+    { "name": "Marketing", "icon": "FaGlobe", "url": "https://example.com" },
+    {
+      "name": "Instagram",
+      "icon": "FaInstagram",
+      "url": "https://instagram.com"
+    },
+    { "name": "Twitter", "icon": "FaTwitter", "url": "https://twitter.com" },
+    { "name": "LinkedIn", "icon": "FaLinkedin", "url": "https://linkedin.com" },
+    { "name": "Facebook", "icon": "FaFacebook", "url": "https://facebook.com" },
+    { "name": "YouTube", "icon": "FaYoutube", "url": "https://youtube.com" },
+    { "name": "WhatsApp", "icon": "FaWhatsapp", "url": "https://whatsapp.com" }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "STEC GNSS Alıcısı",
+      "description": "Yüksek hassasiyetli GNSS alıcısı, RTK destekli.",
+      "image": "/products/stec-gnss.jpg",
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "RTK desteğiyle 1cm hassasiyet",
+        "GPS, GLONASS, GALILEO ve BeiDou desteği",
+        "IP67 suya ve toza dayanıklı gövde"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "STEC RTK GNSS",
+      "description": "Gerçek zamanlı kinematik destekli GNSS cihazı.",
+      "image": "/products/stec-rtk.jpg",
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "Çift frekanslı RTK GNSS alıcı",
+        "RINEX formatında veri kaydı",
+        "15 saat pil ömrü, USB-C şarj desteği"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "CHCNAV GNSS Cihazı",
+      "description": "CHCNAV marka GNSS alıcısı, uzun menzil desteği ile.",
+      "image": "/products/chcnav-gnss.jpg",
+      "category": "gnss",
+      "brand": "chcnav",
+      "specs": [
+        "Gelişmiş PPP işleme algoritması",
+        "Çift frekans GPS sinyal desteği",
+        "Bluetooth ve WiFi bağlantı seçenekleri"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "CHCNAV RTK GNSS",
+      "description": "RTK özelliğine sahip CHCNAV GNSS cihazı.",
+      "image": "/products/chcnav-rtk.jpg",
+      "category": "gnss",
+      "brand": "chcnav",
+      "specs": [
+        "RTK düzeyinde 1 cm hassasiyet",
+        "400 MHz dahili radyo modülü",
+        "Dayanıklı alüminyum gövde tasarımı"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "STEC Total Station",
+      "description": "Yüksek doğrulukta ölçüm sağlayan STEC Total Station.",
+      "image": "/products/stec-totalstation.jpg",
+      "category": "total-station",
+      "brand": "stec",
+      "specs": [
+        "2 saniye açısal doğruluk",
+        "Bluetooth ve USB bağlantı seçenekleri",
+        "1200 metre reflektörsüz ölçüm kapasitesi"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "CHCNAV Total Station",
+      "description": "Uzun menzil ölçüm kapasiteli CHCNAV Total Station.",
+      "image": "/products/chcnav-totalstation.jpg",
+      "category": "total-station",
+      "brand": "chcnav",
+      "specs": [
+        "5000 metreye kadar reflektörlü ölçüm",
+        "Renkli dokunmatik ekran",
+        "IP66 suya ve toza dayanıklı yapı"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "SOKKIA Total Station",
+      "description": "İleri teknoloji ile üretilmiş SOKKIA Total Station.",
+      "image": "/products/sokkia-totalstation.jpg",
+      "category": "total-station",
+      "brand": "sokkia",
+      "specs": [
+        "1 saniye açısal doğruluk",
+        "Otomatik hedef tanıma sistemi",
+        "WiFi ve USB bağlantı desteği"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "CHCNAV Lidar Sensör",
+      "description": "Yüksek hassasiyetli yüzey modelleme için CHCNAV Lidar.",
+      "image": "/products/chcnav-lidar.jpg",
+      "category": "lidar",
+      "brand": "chcnav",
+      "specs": [
+        "1.2 milyon nokta/sn veri tarama",
+        "150 metre tarama menzili",
+        "Yerleşik IMU ve GPS entegrasyonu"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "SOKKIA Lidar Tarayıcı",
+      "description": "3D yüzey tarama için geliştirilmiş SOKKIA lidar cihazı.",
+      "image": "/products/sokkia-lidar.jpg",
+      "category": "lidar",
+      "brand": "sokkia",
+      "specs": [
+        "3D lazer tarama kapasitesi",
+        "360 derece dönebilen lidar kafa",
+        "Bulut tabanlı veri işleme desteği"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "BENEWAKE Lidar Cihazı",
+      "description": "Benewake'in son teknoloji Lidar cihazı ile yüzey haritalama.",
+      "image": "/products/benewake-lidar.jpg",
+      "category": "lidar",
+      "brand": "benewake",
+      "specs": [
+        "Düşük enerji tüketimli lidar sensörü",
+        "Dikey ve yatay tarama modları",
+        "IP65 suya ve toza dayanıklı"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DJI Haritalama Dronu",
+      "description": "Gelişmiş GPS ve Lidar sensörlü DJI drone.",
+      "image": "/products/dji-drone.jpg",
+      "category": "iha",
+      "brand": "dji",
+      "specs": [
+        "4K HDR kamera desteği",
+        "Otonom uçuş ve haritalama modu",
+        "Pil süresi: 45 dakika"
+      ]
+    }
   ]
 }
