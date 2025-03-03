@@ -5,14 +5,16 @@ import "swiper/css/navigation";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // ✅ Özel ikonlar
 
 // Fallback (Eğer resim bozuksa)
-const fallbackLogo = "/logos/default-logo.png"; 
+const fallbackLogo = "/logos/default-logo.png";
 
 export default function Slider({ title = "Slider Başlığı", photos = [] }) {
   return (
     <div className="relative w-10/12 mx-auto py-10 px-6 border border-gray-300 rounded-lg shadow-sm">
       {/* ✅ Başlık ve Oklar */}
       <div className="flex flex-col items-center relative mb-6">
-        <h2 className="text-3xl font-bold text-gray-800 text-center">{title}</h2>
+        <h2 className="text-3xl font-bold text-gray-800 text-center">
+          {title}
+        </h2>
 
         {/* ✅ Oklar Sağ Üstte */}
         <div className="absolute top-0 right-0 flex gap-2 z-10">
@@ -27,16 +29,16 @@ export default function Slider({ title = "Slider Başlığı", photos = [] }) {
 
       {/* ✅ Slider (Otomatik geçiş tamamen kapatıldı) */}
       <Swiper
-        modules={[Navigation]} // ❌ Autoplay tamamen kaldırıldı
+        modules={[Navigation]}
         spaceBetween={20}
-        slidesPerView={5} // Büyük ekranda 5 fotoğraf gösterecek
-        loop={false} // ❌ Sonsuz kaydırma kapatıldı
+        slidesPerView={5} // ✅ Esnek fotoğraf sayısı
+        loop={true} // ✅ Sonsuz kaydırma açıldı
         navigation={{
-          prevEl: ".custom-prev", // ✅ Sol ok SOLA kaydırıyor
-          nextEl: ".custom-next", // ✅ Sağ ok SAĞA kaydırıyor
+          prevEl: ".custom-prev",
+          nextEl: ".custom-next",
         }}
-        speed={300} // ❌ Kaydırma süresi hızlı ve akıcı
-        allowTouchMove={false} // ❌ Dokunarak kaydırmayı kapattık
+        speed={300}
+        allowTouchMove={true} // ✅ Dokunarak kaydırma açıldı
         breakpoints={{
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
@@ -50,7 +52,7 @@ export default function Slider({ title = "Slider Başlığı", photos = [] }) {
               <img
                 src={photo.logo || fallbackLogo}
                 alt={photo.name}
-                className="w-24 h-24 object-contain transition-opacity duration-300 hover:opacity-80"
+                className="w-28 h-28 object-contain transition-opacity duration-300 hover:opacity-80"
                 loading="lazy"
                 onError={(e) => (e.currentTarget.src = fallbackLogo)}
               />

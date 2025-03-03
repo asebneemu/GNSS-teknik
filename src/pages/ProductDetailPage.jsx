@@ -5,12 +5,21 @@ export default function ProductDetailPage() {
   const { category, brand, productId } = useParams();
   const navigate = useNavigate();
 
-  // URL parametrelerini küçük harfe çevir ve data içindeki değerlerle karşılaştır
+  // Verileri normalize et (küçük harfe çevir ve gereksiz / işaretlerini kaldır)
+  const normalizedCategory = category ? category.replace("/", "").toLowerCase() : "";
+  const normalizedBrand = brand ? brand.replace("/", "").toLowerCase() : "";
+  const normalizedProductId = productId ? productId.toString() : "";
+
+  console.log("URL'den Gelen Category:", normalizedCategory);
+  console.log("URL'den Gelen Brand:", normalizedBrand);
+  console.log("URL'den Gelen Product ID:", normalizedProductId);
+
+  // Doğru ürünü bul
   const product = data.products.find(
     (item) =>
-      item.id.toString() === productId &&
-      item.category.toLowerCase() === category.toLowerCase() &&
-      item.brand.toLowerCase() === brand.toLowerCase()
+      item.id.toString() === normalizedProductId &&
+      item.category.toLowerCase() === normalizedCategory &&
+      item.brand.toLowerCase() === normalizedBrand
   );
 
   if (!product) {

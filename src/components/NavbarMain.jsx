@@ -5,21 +5,26 @@ import NavbarLink from "./NavbarLink";
 
 export default function NavbarMain() {
   const { mainNavbar } = useData();
-  const { activeMainPath, setActiveMainPath } = useActiveNav();
+  const { activeMainPath, setActiveMainPath, setActiveSecondaryPath, setFilteredProducts } = useActiveNav();
   const navigate = useNavigate();
   const { navbarsVisible } = useActiveNav();
 
-  if (!navbarsVisible) return null; // 🔥 Navbar gizliyse hiçbir şey döndürme
+  if (!navbarsVisible) return null; // Navbar gizliyse hiçbir şey döndürme
 
   const handleMainNavClick = (path) => {
     if (activeMainPath === path) {
       setActiveMainPath(null);
-      navigate("/");
+      setActiveSecondaryPath(null);
+      setFilteredProducts([]); // 🔥 Ürünleri sıfırla
+      navigate("/kategori"); // ✅ Yeni kategori açıklama sayfasına yönlendir
     } else {
       setActiveMainPath(path);
-      navigate(path);
+      setActiveSecondaryPath(null);
+      setFilteredProducts([]); // 🔥 Ürünleri sıfırla
+      navigate(`/kategori${path}`); // ✅ Yeni kategori sayfasına yönlendir
     }
   };
+  
 
   return (
     <nav className="bg-white shadow-md border-b border-gray-300 lg:sticky lg:top-0 lg:w-full z-50">
@@ -32,7 +37,7 @@ export default function NavbarMain() {
               <NavbarLink
                 icon={<img src={`/${item.icon}`} alt={item.name} className="w-12 h-12 transition-all" />}
                 name={item.name}
-                path={item.path}
+                path={`/kategori${item.path}`} // ✅ Yeni kategori bazlı URL
                 onClick={() => handleMainNavClick(item.path)}
                 className={`text-sm lg:text-lg px-8 py-4 transition-all
                   ${isActive ? 'text-yellow-400 border-2 border-yellow-400 rounded-lg shadow-md' : 'text-gray-700'}

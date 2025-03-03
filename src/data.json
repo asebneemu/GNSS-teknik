@@ -3,38 +3,65 @@
     {
       "name": "GNSS",
       "icon": "public/navbar-icons/gnss-icon.png",
-      "path": "/gnss"
+      "path": "/gnss",
+      "description": "GNSS (Global Navigation Satellite System), hassas konum belirleme ve navigasyon için kullanılan uydu bazlı sistemlerdir."
     },
     {
       "name": "TOTAL STATION",
       "icon": "navbar-icons/tstation.png",
-      "path": "/total-station"
+      "path": "/total-station",
+      "description": "Total Station, arazi ölçümlerinde kullanılan, lazer ve elektronik ölçüm teknolojilerini birleştiren cihazlardır."
     },
-    { "name": "İHA", "icon": "navbar-icons/iha.png", "path": "/iha" },
-    { "name": "LİDAR", "icon": "navbar-icons/lidar2.png", "path": "/lidar" },
-    { "name": "NİVO", "icon": "navbar-icons/nivo2.png", "path": "/nivo" },
+    {
+      "name": "İHA",
+      "icon": "navbar-icons/iha.png",
+      "path": "/iha",
+      "description": "İHA (İnsansız Hava Araçları), havadan görüntüleme, haritalama ve güvenlik amaçları için kullanılan uçan sistemlerdir."
+    },
+    {
+      "name": "LİDAR",
+      "icon": "navbar-icons/lidar2.png",
+      "path": "/lidar",
+      "description": "Lidar teknolojisi, lazer ışınlarıyla mesafe ölçerek 3D haritalar oluşturan bir sensör sistemidir."
+    },
+    {
+      "name": "NİVO",
+      "icon": "navbar-icons/nivo2.png",
+      "path": "/nivo",
+      "description": "Nivo cihazları, inşaat ve mühendislik alanlarında yükseklik farklarını ölçmek için kullanılan ölçüm aletleridir."
+    },
     {
       "name": "BATİMETRİ",
       "icon": "navbar-icons/batimetri.png",
-      "path": "/batimetri"
+      "path": "/batimetri",
+      "description": "Batimetri, su altındaki yüzeylerin haritalanması için kullanılan sonar tabanlı teknolojidir."
     },
     {
       "name": "MAKİNE KONTROL",
       "icon": "navbar-icons/mk.png",
-      "path": "/makine-kontrol"
+      "path": "/makine-kontrol",
+      "description": "Makine kontrol sistemleri, inşaat makinelerinin hassas kazı ve dolgu işlemlerinde otomatik yönlendirilmesini sağlar."
     },
-    { "name": "SENSÖR", "icon": "navbar-icons/sensor.png", "path": "/sensor" },
+    {
+      "name": "SENSÖR",
+      "icon": "navbar-icons/sensor.png",
+      "path": "/sensor",
+      "description": "Sensörler, çevresel verileri toplamak ve işlemek için kullanılan akıllı cihazlardır."
+    },
     {
       "name": "YAZILIM",
       "icon": "navbar-icons/yazilim.png",
-      "path": "/yazilim"
+      "path": "/yazilim",
+      "description": "Ölçüm ve haritalama yazılımları, GNSS ve Lidar gibi teknolojileri kullanarak veri analizi yapmayı sağlar."
     },
     {
       "name": "AKSESUAR",
       "icon": "navbar-icons/aksesuar.png",
-      "path": "/aksesuar"
+      "path": "/aksesuar",
+      "description": "GNSS, Lidar, drone ve total station gibi cihazlar için gerekli olan destekleyici ekipman ve aksesuarlar."
     }
   ],
+
   "newNavbar": [
     {
       "name": "CHCNAV",
@@ -53,7 +80,13 @@
       "name": "STEC",
       "icon": "marka-icons/stec.png",
       "path": "/stec",
-      "filter": ["/gnss", "/total-station", "/nivo", "/batimetri", "/aksesuar"]
+      "filter": [
+        "/gnss",
+        "/total-station",
+        "/nivo",
+        "/batimetri",
+        "/aksesuar"
+      ]
     },
     {
       "name": "DJİ",
@@ -71,7 +104,11 @@
       "name": "SOKKİA",
       "icon": "marka-icons/sokkia.png",
       "path": "/sokkia",
-      "filter": ["/total-station", "/lidar", "/aksesuar"]
+      "filter": [
+        "/total-station",
+        "/lidar",
+        "/aksesuar"
+      ]
     },
     {
       "name": "SENCEİVE",
@@ -116,45 +153,19 @@
     },
     {
       "id": 2,
-      "name": "STEC RTK GNSS",
-      "description": "Gerçek zamanlı kinematik destekli GNSS cihazı.",
-      "image": "/products/stec-rtk.jpg",
-      "category": "gnss",
-      "brand": "stec",
-      "specs": [
-        "Çift frekanslı RTK GNSS alıcı",
-        "RINEX formatında veri kaydı",
-        "15 saat pil ömrü, USB-C şarj desteği"
-      ]
-    },
-    {
-      "id": 3,
       "name": "CHCNAV GNSS Cihazı",
-      "description": "CHCNAV marka GNSS alıcısı, uzun menzil desteği ile.",
+      "description": "Uzun menzil desteği sunan GNSS cihazı.",
       "image": "/products/chcnav-gnss.jpg",
       "category": "gnss",
       "brand": "chcnav",
       "specs": [
-        "Gelişmiş PPP işleme algoritması",
-        "Çift frekans GPS sinyal desteği",
-        "Bluetooth ve WiFi bağlantı seçenekleri"
+        "Çoklu frekans desteği",
+        "Rugged dayanıklı tasarım",
+        "Düşük enerji tüketimi"
       ]
     },
     {
-      "id": 4,
-      "name": "CHCNAV RTK GNSS",
-      "description": "RTK özelliğine sahip CHCNAV GNSS cihazı.",
-      "image": "/products/chcnav-rtk.jpg",
-      "category": "gnss",
-      "brand": "chcnav",
-      "specs": [
-        "RTK düzeyinde 1 cm hassasiyet",
-        "400 MHz dahili radyo modülü",
-        "Dayanıklı alüminyum gövde tasarımı"
-      ]
-    },
-    {
-      "id": 5,
+      "id": 3,
       "name": "STEC Total Station",
       "description": "Yüksek doğrulukta ölçüm sağlayan STEC Total Station.",
       "image": "/products/stec-totalstation.jpg",
@@ -162,25 +173,12 @@
       "brand": "stec",
       "specs": [
         "2 saniye açısal doğruluk",
-        "Bluetooth ve USB bağlantı seçenekleri",
-        "1200 metre reflektörsüz ölçüm kapasitesi"
+        "1200m reflektörsüz ölçüm",
+        "Geniş dokunmatik ekran"
       ]
     },
     {
-      "id": 6,
-      "name": "CHCNAV Total Station",
-      "description": "Uzun menzil ölçüm kapasiteli CHCNAV Total Station.",
-      "image": "/products/chcnav-totalstation.jpg",
-      "category": "total-station",
-      "brand": "chcnav",
-      "specs": [
-        "5000 metreye kadar reflektörlü ölçüm",
-        "Renkli dokunmatik ekran",
-        "IP66 suya ve toza dayanıklı yapı"
-      ]
-    },
-    {
-      "id": 7,
+      "id": 4,
       "name": "SOKKIA Total Station",
       "description": "İleri teknoloji ile üretilmiş SOKKIA Total Station.",
       "image": "/products/sokkia-totalstation.jpg",
@@ -188,12 +186,38 @@
       "brand": "sokkia",
       "specs": [
         "1 saniye açısal doğruluk",
-        "Otomatik hedef tanıma sistemi",
-        "WiFi ve USB bağlantı desteği"
+        "Otomatik hedef tanıma",
+        "Bluetooth ve WiFi bağlantı"
       ]
     },
     {
-      "id": 8,
+      "id": 5,
+      "name": "DJI Haritalama Dronu",
+      "description": "Gelişmiş GPS ve Lidar sensörlü DJI drone.",
+      "image": "/products/dji-drone.jpg",
+      "category": "iha",
+      "brand": "dji",
+      "specs": [
+        "4K HDR kamera",
+        "Otonom uçuş ve haritalama",
+        "45 dakika uçuş süresi"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "AUTEL Survey Drone",
+      "description": "Profesyonel hava haritalama için Autel drone.",
+      "image": "/products/autel-drone.jpg",
+      "category": "iha",
+      "brand": "autel",
+      "specs": [
+        "3D haritalama desteği",
+        "Uzun menzil kontrol sistemi",
+        "Hassas stabilizasyon"
+      ]
+    },
+    {
+      "id": 7,
       "name": "CHCNAV Lidar Sensör",
       "description": "Yüksek hassasiyetli yüzey modelleme için CHCNAV Lidar.",
       "image": "/products/chcnav-lidar.jpg",
@@ -206,7 +230,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "SOKKIA Lidar Tarayıcı",
       "description": "3D yüzey tarama için geliştirilmiş SOKKIA lidar cihazı.",
       "image": "/products/sokkia-lidar.jpg",
@@ -215,34 +239,170 @@
       "specs": [
         "3D lazer tarama kapasitesi",
         "360 derece dönebilen lidar kafa",
-        "Bulut tabanlı veri işleme desteği"
+        "Bulut tabanlı veri işleme"
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "BENEWAKE Lidar Cihazı",
       "description": "Benewake'in son teknoloji Lidar cihazı ile yüzey haritalama.",
       "image": "/products/benewake-lidar.jpg",
       "category": "lidar",
       "brand": "benewake",
       "specs": [
-        "Düşük enerji tüketimli lidar sensörü",
+        "Düşük enerji tüketimi",
         "Dikey ve yatay tarama modları",
         "IP65 suya ve toza dayanıklı"
       ]
     },
     {
-      "id": 11,
-      "name": "DJI Haritalama Dronu",
-      "description": "Gelişmiş GPS ve Lidar sensörlü DJI drone.",
-      "image": "/products/dji-drone.jpg",
-      "category": "iha",
-      "brand": "dji",
+      "id": 10,
+      "name": "SENCEIVE Sensör Sistemi",
+      "description": "Uzaktan veri toplama için SENCEIVE akıllı sensör sistemi.",
+      "image": "/products/senceive-sensor.jpg",
+      "category": "sensor",
+      "brand": "senceive",
       "specs": [
-        "4K HDR kamera desteği",
-        "Otonom uçuş ve haritalama modu",
-        "Pil süresi: 45 dakika"
+        "Kablosuz veri iletimi",
+        "Uzun pil ömrü",
+        "Çoklu sensör entegrasyonu"
       ]
+    },
+    {
+      "id": 11,
+      "name": "CHCNAV Batimetri Sensörü",
+      "description": "Su altı haritalama için CHCNAV batimetri sensörü.",
+      "image": "/products/chcnav-batimetri.jpg",
+      "category": "batimetri",
+      "brand": "chcnav",
+      "specs": [
+        "Sonar tabanlı ölçüm",
+        "Derinlik analizi",
+        "IP68 su geçirmezlik"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "CHCNAV Makine Kontrol Sistemi",
+      "description": "İnşaat makineleri için CHCNAV otomasyon kontrol sistemi.",
+      "image": "/products/chcnav-makinekontrol.jpg",
+      "category": "makine-kontrol",
+      "brand": "chcnav",
+      "specs": [
+        "Hassas kazı ve dolgu kontrolü",
+        "GNSS bazlı otomatik yönlendirme",
+        "Gelişmiş kullanıcı arayüzü"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "CHCNAV Haritalama Yazılımı",
+      "description": "Coğrafi bilgi sistemleri için CHCNAV yazılımı.",
+      "image": "/products/chcnav-yazilim.jpg",
+      "category": "yazilim",
+      "brand": "chcnav",
+      "specs": [
+        "3D harita oluşturma",
+        "GNSS & Lidar veri işleme",
+        "Bulut tabanlı depolama"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "DJI Drone Bataryası",
+      "description": "Yüksek kapasiteli DJI drone bataryası.",
+      "image": "/products/dji-batarya.jpg",
+      "category": "aksesuar",
+      "brand": "dji",
+      "specs": ["Yüksek kapasite", "Hızlı şarj desteği", "Uzun ömürlü pil"]
     }
+  ],
+  "infoCards": [
+    {
+      "icon": "/icons/gnss.png",
+      "title": "GNSS Teknolojisi",
+      "description": "Hassas konumlandırma sistemleriyle tanışın."
+    },
+    {
+      "icon": "/icons/lidar.png",
+      "title": "Lidar Sensörleri",
+      "description": "Üç boyutlu yüzey modelleme teknolojisi."
+    },
+    {
+      "icon": "/icons/drone.png",
+      "title": "Drone Çözümleri",
+      "description": "Hava çekimi ve haritalama için gelişmiş sistemler."
+    }
+  ],
+
+  "teamCards": [
+    {
+      "name": "Ali Yılmaz",
+      "role": "GNSS Uzmanı",
+      "photo": "/team/ali.jpg",
+      "socials": [{ "icon": "🔗", "link": "#" }]
+    },
+    {
+      "name": "Zeynep Kaya",
+      "role": "Lidar Mühendisi",
+      "photo": "/team/zeynep.jpg",
+      "socials": [{ "icon": "🔗", "link": "#" }]
+    },
+    {
+      "name": "Ahmet Demir",
+      "role": "Drone Pilot",
+      "photo": "/team/ahmet.jpg",
+      "socials": [{ "icon": "🔗", "link": "#" }]
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Ayşe Yıldız",
+      "position": "Mühendis",
+      "comment": "GNSS teknolojisi mükemmel çalışıyor!"
+    },
+    {
+      "name": "Mehmet Kılıç",
+      "position": "Arazi Haritacısı",
+      "comment": "Lidar sistemleri çok doğru sonuç veriyor."
+    },
+    {
+      "name": "Fatma Demir",
+      "position": "Fotogrametri Uzmanı",
+      "comment": "Drone çözümleri harika!"
+    }
+  ],
+  "references": [     
+    { "name": "ADM", "logo": "/ref-icons/adm.png" },
+    { "name": "AFAD", "logo": "/ref-icons/afad.png" },
+    { "name": "Afyon Üniversitesi", "logo": "/ref-icons/afyonuni.png" },
+    { "name": "Akdeniz Üniversitesi", "logo": "/ref-icons/aku.png" },
+    { "name": "Ankara BB", "logo": "/ref-icons/ankarabb.png" },
+    { "name": "Antalya BB", "logo": "/ref-icons/antalyabb.png" },
+    { "name": "Aselsan", "logo": "/ref-icons/aselsan.png" },
+    { "name": "Bozok", "logo": "/ref-icons/bozok.png" },
+    { "name": "ÇK Elektrik", "logo": "/ref-icons/ckelektrik.png" },
+    { "name": "Çoruh Elektrik", "logo": "/ref-icons/coruhelektrik.png" },
+    { "name": "DSİ", "logo": "/ref-icons/dsi.png" },
+    { "name": "Eltemtek", "logo": "/ref-icons/eltemtek.png" },
+    { "name": "ERÜ", "logo": "/ref-icons/eru.png" },
+    { "name": "Erbakan Üniversitesi", "logo": "/ref-icons/erbakanuni.png" },
+    { "name": "Fırat Elektrik", "logo": "/ref-icons/firatelektrik.png" },
+    { "name": "FNSS", "logo": "/ref-icons/fnss.png" },
+    { "name": "Gebze Üniversitesi", "logo": "/ref-icons/gebzeuni.png" },
+    { "name": "İC İçtaş", "logo": "/ref-icons/icictas.png" },
+    { "name": "İzmir BB", "logo": "/ref-icons/izmirbb.png" },
+    { "name": "İstanbul BB", "logo": "/ref-icons/istanbulbb.png" },
+    { "name": "İTÜ", "logo": "/ref-icons/itu.png" },
+    { "name": "Kalyon", "logo": "/ref-icons/kalyon.png" },
+    { "name": "Kandilli", "logo": "/ref-icons/kandilli.png" },
+    { "name": "Kayseri BB", "logo": "/ref-icons/kayseribb.png" },
+    { "name": "KGM", "logo": "/ref-icons/kgm.png" },
+    { "name": "Kolin", "logo": "/ref-icons/kolin.png" },
+    { "name": "Konya BB", "logo": "/ref-icons/konyabb.png" },
+    { "name": "KTÜ", "logo": "/ref-icons/ktu.png" },
+    { "name": "Makimsan", "logo": "/ref-icons/makimsan.png" },
+    { "name": "Malatya BB", "logo": "/ref-icons/malatyabb.png" }
   ]
 }

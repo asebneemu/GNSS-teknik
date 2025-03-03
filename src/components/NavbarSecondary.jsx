@@ -5,7 +5,7 @@ import data from "../data.json";
 import NavbarLink from "./NavbarLink";
 
 export default function NavbarSecondary() {
-  const { activeMainPath, activeSecondaryPath, setActiveSecondaryPath, navbarsVisible } = useActiveNav(); // ✅ Navbar görünürlüğünü al
+  const { activeMainPath, activeSecondaryPath, setActiveSecondaryPath, setFilteredProducts, navbarsVisible } = useActiveNav();
   const [filteredBrands, setFilteredBrands] = useState([]);
   const navigate = useNavigate();
 
@@ -16,27 +16,26 @@ export default function NavbarSecondary() {
       );
       setFilteredBrands(brands);
     } else {
-      setFilteredBrands([]); // Kategori seçili değilse markaları gizle
+      setFilteredBrands([]);
     }
   }, [activeMainPath]);
 
   const handleSecondaryNavClick = (brandPath) => {
     if (activeMainPath) {
-      const targetPath = `${activeMainPath}${brandPath}`;
+      const targetPath = `/kategori${activeMainPath}${brandPath}`; // ✅ Yeni kategori bazlı URL yapısı
       if (activeSecondaryPath === brandPath) {
-        setActiveSecondaryPath(null); // ✅ Aynı markaya tıklanırsa seçim kalkar
-        navigate(activeMainPath); // Kategoriye geri dön
+        setActiveSecondaryPath(null);
+        setFilteredProducts([]); // 🔥 Ürünleri sıfırla
+        navigate(`/kategori${activeMainPath}`); // ✅ Kategoriye geri dön
       } else {
-        setActiveSecondaryPath(brandPath); // ✅ Yeni marka aktif
-        navigate(targetPath); // Kategori + marka sayfasına git
+        setActiveSecondaryPath(brandPath);
+        setFilteredProducts([]); // 🔥 Ürünleri sıfırla
+        navigate(targetPath);
       }
     }
   };
 
-  // 🛑 Navbar görünmüyorsa bileşeni saklamak yerine "boş bir div" render et (early return hatasını önler)
-  if (!navbarsVisible) {
-    return <div className="hidden"></div>;
-  }
+  if (!navbarsVisible) return <div className="hidden"></div>;
 
   if (filteredBrands.length === 0) return null;
 
@@ -51,7 +50,7 @@ export default function NavbarSecondary() {
               <NavbarLink
                 icon={<img src={`/${item.icon}`} alt={item.name} className="w-12 h-12 object-contain transition-all" />}
                 name={item.name}
-                path={`${activeMainPath}${item.path}`}
+                path={`/kategori${activeMainPath}${item.path}`} // ✅ Yeni kategori yapısına göre
                 onClick={() => handleSecondaryNavClick(item.path)}
                 className={`text-base lg:text-lg font-medium px-8 py-4 transition-all
                   ${isActive ? 'text-yellow-400 border-2 border-yellow-400 rounded-lg shadow-md' : 'text-gray-800'}

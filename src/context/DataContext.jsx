@@ -1,14 +1,21 @@
+// src/context/DataContext.jsx
 import { createContext, useContext, useState, useEffect } from "react";
-import dataJSON from "../data.json"; // ✅ data.json buradan yüklenecek
+import dataJSON from "../data.json";
 
-// 📌 Data Context oluştur
 const DataContext = createContext();
 
-// 📌 DataContext Provider bileşeni
 export function DataProvider({ children }) {
-  const [data, setData] = useState({ mainNavbar: [], newNavbar: [] });
+  const [data, setData] = useState({
+    mainNavbar: [],
+    newNavbar: [],
+    products: [],
+    socialLinks: [],
+    infoCards: [],
+    teamCards: [],
+    testimonials: [],
+    references: []    // ✅ Yeni: Referanslar için state
+  });
 
-  // ✅ data.json dosyasını yükle
   useEffect(() => {
     setData(dataJSON);
   }, []);
@@ -16,7 +23,6 @@ export function DataProvider({ children }) {
   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
 }
 
-// 📌 Custom Hook: Veri çağırmayı kolaylaştırır
 export function useData() {
   return useContext(DataContext);
 }

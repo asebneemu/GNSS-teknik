@@ -6,6 +6,7 @@ export const ActiveNavProvider = ({ children }) => {
   const [activeMainPath, setActiveMainPath] = useState(null);
   const [activeSecondaryPath, setActiveSecondaryPath] = useState(null);
   const [navbarsVisible, setNavbarsVisible] = useState(true); // 🔥 Yeni state
+  const [filteredProducts, setFilteredProducts] = useState([]); // 🔥 Yeni state
 
   return (
     <ActiveNavContext.Provider
@@ -16,6 +17,8 @@ export const ActiveNavProvider = ({ children }) => {
         setActiveSecondaryPath,
         navbarsVisible,
         setNavbarsVisible, // ✅ Navbarları yönetmek için
+        filteredProducts, // ✅ Yeni state
+        setFilteredProducts, // ✅ Güncelleme fonksiyonu
       }}
     >
       {children}
