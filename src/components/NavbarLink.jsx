@@ -4,11 +4,16 @@ export default function NavbarLink({ icon, name, path, className, onClick }) {
   return (
     <Link
       to={path}
-      onClick={onClick} // ✅ Navbar'daki aktif path'i güncelleyecek
-      className={`flex flex-row lg:flex-col items-center lg:gap-4 gap-2 text-gray-700 hover:text-black transition-all ${className}`}
+      onClick={onClick}
+      className={`flex flex-row lg:flex-col items-center justify-center gap-2 px-4 py-2 rounded-md transition-all duration-200 ${className}`}
+      aria-label={name}
+      title={name}
     >
-      {icon}
-      <span className="text-sm">{name}</span>
+      {/* İkon alanı */}
+      {icon && <div className="w-12 h-12">{icon}</div>}
+
+      {/* Başlık */}
+      <span className="text-sm font-medium">{name}</span>
     </Link>
   );
 }
