@@ -1,25 +1,23 @@
 // src/pages/HomePage.jsx
-import Banner from "../components/Banner";
-import Slider from "../components/Slider";
-import ContactSection from "../components/ContactSection";
-import MiddleSection from "../components/MiddleSection";
+import Banner from "../components/homepage/Banner";
+import Slider from "../components/homepage/Slider";
+import ContactSection from "../components/homepage/ContactSection";
+import MiddleSection from "../components/homepage/MiddleSection";
 import SocialSidebar from "../components/SocialLinks";
-import FeaturedSection from "../components/FeaturedSection";
-import InfoCards from "../components/InfoCards";
-import SideBySideCards from "../components/SideBySideCards";
-import TeamCards from "../components/TeamCards";
-import TestimonialSlider from "../components/TestimonialSlider";
+import InfoCards from "../components/where/InfoCards";
+import TeamCards from "../components/where/TeamCards";
+import TestimonialSlider from "../components/where/TestimonialSlider";
 import { useData } from "../context/DataContext";
 
 export default function HomePage() {
   const { 
-    products, 
     newNavbar, 
     socialLinks, 
     infoCards,        
     teamCards,        
     testimonials,
-    references         // ✅ Yeni: Referansları çek
+    references,
+    pageSections    
   } = useData();
 
   const brands = newNavbar.map((brand) => ({
@@ -27,52 +25,69 @@ export default function HomePage() {
     logo: brand.icon,
   }));
 
+  // ✅ Spesifik içerikleri çek
+  const aboutUsSection = pageSections.find(section => section.type === "aboutus");
+  const marketingSection = pageSections.find(section => section.type === "marketing");
+  const categoriesSection = pageSections.find(section => section.type === "categories");  // ✅ Kategoriler için
+
   return (
     <div className="min-h-screen flex flex-col">
       <Banner />
 
-      <InfoCards items={infoCards} />  {/* ✅ data.json'dan çekilen veriyi kullandık */}
+      {/* ✅ Marketing Section */}
+      {marketingSection && (
+        <MiddleSection
+          title={marketingSection.title}
+          subtitle={marketingSection.subtitle}
+          description={marketingSection.description}
+          paragraphs={marketingSection.paragraphs}
+          imageLeft={marketingSection.imageLeft}
+          imageRight={marketingSection.imageRight}
+          buttonText={marketingSection.buttonText}
+          buttonLink={marketingSection.buttonLink}
+          layout={marketingSection.layout}
+        />
+      )}
 
-      <Slider title="Referanslarımız" photos={references} />  {/* ✅ Referansları kullan */}
-      
-      <FeaturedSection
-        title="Yüksek Hassasiyetli Haritalama Çözümleri"
-        description="Lidar ve GNSS teknolojileri modern haritalama süreçlerinde devrim yaratıyor."
-        imageLeft="/resimler/resim-orta-1.jpg"
-        imageRight="/resimler/resim-orta-2.jpg"
-      />
+      <Slider title="Referanslarımız" photos={references} />
 
-      <Slider title="Markalarımız" photos={brands} />  {/* ✅ Markalar için slider */}
+      {/* ✅ About Us Section */}
+      {aboutUsSection && (
+        <MiddleSection
+          title={aboutUsSection.title}
+          subtitle={aboutUsSection.subtitle}
+          description={aboutUsSection.description}
+          paragraphs={aboutUsSection.paragraphs}
+          imageLeft={aboutUsSection.imageLeft}
+          imageRight={aboutUsSection.imageRight}
+          buttonText={aboutUsSection.buttonText}
+          buttonLink={aboutUsSection.buttonLink}
+          layout={aboutUsSection.layout}
+        />
+      )}
 
-      <SideBySideCards
-        leftTitle="GNSS Sensörleri"
-        leftText="Yüksek doğruluk sağlayan GNSS sensörlerimizle arazi ölçümlerinde fark yaratın."
-        leftImage="/resimler/resim-orta-1.jpg"
-        rightTitle="Lidar Haritalama"
-        rightText="Lidar teknolojisiyle detaylı yüzey modelleri oluşturun."
-        rightImage="/resimler/resim-orta-2.jpg"
-      />
+      <Slider title="Markalarımız" photos={brands} />
+      {/*<InfoCards items={infoCards} />*/}
 
-      <MiddleSection
-        title="Lidar ve GNSS ile Yüksek Hassasiyetli Haritalama"
-        subtitle="Advanced Drone & Mapping Tech"
-        description="Lidar ve GNSS teknolojileri modern haritalama süreçlerinde devrim yaratıyor."
-        paragraphs={[
-          "GNSS sistemleri, global uydu ağları sayesinde milimetre seviyesinde konumlandırma sağlarken...",
-          "Gelecekte akıllı şehirler ve coğrafi bilgi sistemleri (GIS) için bu teknolojilerin entegrasyonu daha da kritik hale gelecek."
-        ]}
-        imageLeft="/resimler/resim-orta-1.jpg"
-        imageRight="/resimler/resim-orta-2.jpg"
-        buttonText="Detayları Keşfet"
-        buttonLink="/lidar-gnss"
-        layout="right"
-      />
+      {/* ✅ Kategoriler için MiddleSection */}
+      {categoriesSection && (
+        <MiddleSection
+          title={categoriesSection.title}
+          subtitle={categoriesSection.subtitle}
+          description={categoriesSection.description}
+          paragraphs={categoriesSection.paragraphs}
+          imageLeft={categoriesSection.imageLeft}
+          imageRight={categoriesSection.imageRight}
+          buttonText={categoriesSection.buttonText}
+          buttonLink={categoriesSection.buttonLink}
+          layout={categoriesSection.layout}
+        />
+      )}
 
-      <TeamCards team={teamCards} />  {/* ✅ data.json'dan çekilen veriyi kullandık */}
-      <TestimonialSlider testimonials={testimonials} />  {/* ✅ data.json'dan çekilen veriyi kullandık */}
-      
+      {/*<TeamCards team={teamCards} />*/}
+      {/*<TestimonialSlider testimonials={testimonials} />*/}
       <ContactSection />
-      <SocialSidebar socialLinks={socialLinks} />  {/* ✅ data.json'dan çekilen veriyi kullandık */}
+      <SocialSidebar socialLinks={socialLinks} />
     </div>
   );
 }

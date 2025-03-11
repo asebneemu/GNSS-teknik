@@ -1,46 +1,89 @@
-import { useParams } from "react-router-dom";
-import data from "../data.json";
+import { useParams, useLocation } from "react-router-dom";
+import { useData } from "../context/DataContext";
+import { useActiveNav } from "../context/ActiveNavContext";
+import CategoryDetail from "../components/categorypage/CategoryDetail";
+import SideBySideCards from "../components/categorypage/SideBySideCards";
+import FeaturedSection from "../components/categorypage/FeaturedSection";
 
 export default function CategoryPage() {
   const { category } = useParams();
+  const { mainNavbar, customerStories } = useData();
+  const { activeMainPath } = useActiveNav();
+  const location = useLocation();
 
-  // ✅ Kategori açıklamalarını data.json'dan alalım
-  const categoryInfo = {
-    gnss: {
-      title: "GNSS Teknolojisi",
-      description: "GNSS (Global Navigation Satellite System), yüksek doğrulukta konum belirleme teknolojisidir. Haritacılık, jeodezi ve inşaat alanlarında kullanılır.",
-      image: "/kategori-resimler/gnss.jpg",
-    },
-    "total-station": {
-      title: "Total Station",
-      description: "Total Station, lazer ölçüm teknolojisi ile hassas arazi ölçümleri yapmaya yarayan bir ölçüm cihazıdır.",
-      image: "/kategori-resimler/totalstation.jpg",
-    },
-    iha: {
-      title: "İnsansız Hava Araçları (İHA)",
-      description: "İHA'lar, haritalama, tarım, güvenlik ve keşif gibi birçok alanda kullanılan gelişmiş hava araçlarıdır.",
-      image: "/kategori-resimler/iha.jpg",
-    },
-    lidar: {
-      title: "Lidar Teknolojisi",
-      description: "Lidar, lazer darbeleri kullanarak mesafe ölçümü yapabilen bir teknolojidir. Haritalama ve otonom araç sistemlerinde kullanılır.",
-      image: "/kategori-resimler/lidar.jpg",
-    },
-    // Daha fazla kategori eklenebilir
-  };
+  // ✅ Seçili kategoriye göre veri bul veya tüm kategorileri al
+  const allCategories = mainNavbar || [];
+  const info = category
+    ? allCategories.find((item) => item.path === `/${category}`)
+    : null;
 
-  const info = categoryInfo[category] || {
-    title: "Kategori Bulunamadı",
-    description: "Seçtiğiniz kategori hakkında bilgi bulunmamaktadır.",
-    image: "/kategori-resimler/default.jpg",
-  };
+  // ✅ Kategoriye göre müşteri hikayeleri filtrele
+  const filteredStories = customerStories?.filter((story) =>
+    [story.type.toLowerCase(), story.brand.toLowerCase()].includes(category?.toLowerCase())
+  ) || [];
 
+  // ✅ Eğer sadece /kategori'deysek tüm kategorileri göster
+  if (location.pathname === "/kategori" && !activeMainPath) {
+    return (
+      <div className="w-10/12 mx-auto py-10">
+        <div className="w-4/5 mx-auto">
+          {allCategories.map((item, index) => (
+            <CategoryDetail
+              key={index}
+              title={item.title}
+              description={item.description}
+              photo={item.photo}
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // ✅ Seçili kategori yoksa veya bilgi bulunamazsa
+  if (!info) {
+    return (
+      <div className="w-10/12 mx-auto py-10 text-center text-gray-600">
+        Bu kategoriye ait bilgi bulunmamaktadır.
+      </div>
+    );
+  }
+
+  // ✅ Seçili kategori varsa: Detayları ve diğer içerikleri göster
   return (
     <div className="w-10/12 mx-auto py-10">
-      <h1 className="text-4xl font-bold text-center mb-6">{info.title}</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <img src={info.image} alt={info.title} className="w-full h-auto object-cover rounded-lg shadow-lg" />
-        <p className="text-lg text-gray-700">{info.description}</p>
+      <div className="w-4/5 mx-auto">
+        <CategoryDetail
+          title={info.title}
+          description={info.description}
+          photo={info.photo}
+        />
+
+        <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800">
+          Neden Bu Teknoloji?
+        </h2>
+        <SideBySideCards />
+
+        <h2 className="text-3xl font-semibold text-left mb-8 text-gray-800 mt-16">
+          Müşteri Hikayeleri
+        </h2>
+
+        {filteredStories.length > 0 ? (
+          filteredStories.map((story, index) => (
+            <FeaturedSection
+              key={index}
+              title={story.title}
+              description={story.description}
+              imageLeft={story.imageLeft}
+              imageRight={story.imageRight}
+              bottomText={story.bottomText}
+            />
+          ))
+        ) : (
+          <p className="text-center text-gray-600">
+            Bu kategoriye ait müşteri hikayesi bulunmamaktadır.
+          </p>
+        )}
       </div>
     </div>
   );

@@ -13,7 +13,10 @@ export function DataProvider({ children }) {
     infoCards: [],
     teamCards: [],
     testimonials: [],
-    references: []    // ✅ Yeni: Referanslar için state
+    references: [],
+    customStories: [],
+    sideBySideCards: [],
+    pageSections: [] 
   });
 
   useEffect(() => {

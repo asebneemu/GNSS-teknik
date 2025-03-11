@@ -2,127 +2,171 @@
   "mainNavbar": [
     {
       "name": "GNSS",
+      "title": "GNSS Teknolojisi: Hassas Konumlandırma",
       "icon": "public/navbar-icons/gnss-icon.png",
+      "photo": "/navbar-photos/gnss.JPG",
       "path": "/gnss",
-      "description": "GNSS (Global Navigation Satellite System), hassas konum belirleme ve navigasyon için kullanılan uydu bazlı sistemlerdir."
+      "description": "GNSS (Global Navigation Satellite System), küresel ölçekte konum belirleme hizmeti sunan bir sistemler grubudur. Bu sistem, dünya üzerindeki herhangi bir noktayı hassas bir şekilde tespit edebilmek için yörüngede dönen uydulardan gelen sinyalleri kullanır. GNSS, özellikle GPS (Global Positioning System) ile tanınsa da, GLONASS, Galileo, BeiDou gibi başka sistemler de mevcuttur ve her biri farklı coğrafi bölgelerde hizmet verir. GNSS teknolojisi, enlem, boylam ve irtifa gibi konum bilgilerini yüksek doğrulukla sağlar. Ayrıca, hava, deniz ve kara ulaşımında, tarımda, haritalama işlerinde, coğrafi bilgi sistemlerinde (GIS) ve acil durum yönetiminde yaygın olarak kullanılır. GNSS sinyalleri, yalnızca konum değil, aynı zamanda zaman senkronizasyonu ve hız ölçümü gibi veriler de sunar. Bu sistemler, dünya genelinde kullanıcıların doğru konum bilgisine erişmelerini sağlamak için bir arada çalışır."
     },
     {
       "name": "TOTAL STATION",
-      "icon": "navbar-icons/tstation.png",
+      "title": "Total Station Teknolojisi: Profesyonel Ölçüm Cihazları",
+      "icon": "public/navbar-icons/tstation.png",
+      "photo": "/navbar-photos/totals.JPG",
       "path": "/total-station",
-      "description": "Total Station, arazi ölçümlerinde kullanılan, lazer ve elektronik ölçüm teknolojilerini birleştiren cihazlardır."
+      "description": "Total Station, lazerle ölçüm yapabilen ve elektronik cihazlarla donatılmış gelişmiş bir arazi ölçüm cihazıdır. Bu cihaz, hem yatay hem de dikey açıları hassas bir şekilde ölçer ve mesafe hesaplamaları yapar. Total Station, genellikle inşaat, haritacılık, mühendislik ve arazi düzenleme çalışmalarında kullanılır. Yüksek doğruluk oranıyla, nokta hassasiyeti gerektiren projelerde tercih edilir. Lazer teknolojisi sayesinde, çok uzak mesafelerde bile doğru veri elde edilebilir. Total Station, geleneksel ölçüm yöntemlerine kıyasla hız ve verimlilik sağlar. Ayrıca, ölçülen verileri dijital ortamda saklayarak, veri analizini ve işleme süreçlerini kolaylaştırır. Bu cihaz, modern inşaat ve altyapı projelerinde vazgeçilmez bir araçtır."
     },
     {
       "name": "İHA",
-      "icon": "navbar-icons/iha.png",
+      "title": "İHA Teknolojisi: Havadan Görüntüleme",
+      "icon": "public/navbar-icons/iha.png",
+      "photo": "/navbar-photos/iha.jpg",
       "path": "/iha",
-      "description": "İHA (İnsansız Hava Araçları), havadan görüntüleme, haritalama ve güvenlik amaçları için kullanılan uçan sistemlerdir."
+      "description": "İnsansız Hava Araçları (İHA), genellikle haritalama, gözlem ve veri toplama amaçlarıyla kullanılan uçan cihazlardır. Bu araçlar, özellikle haritacılık alanında, yüzeyin yüksek çözünürlüklü görüntülerini almak için kullanılır. İHA'lar, GPS ve diğer navigasyon sistemleriyle donatılmış olup, belirli rotalarda otonom olarak uçabilirler. Havadan veri toplama, özellikle zorlu arazi koşullarında, geleneksel yöntemlere göre daha hızlı ve verimli bir çözüm sunar. İHA'lar, yüksek çözünürlüklü kameralar, Lidar sensörleri ve termal kameralar gibi ekipmanlarla donatılabilir, bu da topografik haritalama ve 3D modelleme gibi uygulamaları mümkün kılar. Haritacılıkta kullanılan İHA'lar, aynı zamanda arazilerin dijital haritalarını oluşturmak, binaların, yolların ve diğer altyapıların doğru konum verilerini elde etmek için oldukça etkilidir. Ayrıca, uçuş rotalarını önceden belirleyip veri toplama süreci, yüksek hassasiyet ve minimum insan müdahalesi ile gerçekleşir."
     },
     {
       "name": "LİDAR",
-      "icon": "navbar-icons/lidar2.png",
+      "title": "Lidar Teknolojisi: 3D Haritalama",
+      "icon": "public/navbar-icons/lidar.png",
+      "photo": "/navbar-photos/lidar.jpg",
       "path": "/lidar",
-      "description": "Lidar teknolojisi, lazer ışınlarıyla mesafe ölçerek 3D haritalar oluşturan bir sensör sistemidir."
+      "description": "Lidar (Light Detection and Ranging), lazer ışınları kullanarak mesafe ölçümü yapan bir teknolojidir ve genellikle haritalama, arazi analizi ve çevre izleme gibi uygulamalarda kullanılır. Lidar, lazer ışınlarını hedef yüzeye gönderir ve yansıyan ışığın geri dönüş süresini ölçerek yüzeyin üç boyutlu verilerini elde eder. Bu teknoloji, özellikle orman haritalama, şehir planlaması, su yolları haritalama ve afet yönetimi gibi alanlarda oldukça etkilidir. Lidar cihazları, yüksek hassasiyetle topoğrafik haritalar oluşturabilir ve yer yüzeyindeki engelleri, yapıları veya bitki örtüsünü detaylı şekilde analiz edebilir. Lidar, hava araçlarına (İHA veya uçaklar) monte edilerek geniş alanlarda veri toplama imkanı sağlar, bu da zaman kazandırır ve yer yüzeyine yapılan fiziksel müdahaleyi azaltır. Ayrıca, lidar verileri, diğer ölçüm yöntemlerine kıyasla çok daha hızlı ve doğru sonuçlar verir, bu yüzden modern haritacılık ve jeodezi uygulamalarında tercih edilmektedir."
     },
     {
       "name": "NİVO",
-      "icon": "navbar-icons/nivo2.png",
+      "title": "Nivo Teknolojisi: Yükseklik Ölçüm Cihazları",
+      "icon": "public/navbar-icons/nivo.png",
+      "photo": "/navbar-photos/nivo.jpg",
       "path": "/nivo",
-      "description": "Nivo cihazları, inşaat ve mühendislik alanlarında yükseklik farklarını ölçmek için kullanılan ölçüm aletleridir."
+      "description": "Nivo, inşaat ve mühendislik uygulamalarında yükseklik farklarını ölçmek için kullanılan hassas bir cihazdır. Optik veya dijital nivolar, su terazisi ve dürbün sistemi kullanarak zemindeki yükseklik değişikliklerini ölçer. Bu cihazlar, özellikle arazi düzlemesi, eğim belirleme ve kot ölçümü gibi işlemler için önemlidir. Nivo, çeşitli inşaat projelerinde, altyapı çalışmalarında ve haritacılıkta doğruluğu artırmak için tercih edilir. Dijital modeller ve ölçüm cihazları sayesinde, daha hızlı ve doğru sonuçlar elde edilebilir."
     },
     {
       "name": "BATİMETRİ",
-      "icon": "navbar-icons/batimetri.png",
+      "title": "Batimetri Teknolojisi: Su Altı Haritalama",
+      "icon": "public/navbar-icons/batimetri.png",
+      "photo": "/navbar-photos/batimetri.jpg",
       "path": "/batimetri",
-      "description": "Batimetri, su altındaki yüzeylerin haritalanması için kullanılan sonar tabanlı teknolojidir."
+      "description": "Batimetri, sonar ve akustik dalgalar kullanarak deniz tabanının ve su altı yüzeylerinin derinlik ölçümlerini yapar. Su altı haritalama, liman tasarımı, balıkçılık ve bilimsel araştırmalar gibi birçok alanda kritik öneme sahiptir. Çok ışınlı sonar sistemleri ile detaylı ve doğru haritalar oluşturur."
     },
     {
       "name": "MAKİNE KONTROL",
-      "icon": "navbar-icons/mk.png",
+      "title": "Makine Kontrol Teknolojisi: Otomatik Yönetim",
+      "icon": "public/navbar-icons/mk.png",
+      "photo": "/navbar-photos/mk.jpg",
       "path": "/makine-kontrol",
-      "description": "Makine kontrol sistemleri, inşaat makinelerinin hassas kazı ve dolgu işlemlerinde otomatik yönlendirilmesini sağlar."
+      "description": "Makine kontrol sistemleri, GPS ve sensörler kullanarak inşaat makinelerinin hassas kazı ve dolgu işlemlerini otomatik olarak yönetir. Buldozer, ekskavatör ve greyder gibi araçlarda yaygın olarak kullanılan bu sistemler, iş süreçlerinde hız ve doğruluk sağlar."
     },
     {
       "name": "SENSÖR",
-      "icon": "navbar-icons/sensor.png",
+      "title": "Sensör Teknolojisi: Akıllı Sistemler",
+      "icon": "public/navbar-icons/sensor.png",
+      "photo": "/navbar-photos/sensor.jpg",
       "path": "/sensor",
-      "description": "Sensörler, çevresel verileri toplamak ve işlemek için kullanılan akıllı cihazlardır."
+      "description": "Sensörler, sıcaklık, nem, basınç ve hareket gibi çevresel verileri algılayarak işleyen akıllı cihazlardır. IoT (Nesnelerin İnterneti) ile entegre çalışan sensör sistemleri, tarım, endüstri ve güvenlik uygulamalarında kritik rol oynar."
     },
     {
       "name": "YAZILIM",
-      "icon": "navbar-icons/yazilim.png",
+      "title": "Yazılım Teknolojisi: Veri Analiz ve Haritalama",
+      "icon": "public/navbar-icons/yazilim.png",
+      "photo": "/navbar-photos/yazilim.jpg",
       "path": "/yazilim",
-      "description": "Ölçüm ve haritalama yazılımları, GNSS ve Lidar gibi teknolojileri kullanarak veri analizi yapmayı sağlar."
+      "description": "Haritalama ve veri analiz yazılımları, GNSS ve Lidar gibi teknolojilerden alınan verileri işleyerek detaylı raporlar ve 3D modeller oluşturur. Bu yazılımlar, şehir planlama, altyapı ve afet yönetimi gibi birçok alanda kullanılmaktadır."
     },
     {
       "name": "AKSESUAR",
-      "icon": "navbar-icons/aksesuar.png",
+      "title": "Aksesuar Teknolojisi: Destekleyici Ekipmanlar",
+      "icon": "public/navbar-icons/aksesuar.png",
+      "photo": "/navbar-photos/aksesuar.jpg",
       "path": "/aksesuar",
-      "description": "GNSS, Lidar, drone ve total station gibi cihazlar için gerekli olan destekleyici ekipman ve aksesuarlar."
+      "description": "GNSS, Lidar, drone ve total station gibi cihazlar için batarya, tripod ve kablo gibi destekleyici aksesuarlar sunar. Bu ekipmanlar, saha çalışmalarında verimliliği ve ölçüm hassasiyetini artırır."
     }
   ],
 
   "newNavbar": [
     {
+      "name": "3DSurvey",
+      "icon": "marka-icons/3DSURVEY.png",
+      "path": "/3DSurvey",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "3DSurvey ile yüzey tarama çözümleri.",
+      "banner-url": "https://www.3DSurvey.com",
+      "filter": ["/yazilim"]
+    },
+    {
       "name": "CHCNAV",
-      "icon": "marka-icons/chcnav.png",
+      "icon": "marka-icons/CHCNAV.png",
       "path": "/chcnav",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
+      "banner-url": "https://www.chcnav.com",
       "filter": [
         "/gnss",
         "/total-station",
+        "/iha",
         "/lidar",
         "/batimetri",
         "/makine-kontrol",
-        "/aksesuar"
+        "/aksesuar",
+        "/yazilim",
+        "/sensor"
       ]
-    },
-    {
-      "name": "STEC",
-      "icon": "marka-icons/stec.png",
-      "path": "/stec",
-      "filter": [
-        "/gnss",
-        "/total-station",
-        "/nivo",
-        "/batimetri",
-        "/aksesuar"
-      ]
-    },
-    {
-      "name": "DJİ",
-      "icon": "marka-icons/dji.png",
-      "path": "/dji",
-      "filter": ["/iha", "/lidar", "/aksesuar"]
     },
     {
       "name": "AUTEL",
-      "icon": "marka-icons/autel.png",
+      "icon": "marka-icons/AUTEL.png",
       "path": "/autel",
-      "filter": ["/iha", "/aksesuar"]
+      "banner-photo": "marka-photos/autel-banner.jpg",
+      "banner-description": "Autel ile gelişmiş hava haritalama.",
+      "banner-url": "https://www.autel.com",
+      "filter": ["/iha","/yazilim", "/aksesuar"]
     },
     {
-      "name": "SOKKİA",
+      "name": "DJI",
+      "icon": "marka-icons/DJI.png",
+      "path": "/dji",
+      "banner-photo": "marka-photos/dji-banner.JPG",
+      "banner-description": "DJI ile profesyonel drone çözümleri.",
+      "banner-url": "https://www.dji.com",
+      "filter": ["/iha","/yazilim", "/aksesuar"]
+    },
+    {
+      "name": "SOKKIA",
       "icon": "marka-icons/sokkia.png",
       "path": "/sokkia",
-      "filter": [
-        "/total-station",
-        "/lidar",
-        "/aksesuar"
-      ]
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
+      "banner-url": "https://www.sokkia.com",
+      "filter": ["/total-station","/nivo", "/aksesuar"]
     },
     {
-      "name": "SENCEİVE",
-      "icon": "marka-icons/senceive.png",
+      "name": "STEC",
+      "icon": "marka-icons/STEC.png",
+      "path": "/stec",
+      "banner-photo": "marka-photos/stec-banner.jpg",
+      "banner-description": "STEC ile yüksek hassasiyetli ölçümler.",
+      "banner-url": "https://www.stec.com",
+      "filter": ["/gnss", "/total-station", "/nivo","/lidar","/yazilim", "/aksesuar"]
+    },
+    {
+      "name": "SENCEIVE",
+      "icon": "marka-icons/SENCEIVE.png",
       "path": "/senceive",
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "SENCEIVE ile akıllı sensör sistemleri.",
+      "banner-url": "https://www.senceive.com",
       "filter": ["/sensor", "/aksesuar"]
     },
     {
       "name": "BENEWAKE",
-      "icon": "marka-icons/benewake.png",
+      "icon": "marka-icons/BENEWAKE.png",
       "path": "/benewake",
-      "filter": ["/lidar"]
+      "banner-photo": "marka-photos/default-banner.jpg",
+      "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
+      "banner-url": "https://www.benewake.com",
+      "filter": ["/sensor", "/aksesuar"]
     }
   ],
+
   "socialLinks": [
     { "name": "Marketing", "icon": "FaGlobe", "url": "https://example.com" },
     {
@@ -140,181 +184,1446 @@
   "products": [
     {
       "id": 1,
-      "name": "STEC GNSS Alıcısı",
-      "description": "Yüksek hassasiyetli GNSS alıcısı, RTK destekli.",
-      "image": "/products/stec-gnss.jpg",
-      "category": "gnss",
+      "name": "STEC AXIS-1 Total Station",
+      "description": "Yüksek hassasiyetli ölçüm ve gelişmiş özellikler sunan total station.",
+      "images": [
+        "/marka-photos/stec/stec-axis-1.1.JPG",
+        "/marka-photos/stec/stec-axis-1.2.JPG",
+        "/marka-photos/stec/stec-axis-1.3.JPG"
+      ],
+      "category": "total-station",
       "brand": "stec",
       "specs": [
-        "RTK desteğiyle 1cm hassasiyet",
-        "GPS, GLONASS, GALILEO ve BeiDou desteği",
-        "IP67 suya ve toza dayanıklı gövde"
+        "1,5-2 km prizmasız menzilde 2 cm hassasiyetle ölçüm yapabilir.",
+        "4' eğim telafisi sayesinde eğimli yüzeylerde bile 2 mm + 2 ppm hassasiyetle doğru mesafe ölçümleri sağlar.",
+        "0,3 saniyede ölçüm yapabilme hızı ile 16 saatten fazla çalışma süresi sunarak uzun saha çalışmalarında verimliliği artırır.",
+        "IP67 suya ve toza dayanıklı gövdesi ile zorlu çevre koşullarında bile güvenilir ölçümler sağlar.",
+        "3.1\" geniş ve net ekranı ile ölçüm verilerini kolayca görüntülemeye imkan tanır.",
+        "Hızlı ölçüm butonu ve kılavuz ışığı ile kullanıcı dostu bir deneyim sunar.",
+        "Stake out, açı offseti ve yol projeksiyonu gibi gelişmiş onboard programlar içerir."
       ]
     },
     {
       "id": 2,
-      "name": "CHCNAV GNSS Cihazı",
-      "description": "Uzun menzil desteği sunan GNSS cihazı.",
-      "image": "/products/chcnav-gnss.jpg",
-      "category": "gnss",
-      "brand": "chcnav",
+      "name": "STEC AXIS-2 Total Station",
+      "description": "Daha yüksek hassasiyet ve gelişmiş özellikler sunan AXIS-2 total station.",
+      "images": [
+        "/marka-photos/stec/stec-axis-2.1.jpg",
+        "/marka-photos/stec/stec-axis-2.2.jpg",
+        "/marka-photos/stec/stec-axis-2.3.jpg"
+      ],
+      "category": "total-station",
+      "brand": "stec",
       "specs": [
-        "Çoklu frekans desteği",
-        "Rugged dayanıklı tasarım",
-        "Düşük enerji tüketimi"
+        "2 km prizmasız menzilde 1 cm hassasiyetle ölçüm yapabilir.",
+        "5' eğim telafisi sayesinde eğimli yüzeylerde 1 mm + 1 ppm hassasiyet sağlar.",
+        "0,2 saniyede ölçüm yapabilme hızı ile 20 saatten fazla çalışma süresi sunar.",
+        "IP68 suya ve toza dayanıklı gövdesi ile en zorlu çevre koşullarında bile güvenilir.",
+        "4.3\" geniş ve dokunmatik ekranı ile kolay kullanım.",
+        "Gelişmiş kullanıcı arayüzü ve kablosuz bağlantı seçenekleri.",
+        "3D projeksiyon ve otomatik hedef tanıma sistemi."
       ]
     },
     {
       "id": 3,
-      "name": "STEC Total Station",
-      "description": "Yüksek doğrulukta ölçüm sağlayan STEC Total Station.",
-      "image": "/products/stec-totalstation.jpg",
+      "name": "STEC AXIS-3 Total Station",
+      "description": "Yüksek hassasiyet ve kullanıcı dostu arayüz sunan AXIS 3 total station.",
+      "images": [
+        "/marka-photos/stec/stec-axis-3.1.jpg",
+        "/marka-photos/stec/stec-axis-3.2.jpg",
+        "/marka-photos/stec/stec-axis-3.3.jpg"
+      ],
       "category": "total-station",
       "brand": "stec",
       "specs": [
-        "2 saniye açısal doğruluk",
-        "1200m reflektörsüz ölçüm",
-        "Geniş dokunmatik ekran"
+        "2\" açı hassasiyeti ve 1.5/2 km prizmasız menzil sunar.",
+        "4' eğim telafisi ve 2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
+        "16 saat çalışma süresi ve 0.3 saniyede ölçüm yapabilme kapasitesine sahiptir.",
+        "Çift taraflı renkli dokunmatik ekran ve kullanıcı dostu arayüz ile kolay kullanım sunar.",
+        "AutoHI plummet ile tek tuşla alet yüksekliği ölçebilir.",
+        "Kılavuz ışığı ile stake-out işlemlerini kolaylaştırır ve hızlı hedefleme sağlar.",
+        "Pratik onboard programlar ile COGO, resection, offset ve yol projeksiyonu gibi işlemler yapılabilir.",
+        "Bluetooth, USB ve WLAN bağlantı seçenekleri ile geniş veri aktarım imkanı tanır.",
+        "Hafif ve taşınabilir tasarımı ile sahada yüksek verimlilik sağlar."
       ]
     },
     {
       "id": 4,
-      "name": "SOKKIA Total Station",
-      "description": "İleri teknoloji ile üretilmiş SOKKIA Total Station.",
-      "image": "/products/sokkia-totalstation.jpg",
+      "name": "STEC AXIS-4 Total Station",
+      "description": "Yüksek hassasiyet ve esneklik sunan AXIS 4 serisi total station.",
+      "images": [
+        "/marka-photos/stec/stec-axis-4.1.JPG",
+        "/marka-photos/stec/stec-axis-4.2.JPG"
+      ],
       "category": "total-station",
-      "brand": "sokkia",
+      "brand": "stec",
       "specs": [
-        "1 saniye açısal doğruluk",
-        "Otomatik hedef tanıma",
-        "Bluetooth ve WiFi bağlantı"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "DJI Haritalama Dronu",
-      "description": "Gelişmiş GPS ve Lidar sensörlü DJI drone.",
-      "image": "/products/dji-drone.jpg",
-      "category": "iha",
-      "brand": "dji",
-      "specs": [
-        "4K HDR kamera",
-        "Otonom uçuş ve haritalama",
-        "45 dakika uçuş süresi"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "AUTEL Survey Drone",
-      "description": "Profesyonel hava haritalama için Autel drone.",
-      "image": "/products/autel-drone.jpg",
-      "category": "iha",
-      "brand": "autel",
-      "specs": [
-        "3D haritalama desteği",
-        "Uzun menzil kontrol sistemi",
-        "Hassas stabilizasyon"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "CHCNAV Lidar Sensör",
-      "description": "Yüksek hassasiyetli yüzey modelleme için CHCNAV Lidar.",
-      "image": "/products/chcnav-lidar.jpg",
-      "category": "lidar",
-      "brand": "chcnav",
-      "specs": [
-        "1.2 milyon nokta/sn veri tarama",
-        "150 metre tarama menzili",
-        "Yerleşik IMU ve GPS entegrasyonu"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "SOKKIA Lidar Tarayıcı",
-      "description": "3D yüzey tarama için geliştirilmiş SOKKIA lidar cihazı.",
-      "image": "/products/sokkia-lidar.jpg",
-      "category": "lidar",
-      "brand": "sokkia",
-      "specs": [
-        "3D lazer tarama kapasitesi",
-        "360 derece dönebilen lidar kafa",
-        "Bulut tabanlı veri işleme"
+        "1\"/2\" açı hassasiyeti ve 1/1.5/2 km prizmasız menzil sunar.",
+        "4' eğim telafisi ve 1+1/2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
+        "10 saat çalışma süresi ve 0.3 saniyede ölçüm yapabilme kapasitesine sahiptir.",
+        "4\" renkli dokunmatik ekran ve kullanıcı dostu grafik arayüz içerir.",
+        "COGO, quick code ve stake out gibi gelişmiş ölçüm programları ile donatılmıştır.",
+        "Bluetooth, USB ve WLAN ile kablosuz veri aktarımı yapabilir.",
+        "Tek tuşla alet yüksekliği ölçme özelliği ile hata oranını azaltır.",
+        "Yenilenen ikon tabanlı arayüz ile daha kolay kullanım sağlar.",
+        "Her ölçüm sonrası grafiklerle sonuçları gösterir ve yön diagramları oluşturabilir.",
+        "IP66 suya ve toza dayanıklılık sayesinde zorlu saha koşullarında güvenle kullanılabilir.",
+        "32 GB dahili hafıza ile büyük miktarda veri saklama kapasitesi sunar."
       ]
     },
     {
       "id": 9,
-      "name": "BENEWAKE Lidar Cihazı",
-      "description": "Benewake'in son teknoloji Lidar cihazı ile yüzey haritalama.",
-      "image": "/products/benewake-lidar.jpg",
-      "category": "lidar",
-      "brand": "benewake",
+      "name": "STEC AXIS-9 Total Station",
+      "description": "Yüksek hassasiyet ve esneklik sunan AXIS 9 serisi total station.",
+      "images": [
+        "/marka-photos/stec/stec-axis-9.1.jpg",
+        "/marka-photos/stec/stec-axis-9.2.jpg",
+        "/marka-photos/stec/stec-axis-9.3.jpg"
+      ],
+      "category": "total-station",
+      "brand": "stec",
       "specs": [
-        "Düşük enerji tüketimi",
-        "Dikey ve yatay tarama modları",
-        "IP65 suya ve toza dayanıklı"
+        "1\"/2\" açı hassasiyeti ve 1/1.5/2 km prizmasız menzil sunar.",
+        "4' eğim telafisi ve 1+1/2+2 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
+        "10 saat çalışma süresi ve 0.3 saniyede ölçüm yapabilme kapasitesine sahiptir.",
+        "5.0 inç yüksek çözünürlüklü dokunmatik ekran ve Android 9 işletim sistemi ile kullanıcı dostu bir arayüz sunar.",
+        "Otomatik H.I özelliği ile tek tuşla alet yüksekliği ölçebilir.",
+        "Yerleşik kılavuz ışığı ile stake-out işlemlerini kolaylaştırır.",
+        "Bluetooth, USB, WLAN ve e-posta ile geniş bağlantı seçenekleri sunar.",
+        "1000M, 1500M ve 2000M NP menzil seçenekleri ile esnek kullanım imkanı tanır.",
+        "Google servisleri desteği ve güçlü grafik özellikleri ile kolay veri yönetimi sağlar."
       ]
     },
     {
       "id": 10,
-      "name": "SENCEIVE Sensör Sistemi",
-      "description": "Uzaktan veri toplama için SENCEIVE akıllı sensör sistemi.",
-      "image": "/products/senceive-sensor.jpg",
-      "category": "sensor",
-      "brand": "senceive",
+      "name": "STEC AXIS-10 Robotic Total Station",
+      "description": "Yüksek performans ve esneklik sunan AXIS 10 serisi robotic total station.",
+      "images": [
+        "/marka-photos/stec/stec-axis-10.1.JPG",
+        "/marka-photos/stec/stec-axis-10.2.JPG"
+      ],
+      "category": "total-station",
+      "brand": "stec",
       "specs": [
-        "Kablosuz veri iletimi",
-        "Uzun pil ömrü",
-        "Çoklu sensör entegrasyonu"
+        "180°/s tork sürücüsü ve 1000 m prizma tanıma kapasitesi ile hızlı ve geniş menzil sunar.",
+        "300 m prizma arama kapasitesi ve 20°/s takip hızı ile dinamik ölçüm yapabilir.",
+        "0.5\" ve 1\" açı hassasiyeti ve 1+1 ppm mesafe hassasiyeti ile yüksek doğruluk sağlar.",
+        "600 m uzaktan kontrol menziline sahip olup 6\" dokunmatik ekran ile kolay kullanım sunar.",
+        "xTrak teknolojisi ile prizmayı sürekli olarak takip eder ve hızlı hedefleme sağlar.",
+        "Android 9 işletim sistemi ile açık bağlantı ve gerçek zamanlı veri yönetimi imkanı tanır."
       ]
     },
     {
       "id": 11,
-      "name": "CHCNAV Batimetri Sensörü",
-      "description": "Su altı haritalama için CHCNAV batimetri sensörü.",
-      "image": "/products/chcnav-batimetri.jpg",
-      "category": "batimetri",
-      "brand": "chcnav",
+      "name": "STEC SE Lite GNSS Receiver",
+      "description": "Küçük boyutuna rağmen yüksek performans sunan SE Lite GNSS alıcısı.",
+      "images": [
+        "/marka-photos/stec/stec-se-lite.1.jpg",
+        "/marka-photos/stec/stec-se-lite.2.jpg",
+        "/marka-photos/stec/stec-se-lite.3.jpg"
+      ],
+      "category": "gnss",
+      "brand": "stec",
       "specs": [
-        "Sonar tabanlı ölçüm",
-        "Derinlik analizi",
-        "IP68 su geçirmezlik"
+        "1,408 kanal desteği ve 21 frekans ile geniş uydu takibi yapabilir.",
+        "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
+        "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
+        "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
+        "S-Link ile 15 km'ye kadar güvenli ve stabil veri iletimi sunar.",
+        "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
+        "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
+        "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir."
       ]
     },
     {
       "id": 12,
-      "name": "CHCNAV Makine Kontrol Sistemi",
-      "description": "İnşaat makineleri için CHCNAV otomasyon kontrol sistemi.",
-      "image": "/products/chcnav-makinekontrol.jpg",
+      "name": "STEC SV1 GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan SV1 GNSS alıcısı.",
+      "images": [
+        "/marka-photos/stec/stec-sv1.1.jpg",
+        "/marka-photos/stec/stec-sv1.2.jpg",
+        "/marka-photos/stec/stec-sv1.3.jpg",
+        "/marka-photos/stec/stec-sv1.4.jpg"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "1,408 kanal ve 21 frekans desteği ile tüm uydu sistemlerini takip edebilir.",
+        "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
+        "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında hızlı sinyal sabitleme sağlar.",
+        "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek kalmadan veri toplayabilir.",
+        "SPOS ile L-band uydular üzerinden PPP ve HAS desteği sunarak internet olmadan yüksek hassasiyet sağlar.",
+        "2W UHF Rx/Tx iç anten ile 15 km'ye kadar güvenli ve stabil veri iletimi yapar.",
+        "IP68 su ve toz geçirmezlik standardı ile zorlu çevre koşullarında sorunsuz çalışır.",
+        "Type-C USB, SIM kart yuvası ve radyo anten portu ile geniş bağlantı seçenekleri sunar.",
+        "Magnesium alaşımlı gövde ve 740g ağırlığı ile hafif ve dayanıklıdır.",
+        "74 mm genişlik ve 128 mm yükseklik ile kompakt bir tasarıma sahiptir.",
+        "Kamera destekli AR stake-out çözümü ile hassas hedefleme sağlar."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "CHCnav iBase GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan iBase GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/iBase-0.png",
+        "/marka-photos/chcnav/iBase-1.png",
+        "/marka-photos/chcnav/iBase-0.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ve GPS, GLONASS, Galileo, BeiDou uydu sistemlerini takip edebilme.",
+        "25 km'ye kadar UHF RTK kapsama alanı ve 5 watt radyo modülü ile geniş iletişim imkanı.",
+        "IP67 su ve toz geçirmezlik standardı ve IK08 darbe koruması ile zorlu koşullarda dayanıklılık.",
+        "UHF, 4G modem, Wi-Fi ve Bluetooth ile çok yönlü bağlantı seçenekleri.",
+        "İki adet çıkarılabilir 7,000 mAh lityum-iyon batarya ile 12 saate kadar çalışma süresi.",
+        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğim ölçümü.",
+        "RTCM 3.x, RINEX, NMEA 0183 ve HCN gibi veri formatları ile geniş uyumluluk.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet sunar.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "Otomatik frekans seçimi ile UHF parazit kontrolü ve 10 Hz RTK güncelleme hızı.",
+        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "Sarsıntı ve düşmelere karşı 2 metreye kadar dayanıklı gövde tasarımı."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "CHCnav i73+ GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan i73+ GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i73+-0.png",
+        "/marka-photos/chcnav/i73+-1.png",
+        "/marka-photos/chcnav/i73+-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "IMU-RTK teknolojisi ile eğim telafisi ve 30°'ye kadar eğimli ölçümlerde 3 cm hassasiyet.",
+        "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
+        "UHF Tx/Rx modem ile 8 km'ye kadar kablosuz veri iletimi.",
+        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CHCnav i83 GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan i83 GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i83-0.png",
+        "/marka-photos/chcnav/i83-1.png",
+        "/marka-photos/chcnav/i83-2.png",
+        "/marka-photos/chcnav/i83-3.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
+        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "Magnesium alaşımlı gövde ile 2.54 kg ağırlığında kompakt ve dayanıklı tasarım."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CHCnav i93 GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan i93 GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i93-0.png",
+        "/marka-photos/chcnav/i93-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "9,600 mAh kapasiteye sahip dahili batarya ile RTK modunda 34 saate kadar çalışma süresi.",
+        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "1.1 inç OLED renkli ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı ve 128 GB'a kadar harici destek.",
+        "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "Magnesium alaşımlı gövde ile 1.15 kg ağırlığında kompakt ve dayanıklı tasarım.",
+        "Otomatik yüksek hızlı sürekli çekim ile %85'e kadar örtüşme oranı ve hızlı işlem süresi.",
+        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "200 Hz IMU güncelleme hızı ile otomatik IMU başlatma ve yüksek hassasiyetli eğim ölçümü.",
+        "RTCM 2.x, RTCM 3.x, CMR ve NMEA formatlarını destekleyen esnek veri uyumluluğu.",
+        "Starlight-grade kamera ile düşük ışıkta dahi renkli görüntü yakalama imkanı."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "CHCnav i89 GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan i89 GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i89-0.png",
+        "/marka-photos/chcnav/i89-1.png",
+        "/marka-photos/chcnav/i89-2.png",
+        "/marka-photos/chcnav/i89-3.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "iStar2.0 ve iyonosfer azaltma teknolojisi ile %96 oranında güvenilir sabitleme.",
+        "IMU-RTK teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "16.5 saat çalışma süresi ve 18W hızlı şarj ile 3 saatte tam dolum.",
+        "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "Otomatik IMU başlatma ile manuel kalibrasyona gerek kalmadan yüksek hassasiyet.",
+        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "Video fotogrametri algoritmaları ile 3D modelleme desteği.",
+        "NFC, Wi-Fi 802.11 a/b/g/n/ac ve Bluetooth 5.0 ile kablosuz bağlantı.",
+        "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "Virtual Pole Tip™ teknolojisi ile CAD projeleri üzerinde nokta görselleştirme.",
+        "200 Hz IMU güncelleme hızı ile otomatik eğim ölçümü ve hassasiyet.",
+        "Magnesium alaşımlı gövde ile 750 g ağırlığında kompakt tasarım.",
+        "NTRIP, RTCM ve RINEX veri formatlarını destekleyen geniş uyumluluk."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "CHCnav i76 GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan i76 GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i76-0.png",
+        "/marka-photos/chcnav/i76-3.png",
+        "/marka-photos/chcnav/i76-2.png",
+        "/marka-photos/chcnav/i76-1.png",
+        "/marka-photos/chcnav/i76-5.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou ve QZSS gibi tüm uydu sistemlerini takip edebilir.",
+        "5. Nesil Ultra-IMU teknolojisi ile 60°'ye kadar eğim telafisi ve 3 cm hassasiyet sunar.",
+        "17 saat çalışma süresi ve 4.5 saatte tam şarj ile uzun süreli kullanım.",
+        "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "UHF Tx/Rx modem ile 15 km'ye kadar kablosuz veri iletimi.",
+        "0.96 inç OLED ekran ile anlık konum ve cihaz durum bilgilerini görüntüleme.",
+        "4. Nesil Air-Medium GNSS anteni ile %96 üzerinde RTK fix oranı.",
+        "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "Magnesium alaşımlı gövde ile 450 g ağırlığında kompakt ve dayanıklı tasarım.",
+        "CAD+AR ile %40 daha verimli proje stakeout imkanı."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "CHCnav LandStar 8 Yazılımı",
+      "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
+      "images": [
+        "/marka-photos/chcnav/landstar8-1.jpg",
+        "/marka-photos/chcnav/landstar8-2.jpg",
+        "/marka-photos/chcnav/landstar8-3.jpg"
+      ],
+      "category": "yazilim",
+      "brand": "chcnav",
+      "type": "mapping-software",
+      "typeTitle": "Ölçüm ve Haritalama Yazılımları",
+      "specs": [
+        "Android işletim sistemi ile uyumlu ve kullanıcı dostu arayüz.",
+        "MetaCAD grafik motoru ile %50'ye kadar daha hızlı CAD dosyası açma ve işleme.",
+        "200 MB'a kadar DXF dosyalarını hızlıca görüntüleme ve düzenleme.",
+        "Bulut tabanlı entegrasyon ile proje yedekleme ve uzaktan destek.",
+        "Quick Code özelliği ile tek tıkla çizgi ve detay ekleme.",
+        "CAD tabanlı harita düzenleme ve alan hesaplama özellikleri.",
+        "Gelişmiş proje yönetimi: QR kod ile koordinat ve proje aktarma.",
+        "NTRIP, APIS ve TCP destekli GNSS verisi aktarımı.",
+        "IP68 sertifikalı cihazlarla uyumlu ve zorlu saha koşullarında dayanıklı.",
+        "Kolaylaştırılmış site kalibrasyon sihirbazı ile hızlı kalibrasyon.",
+        "Anlık konum ve ölçüm verilerini gösteren 3D harita desteği.",
+        "RINEX, CSV ve NMEA formatlarında veri aktarım desteği.",
+        "Birden fazla dil desteği ve yerelleştirilmiş video eğitimleri.",
+        "WMS/WFS ve CAD haritaları ile uyumlu katman yönetimi.",
+        "Uzaktan destek ve yazılım güncellemeleri ile sürekli destek."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "CHCnav CGO 2.0 Yazılımı",
+      "description": "Gelişmiş GNSS veri işleme çözümleri sunan CGO 2.0 yazılımı.",
+      "images": [
+        "/marka-photos/chcnav/cgo2-1.jpg",
+        "/marka-photos/chcnav/cgo2-2.jpg",
+        "/marka-photos/chcnav/cgo2-3.jpg"
+      ],
+      "category": "yazilim",
+      "brand": "chcnav",
+      "type": "mapping-software",
+      "typeTitle": "Ölçüm ve Haritalama Yazılımları",
+      "specs": [
+        "GNSS, RTK, ROAD ve UAV modülleri ile tam entegre çözüm.",
+        "Static, PPK ve PPP algoritmaları ile hassas GNSS veri işleme.",
+        "MetaCAD motoru ile CAD tabanlı işlemler ve hızlı veri analizi.",
+        "RINEX, NMEA ve CSV formatlarında veri aktarım desteği.",
+        "GNSS ham verilerini işlemek için gelişmiş hata düzeltme algoritmaları.",
+        "Post-processing kinematik (PPK) desteği ile yüksek hassasiyet.",
+        "Bulut tabanlı entegrasyon ile proje yedekleme ve uzaktan destek.",
+        "Koordinat dönüştürme ve TIFF sıkıştırma gibi gelişmiş jeodezik araçlar.",
+        "Anlık konum verileri ile 3D haritalama ve UAV trajektografi.",
+        "Otomatik CORS referans verisi indirme ve entegrasyon.",
+        "Yüksek hacimli saha verilerini hızlı işlemek için optimizasyon.",
+        "Kolay öğrenim eğrisi ve kullanıcı dostu arayüz.",
+        "NTRIP ve APIS destekli GNSS verisi aktarımı.",
+        "Çoklu dil desteği ve yerelleştirilmiş yardım dokümanları.",
+        "Windows 7, 8, 10 (32-bit ve 64-bit) ile uyumlu."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "CHCnav MapCloud 2.0",
+      "description": "Güçlü haritalama motoru ve bulut tabanlı entegrasyon sunan GIS veri toplama ve haritalama uygulaması.",
+      "images": [
+        "/marka-photos/chcnav/mapcloud-1.jpg",
+        "/marka-photos/chcnav/mapcloud-2.jpg",
+        "/marka-photos/chcnav/mapcloud-3.jpg"
+      ],
+      "category": "yazilim",
+      "brand": "chcnav",
+      "type": "mapping-software",
+      "typeTitle": "Ölçüm ve Haritalama Yazılımları",
+      "specs": [
+        "SHAPES, DWG, DXF, SHP, KML, GPX, TIF, IMG gibi popüler GIS formatlarını destekler.",
+        "Google, Bing, WMS ve WFS gibi çevrimiçi taban haritalarıyla sorunsuz entegrasyon.",
+        "GB sınıfı SHP dosyalarını hızlıca yükler ve TB sınıfı TIF dosyalarını sorunsuzca işler.",
+        "Saha ve ofis arasında veri paylaşımı için paylaşım kodu ile bulut tabanlı bağlantı.",
+        "Özelleştirilebilir katman şablonları ve tematik haritalar ile kullanıcı dostu arayüz.",
+        "GNSS RTK alıcılarla uyumlu veri toplama desteği ve yüksek doğrulukta konumlandırma.",
+        "Sesli ve görsel bildirimlerle saha operasyonlarında kullanım kolaylığı.",
+        "Koordinat tahsisi, iz kaydı, uzunluk ve alan ölçümleri gibi işlevler sunar.",
+        "İkincil geliştirme desteği ile GNSS verisi elde etmek için genişletilebilir.",
+        "Android 7.0.1 ve üzeri işletim sistemi desteği ile CHCNAV kontrol üniteleriyle uyumlu."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "CHCnav MAS",
+      "description": "Veri görselleştirme ve alarm yönetimi sunan bulut tabanlı izleme ve alarm platformu.",
+      "images": [
+        "/marka-photos/chcnav/mas-1.jpg",
+        "/marka-photos/chcnav/mas-2.jpg",
+        "/marka-photos/chcnav/mas-3.jpg"
+      ],
+      "category": "yazilim",
+      "brand": "chcnav",
+      "type": "monitoring-alarm-system",
+      "typeTitle": "İzleme ve Alarm Sistemleri",
+      "specs": [
+        "İnternet, IoT ve büyük veri entegrasyonu ile uzaktan izleme ve alarm yönetimi.",
+        "DEM, GIS haritaları, uydu ve radar görüntüleri ile 3D sahne oluşturma desteği.",
+        "Radar ve çoklu sensör verilerini tek ekranda izleme ve etkileşimli grafiklerle analiz.",
+        "Dört seviyeli özelleştirilebilir alarm sistemi ile SMS, e-posta ve doğrudan uyarılar.",
+        "Gerçek zamanlı meteorolojik bilgiler, sensör verileri ve video izleme desteği.",
+        "Web, uygulama ve H5 arayüzleri ile esnek erişim ve uzaktan yönetim.",
+        "Otomatik raporlama sistemi ile özelleştirilebilir format ve sıklıkta rapor oluşturma.",
+        "Windows Server 2019 ve üzeri ile Ubuntu desteği.",
+        "MySQL 5.7.24 ve üzeri veri tabanı desteği.",
+        "Intel Core i7 ve üzeri işlemci önerisi ile GTX 1060 ve üzeri grafik kartı desteği."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "CHCnav P5U GNSS Reference Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/p5-0.png",
+        "/marka-photos/chcnav/p5-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Referans İstasyonları",
+      "specs": [
+        "624 kanal desteği ile GPS, GLONASS, Galileo, BDS ve QZSS uydu sistemlerini aynı anda takip edebilir.",
+        "8 mm + 1 ppm yatay ve 15 mm + 1 ppm dikey RTK hassasiyeti.",
+        "32 GB dahili depolama ve 1 TB'a kadar harici depolama desteği.",
+        "24 saate kadar kesintisiz çalışma süresi sunan dahili lityum-iyon batarya.",
+        "IP67 su ve toz geçirmezlik standardı ile zorlu koşullarda güvenilir kullanım.",
+        "NTRIP client/server ve caster desteği ile gelişmiş ağ uyumluluğu.",
+        "Bluetooth ve Wi-Fi bağlantıları ile kablosuz veri iletimi.",
+        "Ethernet ve USB üzerinden hızlı veri aktarımı ve yapılandırma.",
+        "RINEX ve HCN formatlarında veri kaydı desteği.",
+        "HTTP ve FTP üzerinden uzaktan yapılandırma ve veri indirme.",
+        "GNSS sinyallerinde < 1 mm hassasiyetle taşıyıcı faz ölçümü.",
+        "Kompakt ve dayanıklı tasarımı ile mobil ve sabit baz istasyonu olarak kullanılabilme."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "CHCnav P5E-Net GNSS Receiver",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan P5E-Net GNSS referans alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/p5e-0.png",
+        "/marka-photos/chcnav/p5e-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Referans İstasyonları",
+      "specs": [
+        "624 kanal desteği ile tüm uydu sistemlerini takip edebilir.",
+        "GPS (L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5/E6), BDS (B1/B2/B3), SBAS ve L-Band sinyallerini destekler.",
+        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
+        "Post-processing hassasiyeti: Yatayda 2.5 mm + 0.5 ppm, Dikeyde 5 mm + 0.5 ppm.",
+        "32 GB dahili hafıza ve harici USB depolama desteği.",
+        "Entegre Bluetooth, Wi-Fi ve 4G modem ile kablosuz iletişim.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda çalışabilir.",
+        "Dahili batarya ile 20 saate kadar çalışma süresi.",
+        "IMX287 işlemci ve 450 MHz hızında çalışma kapasitesi.",
+        "Renkli LCD ekran ve kullanıcı dostu arayüz ile kolay konfigürasyon.",
+        "FTP push ve çevrimiçi indirme desteği ile veri aktarımı.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arası."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "CHCnav DL8 Datalink",
+      "description": "Uzun mesafe GNSS RTK düzeltmeleri için güvenilir veri iletimi sunan UHF radyo modem.",
+      "images": [
+        "/marka-photos/chcnav/dl8-0.png",
+        "/marka-photos/chcnav/dl8-1.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Referans İstasyonları",
+      "specs": [
+        "410-470 MHz frekans bandında çalışma desteği.",
+        "5W ila 28W arasında ayarlanabilir çıkış gücü.",
+        "IP67 su ve toz geçirmezlik standardı ile zorlu koşullara dayanıklıdır.",
+        "50 Ohm, TNC dişi konnektör ile anten bağlantısı.",
+        "115200 bps'ye kadar seri port baud hızı desteği.",
+        "Bluetooth ve OLED ekran ile kolay yapılandırma.",
+        "9-16V DC çalışma voltajı ve 2 kg ağırlık.",
+        "GMSK ve 4FSK modülasyon desteği ile güçlü veri iletimi.",
+        "±1ppm frekans kararlılığı ile güvenilir iletişim.",
+        "Transceiver, sadece gönderme ve sadece alma modları."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "CHCnav LT60H Rugged GNSS Smartphone",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan LT60H GNSS akıllı telefon.",
+      "images": [
+        "/marka-photos/chcnav/lt60h-0.png",
+        "/marka-photos/chcnav/lt60h-1.png",
+        "/marka-photos/chcnav/lt60h-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "1408 kanallı GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
+        "2.0 GHz Qualcomm Snapdragon octa-core işlemci ve DDR3 bellek ile yüksek performans.",
+        "6.3 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda dayanıklılık.",
+        "6000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
+        "64 GB ROM ve 4 GB RAM ile yüksek depolama ve performans.",
+        "Micro SD kart ile 128 GB'a kadar genişletilebilir hafıza.",
+        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
+        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
+        "Dual SIM 4G modem ile kesintisiz internet bağlantısı.",
+        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık."
+      ]
+    },
+    {
+      "id": 42,
+      "name": "CHCnav LT800H GNSS RTK Rugged Tablet",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan LT800H GNSS RTK tablet.",
+      "images": [
+        "/marka-photos/chcnav/lt800h-0.png",
+        "/marka-photos/chcnav/lt800h-1.png",
+        "/marka-photos/chcnav/lt800h-2.png",
+        "/marka-photos/chcnav/lt800h-3.png",
+        "/marka-photos/chcnav/lt800h-4.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "1408 kanallı yüksek hassasiyetli GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
+        "8.1 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
+        "2.0 GHz octa-core işlemci ile büyük haritalar ve veri setlerinde hızlı işlem.",
+        "Dual SIM 4G modem ile hızlı ve kesintisiz internet bağlantısı.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullara dayanıklı.",
+        "9000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları ile geniş uyumluluk.",
+        "128 GB ROM ve 8 GB RAM ile yüksek depolama ve performans.",
+        "Micro SD kart ile 256 GB'a kadar genişletilebilir hafıza.",
+        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
+        "Type-C USB ve OTG desteği ile kolay veri aktarımı.",
+        "IP67 standartlarına göre 1.2 metreye kadar düşmelere karşı dayanıklılık.",
+        "Centimetre ve decimetre seviyesinde hassasiyet sunan RTK teknolojisi."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "CHCnav HCE600 Rugged Field Controller",
+      "description": "Yüksek dayanıklılık ve hassasiyet sunan HCE600 saha kontrol cihazı.",
+      "images": [
+        "/marka-photos/chcnav/hce600-0.png",
+        "/marka-photos/chcnav/hce600-1.png",
+        "/marka-photos/chcnav/hce600-2.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "5.5 inç DragonTrail™ HD+ ekran ile güneş ışığında okunabilir IPS panel.",
+        "2.0 GHz Helio MTK 6762 octa-core işlemci ile yüksek performans.",
+        "3 GB RAM ve 32 GB dahili hafıza, 128 GB'a kadar MicroSD desteği.",
+        "IP67 ve MIL-STD-810H sertifikaları ile su, toz ve darbeye karşı dayanıklılık.",
+        "Bluetooth 5.0, 4G modem ve çift bant Wi-Fi ile kesintisiz bağlantı.",
+        "9000 mAh batarya ile 14 saate kadar kesintisiz çalışma süresi.",
+        "GNSS desteği ile GPS, GLONASS ve BeiDou uydu sistemleri.",
+        "Alfanumerik tuş takımı ve özelleştirilebilir kısayol tuşları ile kolay kullanım.",
+        "500 nit parlaklık ile zorlu ışık koşullarında yüksek görünürlük.",
+        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
+        "1.5 metreye kadar beton zemine düşmeye karşı dayanıklılık.",
+        "Android 10 işletim sistemi ve LandStar uygulaması ile uyumlu."
+      ]
+    },
+    {
+      "id": 45,
+      "name": "CHCnav LT700H RTK Android Tablet",
+      "description": "Dayanıklı yapısı ve yüksek hassasiyetli GNSS desteği ile LT700H RTK tableti.",
+      "images": [
+        "/marka-photos/chcnav/lt700h-0.png",
+        "/marka-photos/chcnav/lt700h-1.png",
+        "/marka-photos/chcnav/lt700h-2.png",
+        "/marka-photos/chcnav/lt700h-3.png",
+        "/marka-photos/chcnav/lt700h-4.png"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "Android 8.1 işletim sistemi ve 8 çekirdekli 2.2 GHz işlemci.",
+        "4 GB RAM ve 64 GB dahili hafıza, 128 GB'a kadar Micro SD desteği.",
+        "GPS, GLONASS, BDS ve GALILEO uydu sistemleri ile 0.05 m HRMS doğruluk.",
+        "IP67 su ve toz geçirmezlik sertifikası, 1.5 m beton düşme dayanıklılığı.",
+        "8 inç IPS ekran, 1920x1200 çözünürlük, su geçirmez ve eldiven destekli dokunmatik ekran.",
+        "8000 mAh batarya ile 12 saate kadar çalışma süresi ve 4 saat şarj süresi.",
+        "5 MP ön kamera, 16 MP arka kamera ve entegre flaş.",
+        "Wi-Fi, Bluetooth 4.1, Type-C/OTG bağlantı desteği.",
+        "NFC, G-sensör, ışık sensörü, mesafe sensörü, e-pusula ve jiroskop.",
+        "Kompakt ve dayanıklı tasarım: 240 x 151 x 32 mm boyutlar ve 675 g ağırlık."
+      ]
+    },
+    {
+      "id": 50,
+      "name": "CHCnav CTS-A100 Total Station",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan CTS-A100 total station.",
+      "images": [
+        "/marka-photos/chcnav/cts-a100-0.jpg",
+        "/marka-photos/chcnav/cts-a100-1.jpg",
+        "/marka-photos/chcnav/cts-a100-2.jpg",
+        "/marka-photos/chcnav/cts-a100-3.jpg"
+      ],
+      "category": "total-station",
+      "brand": "chcnav",
+      "specs": [
+        "Android işletim sistemi ve LandStar yazılımı ile kullanıcı dostu arayüz.",
+        "Qualcomm octa-core işlemci, 3 GB RAM ve 32 GB ROM ile yüksek işlem gücü.",
+        "5000 m prizma ve 1500 m reflektörsüz ölçüm menzili ile güçlü EDM sistemi.",
+        "2'' açısal hassasiyet ve çift eksenli elektronik kompansatör ile yüksek doğruluk.",
+        "IP55 su ve toz geçirmezlik standardı ile zorlu saha koşullarında dayanıklılık.",
+        "5.0 inç HD ekran ile güneş ışığında bile net görüntü.",
+        "Wi-Fi ve 4G bağlantıları ile bulut servisleri üzerinden veri aktarımı.",
+        "MetaCAD motoru ile CAD tabanlı işlemler ve hızlı ölçüm verisi işleme.",
+        "3 mm + 2 ppm hassasiyet ile reflektörsüz, 2 mm + 2 ppm hassasiyet ile prizmalı ölçüm.",
+        "Otomatik sıcaklık ve basınç düzeltme sensörleri ile çevresel faktörlere karşı hassas ölçüm.",
+        "27x büyütme ve 1.5 m - sonsuz arası netleme mesafesi ile detaylı gözlem.",
+        "IP55 sertifikası ve 8 saat batarya süresi ile uzun saha çalışmaları.",
+        "Type-A USB ve MicroUSB bağlantı noktaları ile esnek veri aktarımı.",
+        "802.11 b/g Wi-Fi ve Bluetooth 4.2 ile kablosuz iletişim seçenekleri.",
+        "RINEX, HCN ve NMEA veri formatlarını destekleyen geniş uyumluluk."
+      ]
+    },
+    {
+      "id": 59,
+      "name": "CHCnav AA9 Airborne LiDAR + RGB System",
+      "description": "Yüksek hassasiyetli hava LiDAR ve RGB sistemi ile hızlı ve doğru 3D haritalama.",
+      "images": [
+        "/marka-photos/chcnav/aa9-1.jpg",
+        "/marka-photos/chcnav/aa9-2.jpg",
+        "/marka-photos/chcnav/aa9-3.jpg"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Sistemleri",
+      "specs": [
+        "600 metreye kadar ölçüm mesafesi ve saniyede 500.000 nokta tarama kapasitesi.",
+        "5 mm tekrar edilebilir mesafe hassasiyeti ve 2 ila 5 cm mutlak doğruluk.",
+        "6 hedef yansıma desteği ile yoğun bitki örtüsünde yüksek penetrasyon.",
+        "26 MP yarım çerçeve kamera ile yüksek çözünürlüklü ortofoto çekimi.",
+        "1.45 kg ağırlık ve kompakt tasarım ile kolay drone entegrasyonu.",
+        "IP64 sertifikası ile zorlu hava koşullarına karşı dayanıklılık.",
+        "CoPre ve CoProcess yazılımları ile kolay ve hızlı veri işleme.",
+        "30 dakikaya kadar kesintisiz çalışma süresi.",
+        "GPS, GLONASS, BeiDou ve Galileo uydu sistemlerini destekleyen GNSS modülü.",
+        "250 tarama/sn hızında sürekli dönen ayna ile geniş görüş açısı.",
+        "Alphaport arayüzü ile hızlı kurulum ve bağlantı."
+      ]
+    },
+    {
+      "id": 60,
+      "name": "CHCnav AA10 LiDAR Sistemi",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan AA10 LiDAR+RGB sistemi.",
+      "images": [
+        "/marka-photos/chcnav/aa10-0.png",
+        "/marka-photos/chcnav/aa10-1.png",
+        "/marka-photos/chcnav/aa10-2.png",
+        "/marka-photos/chcnav/aa10-3.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Sistemleri",
+      "specs": [
+        "5 mm tekrarlanabilir mesafe doğruluğu ve 2-5 cm mutlak hassasiyet.",
+        "800 metreye kadar uzun menzil ölçümü ve saniyede 500.000 nokta tarama kapasitesi.",
+        "45 MP tam kare ortografik kamera ile yüksek çözünürlüklü görüntüleme.",
+        "8 hedef yankıya kadar çoklu hedef yeteneği ile yoğun bitki örtüsünde hassas veri toplama.",
+        "IMU ile GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
+        "IP64 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
+        "CoPre ve CoProcess yazılımları ile gelişmiş veri işleme ve özellik çıkarımı.",
+        "1.55 kg ağırlık ve kompakt tasarım ile çeşitli UAV platformları ile uyumlu.",
+        "45 MP kamera ve sürekli dönen ayna ile yüksek kaliteli nokta bulutları oluşturma.",
+        "500 kHz lazer frekansı ve 0.032° tarama açısı ile hassas 3D modelleme.",
+        "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
+        "Gömülü CoPre yazılımı ile otomatik veri hizalama ve model oluşturma."
+      ]
+    },
+    {
+      "id": 61,
+      "name": "CHCnav AA15 LiDAR Sistemi",
+      "description": "Yüksek hassasiyet ve hızlı veri toplama sunan AA15 LiDAR sistemi.",
+      "images": [
+        "/marka-photos/chcnav/aa15-0.png",
+        "/marka-photos/chcnav/aa15-1.png",
+        "/marka-photos/chcnav/aa15-2.png",
+        "/marka-photos/chcnav/aa15-3.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Sistemleri",
+      "specs": [
+        "15 mm doğruluk ve 2-5 cm mutlak hassasiyet ile yüksek doğrulukta ölçüm.",
+        "2 milyon pulse/saniye tarama hızı ve 600 tarama/saniye ile yüksek yoğunluklu nokta bulutları oluşturma.",
+        "150 metreye kadar uzun menzil tarama kapasitesi ve 16 hedef yankıya kadar çoklu hedef desteği.",
+        "2.5 kg ağırlığı ile sınıfının en hafif LiDAR sistemlerinden biri.",
+        "IP64 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
+        "CHCNAV CoPre ve CoProcess yazılımları ile otomatik veri işleme ve özellik çıkarımı.",
+        "DJI dronelar ve çeşitli hava platformları ile uyumlu.",
+        "45 MP ve 61 MP harici kamera destekleri ile yüksek çözünürlüklü görüntüleme.",
+        "247 mm × 126 mm × 156 mm boyutlarında kompakt tasarım.",
+        "512 GB dahili depolama ve 1 TB'a kadar genişletilebilir hafıza desteği.",
+        "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
+        "0.032° lazer sapma açısı ve 75° görüş açısı ile hassas 3D modelleme."
+      ]
+    },
+    {
+      "id": 62,
+      "name": "CHCnav AA450 LiDAR Sistemi",
+      "description": "Hafif ve yüksek performanslı AA450 LiDAR sistemi, UAV tabanlı hassas haritalama çözümleri sunar.",
+      "images": [
+        "/marka-photos/chcnav/aa450-0.png",
+        "/marka-photos/chcnav/aa450-1.png",
+        "/marka-photos/chcnav/aa450-2.png",
+        "/marka-photos/chcnav/aa450-3.png",
+        "/marka-photos/chcnav/aa450-4.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "type": "airborne-lidar",
+      "typeTitle": "Airborne LiDAR Sistemleri",
+      "specs": [
+        "450 metreye kadar uzun menzil tarama kapasitesi.",
+        "26 MP profesyonel endüstriyel kamera ile entegre yüksek çözünürlüklü görüntüleme.",
+        "720.000 nokta/saniye maksimum tarama hızı ile yoğun nokta bulutları oluşturma.",
+        "5-10 cm mutlak doğruluk ve 15 mm hassasiyet ile yüksek hassasiyetli veri toplama.",
+        "Skyport arayüzü ile DJI M300 ve M210 V2 UAV'lerle doğrudan bağlantı.",
+        "IP64 su ve toz geçirmezlik standardı ile zorlu çevre koşullarında çalışma.",
+        "CHC CoPre yazılımı ile gelişmiş veri işleme ve otomatik hizalama.",
+        "256 GB dahili depolama ve 160 Mb/s hızında USB Type-C ile hızlı veri aktarımı.",
+        "0.95 kg ağırlığı ile hafif ve kompakt tasarım.",
+        "45° tarama açısı ve 240.000 nokta/saniye tekli dönüş desteği.",
+        "GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
+        "20°C ile +50°C arasında geniş çalışma sıcaklık aralığı."
+      ]
+    },
+    {
+      "id": 63,
+      "name": "CHCnav AlphaUni 300/900/1300 LiDAR Sistemi",
+      "description": "Yüksek hassasiyet ve esneklik sunan AlphaUni 300/900/1300 LiDAR sistemleri, çok platformlu haritalama çözümleri sağlar.",
+      "images": [
+        "/marka-photos/chcnav/alphauni-1.jpg",
+        "/marka-photos/chcnav/alphauni-2.jpg",
+        "/marka-photos/chcnav/alphauni-3.jpg"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "specs": [
+        "330 metreye kadar menzil ve saniyede 1.2 milyon nokta tarama kapasitesi.",
+        "0.010 m RMS yatay ve 0.010 m RMS dikey doğruluk ile yüksek hassasiyet.",
+        "IMU destekli GNSS pozisyonlama ve 600 Hz IMU güncelleme hızı.",
+        "IP64 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
+        "CHC CoPre yazılımı ile gelişmiş veri işleme ve otomatik hizalama.",
+        "8 km'ye kadar UHF veri iletimi ve kablosuz uzaktan kontrol.",
+        "45 MP kalibre edilmiş Sony kamera ile yüksek çözünürlüklü görüntüleme.",
+        "2.1 kg ağırlığında hafif ve kompakt tasarım.",
+        "360° görüş açısı ve 200 tarama/sn hız ile hızlı ve detaylı tarama.",
+        "500 GB dahili depolama ve 160 Mb/s USB Type-C ile hızlı veri aktarımı.",
+        "Multi-platform desteği: UAV, araç, tren ve sırt çantası montajı.",
+        "Endüstriyel dayanıklılık ve geniş sıcaklık aralığında çalışma (-20°C ile +50°C)."
+      ]
+    },
+    {
+      "id": 64,
+      "name": "CHCnav AU20 LiDAR Sistemi",
+      "description": "Esnek ve yüksek performanslı AU20 LiDAR sistemi, çok platformlu haritalama çözümleri sunar.",
+      "images": [
+        "/marka-photos/chcnav/au20-0.png",
+        "/marka-photos/chcnav/au20-1.png",
+        "/marka-photos/chcnav/au20-2.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "specs": [
+        "1450 metreye kadar menzil ve saniyede 2 milyon nokta tarama kapasitesi.",
+        "2-5 cm mutlak doğruluk ve 15 mm hassasiyet ile yüksek doğrulukta ölçüm.",
+        "IP64 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
+        "16 hedef yankıya kadar çoklu hedef desteği ile yoğun bitki örtüsünde veri toplama.",
+        "CHC CoPre ve CoProcess yazılımları ile gelişmiş veri işleme ve özellik çıkarımı.",
+        "45 MP endüstriyel kamera ile entegre yüksek çözünürlüklü görüntüleme.",
+        "2.82 kg ağırlığında hafif ve kompakt tasarım.",
+        "360° tarama açısı ve 200 tarama/sn hız ile hızlı ve detaylı tarama.",
+        "512 GB dahili depolama ve 80 Mb/s hızında veri aktarımı.",
+        "Multi-platform desteği: UAV, araç ve sırt çantası montajı.",
+        "GNSS destekli pozisyonlama ve 500 Hz IMU güncelleme hızı.",
+        "Endüstriyel dayanıklılık ve geniş sıcaklık aralığında çalışma (-20°C ile +50°C)."
+      ]
+    },
+    {
+      "id": 65,
+      "name": "CHCnav RS10 Lidar",
+      "description": "İç ve dış mekanlarda yüksek hassasiyetli 3D tarama ve haritalama yapabilen taşınabilir Lidar çözümü.",
+      "images": [
+        "/marka-photos/chcnav/rs10-0.png",
+        "/marka-photos/chcnav/rs10-1.png",
+        "/marka-photos/chcnav/rs10-2.png",
+        "/marka-photos/chcnav/rs10-3.png",
+        "/marka-photos/chcnav/rs10-4.png",
+        "/marka-photos/chcnav/rs10-5.png"
+      ],
+      "category": "lidar",
+      "brand": "chcnav",
+      "specs": [
+        "GNSS RTK, Lidar ve SLAM teknolojilerini bir arada sunar.",
+        "RTK ve SLAM birleşimi ile 5 cm mutlak ölçüm hassasiyeti sağlar.",
+        "360° × 270° görüş açısı ile kapsamlı tarama yapabilir.",
+        "1.9 kg ağırlığı ve kompakt tasarımı ile taşınabilir kullanım.",
+        "SFix teknolojisi sayesinde GNSS sinyali olmayan alanlarda 5 cm hassasiyet.",
+        "Vi-LiDAR teknolojisi ile 15 m mesafeye kadar 5 cm hassasiyet.",
+        "640.000 nokta/sn tarama hızı ile yüksek doğrulukta veri toplar.",
+        "IP64 su ve toz geçirmezlik standardı ile zorlu koşullara dayanıklı.",
+        "512 GB dahili depolama kapasitesi.",
+        "Hot-swappable batarya ile 60 dakika kesintisiz kullanım.",
+        "Bluetooth ve Wi-Fi bağlantı seçenekleri ile kablosuz veri aktarımı.",
+        "CoProcess yazılımı ile otomatik çizim çıkarma ve işleme desteği."
+      ]
+    },
+    {
+      "id": 68,
+      "name": "CHCnav CoProcess LiDAR İşleme Yazılımı",
+      "description": "Gelişmiş LiDAR veri işleme ve analiz yetenekleri sunan CoProcess yazılımı, profesyonel haritalama ve analiz çözümleri sağlar.",
+      "images": [
+        "/marka-photos/chcnav/copre-1.jpg",
+        "/marka-photos/chcnav/copre-2.jpg",
+        "/marka-photos/chcnav/copre-3.jpg"
+      ],
+      "category": "yazilim",
+      "brand": "chcnav",
+      "type": "lidar-yazilimlari",
+      "typeTitle": "LiDAR Yazılımları",
+      "specs": [
+        "Otomatik DEM ve DSM oluşturma ile hassas arazi modelleme.",
+        "Toplu nokta bulutu sınıflandırma ve özellik çıkarımı.",
+        "Yol özellikleri için otomatik ve manuel çıkarım desteği.",
+        "Yoğun veri sınıflandırması ve gelişmiş algoritmalar.",
+        "Ölçüm araçları ile hacim hesaplama ve analiz.",
+        "CoData formatı ile büyük verilerde yüksek performans.",
+        "Kullanıcı dostu arayüz ve modüler tasarım.",
+        "IP67 su ve toz geçirmezlik ile dayanıklı yapı.",
+        "DXF ve DAT formatında dışa aktarma desteği."
+      ]
+    },
+    {
+      "id": 69,
+      "name": "CHCnav CoPre LiDAR İşleme Yazılımı",
+      "description": "Hızlı ve etkili LiDAR veri işleme çözümleri sunan CoPre, mobil haritalama için optimize edilmiş özellikler içerir.",
+      "images": [
+        "/marka-photos/chcnav/copre-1.jpg",
+        "/marka-photos/chcnav/copre-2.jpg",
+        "/marka-photos/chcnav/copre-3.jpg"
+      ],
+      "category": "yazilim",
+      "brand": "chcnav",
+      "type": "lidar-yazilimlari",
+      "typeTitle": "LiDAR Yazılımları",
+      "specs": [
+        "Otomatik yörünge işleme ve nokta bulutu renk eşleştirme.",
+        "Yüksek doğruluklu DOM ve 3D model oluşturma.",
+        "Gelişmiş katman kontrolü ve nokta bulutu temizleme.",
+        "Veri doğruluğu kontrolü ve ayrıntılı raporlama.",
+        "Tek tıkla otomatik işlem ve dışa aktarma seçenekleri.",
+        "DXF ve LAS formatlarında veri çıkışı.",
+        "Büyük veri setleri için hızlı işlem kapasitesi.",
+        "POS ve SLAM verileri ile uyumlu iş akışı."
+      ]
+    },
+    {
+      "id": 70,
+      "name": "CHCnav X500 IHA",
+      "description": "Yüksek performans ve esneklik sunan X500 IHA, çok platformlu haritalama ve keşif çözümleri sunar.",
+      "images": [
+        "/marka-photos/chcnav/x500-0.png",
+        "/marka-photos/chcnav/x500-1.png",
+        "/marka-photos/chcnav/x500-2.png",
+        "/marka-photos/chcnav/x500-3.png"
+      ],
+      "category": "iha",
+      "brand": "chcnav",
+      "specs": [
+        "5 kg yük taşıma kapasitesi ve 58 dakikaya kadar uçuş süresi.",
+        "IP55 su ve toz geçirmezlik ile zorlu koşullarda güvenilir kullanım.",
+        "20 km'ye kadar menzil sunan CHCNAV video iletim sistemi.",
+        "Millimetre dalga radarı ile 80 metreye kadar engel algılama.",
+        "Dual GNSS, triple IMU ve çift yedekli uçuş kontrolü ile güvenli operasyon.",
+        "10.1 inç dokunmatik ekranlı uzaktan kumanda ile kolay kontrol.",
+        "CHCNAV SmartGo yazılımı ile dikdörtgen, şerit, poligonal ve cephe rotaları desteği.",
+        "45° tarama açısı ve 200 tarama/sn hız ile hızlı ve detaylı tarama.",
+        "13.9 kg maksimum kalkış ağırlığı ve 5.0 kg taşıma kapasitesi.",
+        "±0.5 m dikey ve ±1.5 m yatay GNSS hassasiyeti.",
+        "Skyport arayüzü ile DJI M300 ve M210 V2 UAV'lerle uyumlu.",
+        "32 GB dahili depolama ve USB Type-C ile hızlı veri aktarımı."
+      ]
+    },
+    {
+      "id": 71,
+      "name": "CHCnav C5 IHA Hava Haritalama Kamerası",
+      "description": "Hafif ve yüksek performanslı C5 kamera, hava haritalama ve fotogrametrik uygulamalar için tasarlanmıştır.",
+      "images": [
+        "/marka-photos/chcnav/c5-0.png",
+        "/marka-photos/chcnav/c5-1.png",
+        "/marka-photos/chcnav/c5-2.png"
+      ],
+      "category": "iha",
+      "brand": "chcnav",
+      "type": "hava-haritalama-kameralari",
+      "typeTitle": "Hava Haritalama Kameraları",
+      "specs": [
+        "290 gram ağırlığı ve 75 x 63.5 x 102.5 mm boyutları ile hafif ve kompakt tasarım.",
+        "256 GB dahili hafıza ve USB-C üzerinden 80 Mb/s veri aktarım hızı.",
+        "Ortofoto çekimler için optimize edilmiş tam çerçeve sabit odaklı kamera.",
+        "IP64 su ve toz geçirmezlik ile zorlu koşullarda çalışma.",
+        "3.76 µm piksel boyutu ve 130 MP çözünürlük (26 MP x 5).",
+        "CoPre yazılım desteği ile gelişmiş veri işleme ve aerotriangulasyon.",
+        "Skyport uyumluluğu ile DJI ve CHCNAV dronlarıyla entegrasyon.",
+        "Çalışma sıcaklığı: -20°C ile +50°C arası.",
+        "Saniyede 300 Mb/s kopyalama hızında harici hafıza kartı desteği."
+      ]
+    },
+    {
+      "id": 72,
+      "name": "CHCnav C30 IHA Hava Haritalama Kamerası",
+      "description": "Profesyonel hava haritalama çözümleri sunan C30 kamera, yüksek çözünürlüklü ve hassas çekimler yapar.",
+      "images": [
+        "/marka-photos/chcnav/c30-0.png",
+        "/marka-photos/chcnav/c30-1.png",
+        "/marka-photos/chcnav/c30-2.png"
+
+      ],
+      "category": "iha",
+      "brand": "chcnav",
+      "type": "hava-haritalama-kameralari",
+      "typeTitle": "Hava Haritalama Kameraları",
+      "specs": [
+        "600 gram ağırlığı ve 110 x 108 x 85 mm boyutları ile kompakt ve dayanıklı.",
+        "640 GB harici hafıza kartı ve 300 Mb/s veri aktarım hızı.",
+        "Oblik fotogrametri için optimize edilmiş yüksek performanslı sistem.",
+        "CoPre yazılım desteği ile nokta bulutu renklendirme ve analiz.",
+        "IP64 su ve toz geçirmezlik ile zorlu çevre koşullarında çalışma.",
+        "45 MP çözünürlük ve düşük distorsiyonlu lens.",
+        "Skyport uyumluluğu ile DJI ve CHCNAV dronlarıyla entegrasyon.",
+        "Saniyede 200.000 çekim kapasitesi ve 5 lense kadar destek.",
+        "Çalışma sıcaklığı: -20°C ile +50°C arası."
+      ]
+    },
+    {
+      "id": 80,
+      "name": "CHCnav APACHE 3 Batimetri",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 3, hidroğrafik ölçümler için optimize edilmiştir.",
+      "images": [
+        "/marka-photos/chcnav/apache3-0.png",
+        "/marka-photos/chcnav/apache3-1.png",
+        "/marka-photos/chcnav/apache3-2.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "specs": [
+        "Entegre GNSS ve IMU ile hassas konumlandırma.",
+        "ADCP uyumluluğu ile akış hızı ve su derinliği ölçümü.",
+        "IP67 su ve toz geçirmezlik standardı.",
+        "35 kg taşıma kapasitesi ve 6 saat pil ömrü.",
+        "200 kHz tek ışınlı eko sondaj desteği.",
+        "Macromolecule polyester karbon fiber gövde.",
+        "Android tabanlı kontrol sistemi ve 4G bağlantı."
+      ]
+    },
+    {
+      "id": 81,
+      "name": "CHCnav APACHE 3 PRO Batimetri",
+      "description": "Gelişmiş hidroğrafik ölçüm özellikleriyle donatılmış APACHE 3 PRO, profesyonel kullanımlar için idealdir.",
+      "images": [
+        "/marka-photos/chcnav/apache3pro-0.png",
+        "/marka-photos/chcnav/apache3pro-1.png",
+        "/marka-photos/chcnav/apache3pro-2.png",
+        "/marka-photos/chcnav/apache3pro-3.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "specs": [
+        "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü ölçüm.",
+        "8 saat pil ömrü ve maksimum 5 m/s hız.",
+        "IP67 su ve toz geçirmezlik standardı.",
+        "35 kg taşıma kapasitesi ve 360° video desteği.",
+        "Macromolecule polyester karbon fiber gövde.",
+        "Entegre GNSS+IMU ile hassas konumlandırma.",
+        "Android tabanlı kontrol ve 4G bağlantı."
+      ]
+    },
+    {
+      "id": 82,
+      "name": "CHCnav APACHE 4 Batimetri",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 4, hidroğrafik ölçümler için optimize edilmiştir.",
+      "images": [
+        "/marka-photos/chcnav/apache4-0.png",
+        "/marka-photos/chcnav/apache4-1.png",
+        "/marka-photos/chcnav/apache4-2.png",
+        "/marka-photos/chcnav/apache4-3.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "specs": [
+        "Entegre GNSS+IMU ile doğru konumlandırma ve yönlendirme.",
+        "ADCP uyumluluğu ile akış hızı ve su derinliği ölçümü.",
+        "IP67 su ve toz geçirmezlik standardı.",
+        "Android kontrol sistemi ve 4G bağlantı desteği.",
+        "35 kg taşıma kapasitesi ve 8 saat pil ömrü.",
+        "360° video desteği ve 200 kHz eko sondaj frekansı.",
+        "Macromolecule polyester karbon fiber gövde ile dayanıklılık."
+      ]
+    },
+    {
+      "id": 83,
+      "name": "CHCnav APACHE 6 Batimetri",
+      "description": "Yüksek çözünürlüklü çok ışınlı eko sondaj desteği ile APACHE 6, kapsamlı denizcilik ölçümleri için idealdir.",
+      "images": [
+        "/marka-photos/chcnav/apache6-0.png",
+        "/marka-photos/chcnav/apache6-1.png",
+        "/marka-photos/chcnav/apache6-2.png",
+        "/marka-photos/chcnav/apache6-3.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "specs": [
+        "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü ölçüm.",
+        "6 saat pil ömrü ve maksimum 5 m/s hız.",
+        "IP65 su ve toz geçirmezlik standardı.",
+        "Android tabanlı kontrol ve 4G bağlantı.",
+        "15 kg ağırlık ve 60 kg taşıma kapasitesi.",
+        "Macromolecule polyester karbon fiber gövde ve üçlü gövde tasarımı.",
+        "Otomatik rota planlama ve veri işleme desteği."
+      ]
+    },
+    {
+      "id": 90,
+      "name": "CHCnav D270 Hidrografik Sistem",
+      "description": "Hassas batimetrik ölçümler ve deniz tabanı haritalama için optimize edilmiş D270 sistemi.",
+      "images": [
+        "/marka-photos/chcnav/d270-0.png",
+        "/marka-photos/chcnav/d270-1.png",
+        "/marka-photos/chcnav/d270-2.png",
+        "/marka-photos/chcnav/d270-3.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hidrografik Sistemler",
+      "specs": [
+        "200 kHz ve 450 kHz tek ve çok ışınlı eko sondaj desteği.",
+        "8 saat pil ömrü ve IP67 su ve toz geçirmezlik standardı.",
+        "Entegre GNSS ve IMU ile hassas konumlandırma.",
+        "Android tabanlı kontrol ve 4G bağlantı desteği.",
+        "Maksimum 10 m/s hız ve 35 kg taşıma kapasitesi."
+      ]
+    },
+    {
+      "id": 91,
+      "name": "CHCnav D390 Hidrografik Sistem",
+      "description": "Profesyonel batimetrik ölçüm ve denizcilik uygulamaları için D390.",
+      "images": [
+        "/marka-photos/chcnav/d390-0.png",
+        "/marka-photos/chcnav/d390-1.png",
+        "/marka-photos/chcnav/d390-2.png",
+        "/marka-photos/chcnav/d390-3.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hidrografik Sistemler",
+      "specs": [
+        "500 kHz çok ışınlı eko sondaj sistemi ile yüksek çözünürlüklü veri toplama.",
+        "10 saat pil ömrü ve IP67 su ve toz geçirmezlik standardı.",
+        "Entegre GNSS+IMU ve ADCP desteği ile hassas ölçüm.",
+        "Ethernet ve USB üzerinden hızlı veri aktarımı.",
+        "Android kontrol sistemi ve 4G bağlantı."
+      ]
+    },
+    {
+      "id": 92,
+      "name": "CHCnav RS600 Hidrografik Sistem",
+      "description": "Akustik doppler akım profili ölçümleri için RS600 sistemi.",
+      "images": [
+        "/marka-photos/chcnav/rs600-0.png",
+        "/marka-photos/chcnav/rs600-1.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hidrografik Sistemler",
+      "specs": [
+        "300 kHz ADCP desteği ile hassas akım profili ölçümü.",
+        "IP68 su geçirmezlik ve 15 saat pil ömrü.",
+        "Bluetooth ve Wi-Fi bağlantıları ile kablosuz veri aktarımı.",
+        "USB ve Ethernet üzerinden hızlı veri aktarımı.",
+        "Entegre GNSS ile hassas konumlandırma.",
+        "Çalışma sıcaklığı: -20°C ile +50°C arası."
+      ]
+    },
+    {
+      "id": 93,
+      "name": "CHCnav RS1200 Hidrografik Sistem",
+      "description": "Yüksek hassasiyetli akustik doppler akım profili ölçümleri için RS1200 sistemi.",
+      "images": [
+        "/marka-photos/chcnav/rs1200-0.png",
+        "/marka-photos/chcnav/rs1200-1.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hidrografik Sistemler",
+      "specs": [
+        "600 kHz ADCP desteği ile yüksek çözünürlüklü akım profili ölçümü.",
+        "IP68 su geçirmezlik ve 20 saat pil ömrü.",
+        "Entegre GNSS+IMU ile hassas konumlandırma.",
+        "NMEA ve RINEX formatlarında veri kaydı.",
+        "Ethernet ve USB üzerinden hızlı veri aktarımı.",
+        "Çalışma sıcaklığı: -20°C ile +60°C arası."
+      ]
+    },
+    {
+      "id": 94,
+      "name": "CHCnav HQ-400 Hidrografik Sistem",
+      "description": "Çoklu ışınlı eko sondaj ve hassas batimetrik ölçümler için HQ-400.",
+      "images": [
+        "/marka-photos/chcnav/hq-400-0.png",
+        "/marka-photos/chcnav/hq-400-1.png",
+        "/marka-photos/chcnav/hq-400-2.png",
+        "/marka-photos/chcnav/hq-400-3.png"
+      ],
+      "category": "batimetri",
+      "brand": "chcnav",
+      "type": "hydrographic-system",
+      "typeTitle": "Hidrografik Sistemler",
+      "specs": [
+        "NORBIT çok ışınlı eko sondaj sistemi ile yüksek çözünürlük.",
+        "IP67 su ve toz geçirmezlik standardı.",
+        "8 saat pil ömrü ve 200 kHz sondaj frekansı.",
+        "Entegre GNSS ve IMU ile hassas konumlandırma.",
+        "Ethernet ve USB üzerinden veri aktarımı."
+      ]
+    },
+    {
+      "id": 100,
+      "name": "CHCnav PS-2000 Sensör",
+      "description": "Yüksek hassasiyetli ve temassız deformasyon izleme sistemi.",
+      "images": [
+        "/marka-photos/chcnav/ps2000-0.png",
+        "/marka-photos/chcnav/ps2000-1.png",
+        "/marka-photos/chcnav/ps2000-2.png",
+        "/marka-photos/chcnav/ps2000-3.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "specs": [
+        "0.1 mm hassasiyetle temassız deformasyon ölçümü.",
+        "360° izleme açısı ve özelleştirilebilir tarama aralığı.",
+        "Diferansiyel interferometrik ölçüm ve dairesel sentetik açıklık görüntüleme teknolojisi.",
+        "Gerçek zamanlı veri güncellemeleri ve hızlı karar alma.",
+        "IP65 su ve toz geçirmezlik standardı.",
+        "25 kg ağırlık ve taşınabilir kompakt tasarım.",
+        "FMCW modülasyon ve Ku bandında çalışma.",
+        "0.3 m ile 5000 m arasında izleme mesafesi.",
+        "LAN bağlantısı ve düşük güç tüketimi (≤50 W).",
+        "Çalışma sıcaklığı: -35°C ile +55°C arası."
+      ]
+    },
+    {
+      "id": 101,
+      "name": "CHCnav CGI-830 GNSS ve IMU Sensör",
+      "description": "Gelişmiş GNSS ve IMU özellikli hassas konumlandırma ve yön bulma sensörü.",
+      "images": [
+        "/marka-photos/chcnav/cgi-830-1.jpg",
+        "/marka-photos/chcnav/cgi-830-2.jpg",
+        "/marka-photos/chcnav/cgi-830-3.jpg"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS ve IMU Sensörler",
+      "specs": [
+        "624 kanal desteği ile çoklu GNSS sistemlerini aynı anda takip edebilir.",
+        "IMU-RTK teknolojisi ile eğimden etkilenmeyen hassas konumlandırma.",
+        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
+        "IP68 su ve toz geçirmezlik standardı ile zorlu koşullarda kullanım.",
+        "Bluetooth, Wi-Fi ve 4G bağlantı seçenekleri.",
+        "32 GB dahili hafıza ile geniş veri saklama kapasitesi.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arası.",
+        "Dahili batarya ile 24 saate kadar kesintisiz çalışma."
+      ]
+    },
+    {
+      "id": 102,
+      "name": "CHCnav CGI-610 GNSS ve IMU Sensör",
+      "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
+      "images": [
+        "/marka-photos/chcnav/cgi-610-0.png",
+        "/marka-photos/chcnav/cgi-610-1.png",
+        "/marka-photos/chcnav/cgi-610-2.png"
+
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS ve IMU Sensörler",
+      "specs": [
+        "624 kanal desteği ile tüm GNSS uydu sistemlerini destekler.",
+        "IMU-RTK entegrasyonu ile eğim ve hareketten etkilenmeyen hassas konumlandırma.",
+        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
+        "IP68 su ve toz geçirmezlik ve dayanıklı gövde.",
+        "Bluetooth, Wi-Fi, 4G ve Ethernet bağlantı seçenekleri.",
+        "Dahili batarya ile 20 saate kadar kesintisiz çalışma süresi.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arası.",
+        "32 GB dahili hafıza ve harici USB desteği."
+      ]
+    },
+    {
+      "id": 103,
+      "name": "CHCnav P2 GNSS ve IMU Sensör",
+      "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
+      "images": [
+        "/marka-photos/chcnav/p2-0.png",
+        "/marka-photos/chcnav/p2-1.png",
+        "/marka-photos/chcnav/p2-2.png",
+        "/marka-photos/chcnav/p2-3.png",
+        "/marka-photos/chcnav/p2-4.png"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS ve IMU Sensörler",
+      "specs": [
+        "624 kanal desteği ile tüm GNSS sistemlerini destekler.",
+        "IMU-RTK entegrasyonu ile eğim ve hareketten etkilenmeyen hassas konumlandırma.",
+        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
+        "IP68 su ve toz geçirmezlik ve dayanıklı gövde.",
+        "Bluetooth, Wi-Fi, 4G ve Ethernet bağlantı seçenekleri.",
+        "Dahili batarya ile 20 saate kadar kesintisiz çalışma süresi.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arası.",
+        "32 GB dahili hafıza ve harici USB desteği."
+      ]
+    },
+    {
+      "id": 104,
+      "name": "CHCnav CGI-230 GNSS ve IMU Sensör",
+      "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
+      "images": [
+        "/marka-photos/chcnav/cgi-230-1.jpg",
+        "/marka-photos/chcnav/cgi-230-2.jpg",
+        "/marka-photos/chcnav/cgi-230-3.jpg"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS ve IMU Sensörler",
+      "specs": [
+        "GPS, GLONASS, Galileo, BDS ve QZSS dahil olmak üzere çoklu GNSS desteği.",
+        "624 kanal kapasitesi ile aynı anda birden fazla uydu sistemi izleyebilme.",
+        "IMU-RTK teknolojisi ile eğimden etkilenmeyen hassas konumlandırma.",
+        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
+        "IP68 su ve toz geçirmezlik ile zorlu çevre koşullarında çalışma.",
+        "Bluetooth, Wi-Fi, 4G ve Ethernet bağlantı seçenekleri.",
+        "Dahili batarya ile 24 saate kadar kesintisiz çalışma süresi.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arası.",
+        "32 GB dahili hafıza ve harici USB desteği.",
+        "HTTP ve FTP üzerinden uzaktan yapılandırma ve veri aktarımı."
+      ]
+    },
+    {
+      "id": 105,
+      "name": "CHCnav H3 GNSS Monitoring Receiver",
+      "description": "Yüksek hassasiyetli ve çok yönlü GNSS izleme alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/h3-1.jpg",
+        "/marka-photos/chcnav/h3-2.jpg",
+        "/marka-photos/chcnav/h3-3.jpg"
+      ],
+      "category": "sensor",
+      "brand": "chcnav",
+      "type": "gnss-sensor",
+      "typeTitle": "GNSS Sensörleri",
+      "specs": [
+        "1408 kanal desteği ile GPS, GLONASS, BeiDou, Galileo ve QZSS uydu sistemlerini destekler.",
+        "Yüksek hassasiyetli GNSS ve MEMS sensör entegrasyonu ile güvenilir konumlandırma.",
+        "iSTAR algoritması ile zorlu ortamlarda dahi yüksek doğrulukta veri sağlar.",
+        "IP67 su ve toz geçirmezlik standardı ile zorlu koşullarda sorunsuz kullanım.",
+        "Enerji verimli tasarımı ile 1.8W altında güç tüketimi ve güneş paneli ile çalışma desteği.",
+        "4G modem, Wi-Fi ve Bluetooth ile kablosuz veri iletimi.",
+        "3 mm + 0.5 ppm yatay ve 5 mm + 0.5 ppm dikey hassasiyetle statik mod.",
+        "NTRIP, TCP ve MQTT protokolleri ile uzaktan yapılandırma ve veri aktarımı.",
+        "Entegre anten ve kompakt tasarımı ile kolay kurulum ve kullanım.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arasında.",
+        "Darbe dayanıklılığı: 1 metre yükseklikten düşmeye karşı koruma."
+      ]
+    },
+    {
+      "id": 110,
+      "name": "CHCnav TX63",
+      "description": "Yüksek hassasiyetli makine kontrol sistemi.",
+      "images": [
+        "/marka-photos/chcnav/tx63-0.png",
+        "/marka-photos/chcnav/tx63-1.png",
+        "/marka-photos/chcnav/tx63-2.png",
+        "/marka-photos/chcnav/tx63-3.png"
+      ],
       "category": "makine-kontrol",
       "brand": "chcnav",
       "specs": [
-        "Hassas kazı ve dolgu kontrolü",
-        "GNSS bazlı otomatik yönlendirme",
-        "Gelişmiş kullanıcı arayüzü"
+        "Yüksek hassasiyetli GNSS ve IMU desteği ile otomatik seviye kontrol.",
+        "IP67 su ve toz geçirmezlik sertifikası.",
+        "MCNAV yazılımı ile kolay kullanım ve konfigürasyon.",
+        "10.1 inç endüstriyel dokunmatik ekran ile kontrol.",
+        "Tüm GNSS uydu sistemleri ile uyumlu.",
+        "Gelişmiş hidrolik kontrol sistemi.",
+        "Centimetre seviyesinde RTK doğruluğu."
       ]
     },
     {
-      "id": 13,
-      "name": "CHCNAV Haritalama Yazılımı",
-      "description": "Coğrafi bilgi sistemleri için CHCNAV yazılımı.",
-      "image": "/products/chcnav-yazilim.jpg",
-      "category": "yazilim",
+      "id": 111,
+      "name": "CHCnav TG63",
+      "description": "Motor greyderler için 3D otomatik seviye kontrol sistemi.",
+      "images": [
+        "/marka-photos/chcnav/tg63-1.jpg",
+        "/marka-photos/chcnav/tg63-2.jpg",
+        "/marka-photos/chcnav/tg63-3.jpg"
+      ],
+      "category": "makine-kontrol",
       "brand": "chcnav",
       "specs": [
-        "3D harita oluşturma",
-        "GNSS & Lidar veri işleme",
-        "Bulut tabanlı depolama"
+        "Yüksek hassasiyetli çift GNSS ve 100 Hz IMU ile otomatik bıçak kontrolü.",
+        "IP67 ve IP68 su ve toz geçirmezlik standartları.",
+        "10.1 inç Android dokunmatik ekran ve MCNAV yazılımı.",
+        "2D/3D dual mod desteği.",
+        "Endüstriyel anten ve IP68 metal kasa.",
+        "±2 cm yükseklik hassasiyeti.",
+        "Hidrolik kontrol sistemi ile yüksek doğruluk."
       ]
     },
     {
-      "id": 14,
-      "name": "DJI Drone Bataryası",
-      "description": "Yüksek kapasiteli DJI drone bataryası.",
-      "image": "/products/dji-batarya.jpg",
-      "category": "aksesuar",
-      "brand": "dji",
-      "specs": ["Yüksek kapasite", "Hızlı şarj desteği", "Uzun ömürlü pil"]
+      "id": 112,
+      "name": "CHCnav TD63 PRO",
+      "description": "Dozerler için 3D otomatik kontrol sistemi.",
+      "images": [
+        "/marka-photos/chcnav/td63pro-0.png",
+        "/marka-photos/chcnav/td63pro-1.png",
+        "/marka-photos/chcnav/td63pro-2.png",
+        "/marka-photos/chcnav/td63pro-3.png"
+      ],
+      "category": "makine-kontrol",
+      "brand": "chcnav",
+      "specs": [
+        "Çift GNSS ve 100 Hz IMU ile yüksek hassasiyetli otomatik bıçak kontrolü.",
+        "IP67 ve IP68 su ve toz geçirmezlik standardı.",
+        "10.1 inç Android dokunmatik ekran ve MCNAV yazılımı.",
+        "Centimetre seviyesinde RTK doğruluğu.",
+        "Hidrolik kontrol sistemi ile otomatik kontrol.",
+        "Endüstriyel anten ve sağlam kablo yapısı.",
+        "-40°C ile +85°C arasında çalışma sıcaklığı."
+      ]
     }
   ],
   "infoCards": [
@@ -373,7 +1682,7 @@
       "comment": "Drone çözümleri harika!"
     }
   ],
-  "references": [     
+  "references": [
     { "name": "ADM", "logo": "/ref-icons/adm.png" },
     { "name": "AFAD", "logo": "/ref-icons/afad.png" },
     { "name": "Afyon Üniversitesi", "logo": "/ref-icons/afyonuni.png" },
@@ -404,5 +1713,285 @@
     { "name": "KTÜ", "logo": "/ref-icons/ktu.png" },
     { "name": "Makimsan", "logo": "/ref-icons/makimsan.png" },
     { "name": "Malatya BB", "logo": "/ref-icons/malatyabb.png" }
+  ],
+
+  "sideBySideCards": [
+    {
+      "category": "gnss",
+      "left": [
+        {
+          "title": "Yüksek Hassasiyet",
+          "slogan": "Milimetre seviyesinde konumlandırma",
+          "text": "GNSS teknolojisi, çoklu frekans desteği ve RTK teknolojisi ile milimetre seviyesinde doğruluk sağlar. İnşaat, madencilik ve jeodezi gibi hassasiyet gerektiren projelerde kritik bir rol oynar.",
+          "leftImg": "/resimler/gnss-left-1.jpg"
+        },
+        {
+          "title": "Kesintisiz Çalışma",
+          "slogan": "Zorlu koşullarda bile güvenilir",
+          "text": "GNSS sistemleri, çoklu uydu takibi ve yedekleme mekanizmaları sayesinde en zorlu çevresel koşullarda bile kesintisiz çalışma imkanı sunar. Yoğun ağaçlık alanlar, şehir merkezleri ve dağlık bölgelerde dahi yüksek doğrulukta konumlandırma yapabilir. Bu özellik, özellikle madencilik, orman mühendisliği ve afet yönetimi gibi sürekli veri akışının kritik olduğu sektörlerde büyük avantaj sağlar.",
+          "leftImg": "/resimler/gnss-left-3.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "STEC GNSS Alıcısı",
+          "text": "RTK ve PPK desteği ile yüksek doğrulukta konumlandırma sağlar. Dayanıklı yapısı ile zorlu koşullarda kesintisiz hizmet sunar.",
+          "rightImg": "/resimler/gnss-right-1.JPG",
+          "sectors": ["İnşaat", "Madencilik", "Tarım"]
+        },
+        {
+          "title": "Trimble GNSS Alıcısı",
+          "text": "Trimble GNSS alıcısı, çoklu frekans desteği ve sağlam gövdesi ile zorlu saha koşullarında yüksek performans sunar. Gelişmiş RTK ve PPK teknolojisi ile milimetre seviyesinde hassasiyet sağlar. Kolay taşınabilir yapısı ve uzun pil ömrü sayesinde, büyük ölçekli projelerde kesintisiz veri toplama imkanı tanır.",
+          "rightImg": "/resimler/gnss-right-3.jpg",
+          "sectors": ["Madencilik", "Orman Mühendisliği", "Afet Yönetimi"]
+        }
+      ]
+    },
+    {
+      "category": "total-station",
+      "left": [
+        {
+          "title": "Hassas Ölçüm",
+          "slogan": "Milimetre hassasiyetinde veri toplama",
+          "text": "Total Station cihazları, lazer ve elektronik ölçüm teknolojileri ile yatay ve düşey açıları hassas bir şekilde ölçer.",
+          "leftImg": "/resimler/totalstation-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "SOKKIA Total Station",
+          "text": "İnşaat ve mühendislik projelerinde hassas ölçümler sağlar.",
+          "rightImg": "/resimler/totalstation-right-1.jpg",
+          "sectors": ["İnşaat", "Jeodezi"]
+        }
+      ]
+    },
+    {
+      "category": "iha",
+      "left": [
+        {
+          "title": "Havadan Haritalama",
+          "slogan": "Yüksek çözünürlüklü görüntüleme",
+          "text": "İHA'lar, gelişmiş kameralar ve Lidar ile donatılarak havadan yüksek çözünürlüklü haritalama yapar.",
+          "leftImg": "/resimler/iha-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "DJI Haritalama Dronu",
+          "text": "4K kamera ve Lidar entegrasyonu ile profesyonel haritalama projelerinde tercih edilir.",
+          "rightImg": "/resimler/iha-right-1.jpg",
+          "sectors": ["Tarım", "İnşaat", "Güvenlik"]
+        }
+      ]
+    },
+    {
+      "category": "lidar",
+      "left": [
+        {
+          "title": "3D Haritalama",
+          "slogan": "Lazerle milimetre hassasiyetinde ölçüm",
+          "text": "Lidar teknolojisi, lazer darbeleri ile üç boyutlu yüzey modelleri oluşturarak yüksek doğruluk sunar.",
+          "leftImg": "/resimler/lidar-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "CHCNAV Lidar Sensör",
+          "text": "Yüksek çözünürlükte tarama ve GNSS desteği ile kullanılır.",
+          "rightImg": "/resimler/lidar-right-1.jpg",
+          "sectors": ["Şehir Planlama", "Haritacılık"]
+        }
+      ]
+    },
+    {
+      "category": "nivo",
+      "left": [
+        {
+          "title": "Yükseklik Ölçümü",
+          "slogan": "Milimetrik hassasiyet",
+          "text": "İnşaat ve mühendislik projelerinde yükseklik farklarını hassas bir şekilde ölçer.",
+          "leftImg": "/resimler/nivo-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "Leica Nivo",
+          "text": "Kolay kullanım ve yüksek hassasiyet sunar.",
+          "rightImg": "/resimler/nivo-right-1.jpg",
+          "sectors": ["İnşaat", "Mühendislik"]
+        }
+      ]
+    },
+    {
+      "category": "batimetri",
+      "left": [
+        {
+          "title": "Su Altı Haritalama",
+          "slogan": "Sonar tabanlı ölçüm",
+          "text": "Batimetri sistemleri, sonar teknolojisi ile su altı yüzeylerinin detaylı haritalanmasını sağlar.",
+          "leftImg": "/resimler/batimetri-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "CHCNAV Batimetri Sensörü",
+          "text": "Sonar tabanlı ölçüm ve analiz sunar.",
+          "rightImg": "/resimler/batimetri-right-1.jpg",
+          "sectors": ["Liman", "Balıkçılık"]
+        }
+      ]
+    },
+    {
+      "category": "makine-kontrol",
+      "left": [
+        {
+          "title": "Otomatik Kontrol",
+          "slogan": "Hassas kazı ve dolgu",
+          "text": "GPS ve sensörlerle entegre çalışan sistemler, hassas kazı ve dolgu işlemlerini otomatik olarak gerçekleştirir.",
+          "leftImg": "/resimler/makinekontrol-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "CHCNAV Makine Kontrol Sistemi",
+          "text": "Otomatik yönlendirme ve hassas kontrol sunar.",
+          "rightImg": "/resimler/makinekontrol-right-1.jpg",
+          "sectors": ["İnşaat", "Madencilik"]
+        }
+      ]
+    },
+    {
+      "category": "aksesuar",
+      "left": [
+        {
+          "title": "Destekleyici Ekipman",
+          "slogan": "Verimliliği artırır",
+          "text": "Batarya, tripod ve kablolar gibi aksesuarlar, GNSS ve Lidar cihazlarının saha koşullarında daha etkili kullanılmasını sağlar.",
+          "leftImg": "/resimler/aksesuar-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "DJI Drone Bataryası",
+          "text": "Yüksek kapasite ve hızlı şarj özellikleri ile uzun süreli kullanım sağlar.",
+          "rightImg": "/resimler/aksesuar-right-1.jpg",
+          "sectors": ["Drone", "Haritacılık"]
+        }
+      ]
+    },
+    {
+      "category": "sensor",
+      "left": [
+        {
+          "title": "Akıllı Sensörler",
+          "slogan": "Çevresel verilerin toplanması",
+          "text": "Akıllı sensörler, sıcaklık, nem, basınç gibi çeşitli çevresel verileri toplayarak analiz eder. Kablosuz iletişim teknolojileri sayesinde, bu veriler anında işlenebilir ve uzaktan erişim sağlanabilir. Özellikle tarım, sanayi ve güvenlik alanlarında geniş bir kullanım yelpazesine sahiptir.",
+          "leftImg": "/resimler/sensor-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "SENCEIVE Sensör Sistemi",
+          "text": "SENCEIVE sensörleri, kablosuz veri iletimi ve uzun pil ömrü ile zorlu ortamlarda etkili çözümler sunar. Gelişmiş sensör ağı sayesinde, veri toplama süreçlerini hızlandırır ve kesintisiz izleme sağlar.",
+          "rightImg": "/resimler/sensor-right-1.jpg",
+          "sectors": ["Tarım", "Sanayi", "Güvenlik"]
+        }
+      ]
+    },
+    {
+      "category": "yazilim",
+      "left": [
+        {
+          "title": "Veri Analizi ve İşleme",
+          "slogan": "Hassas ve detaylı raporlama",
+          "text": "GNSS ve Lidar gibi çeşitli sensörlerden gelen verileri analiz eden yazılımlar, detaylı raporlama ve 3D modelleme imkanı sunar. Bu yazılımlar, büyük ölçekli projelerde veri yönetimini kolaylaştırır ve karar alma süreçlerini hızlandırır.",
+          "leftImg": "/resimler/yazilim-left-1.jpg"
+        }
+      ],
+      "right": [
+        {
+          "title": "CHCNAV Haritalama Yazılımı",
+          "text": "CHCNAV haritalama yazılımı, GNSS ve Lidar verilerini işleyerek 3D modelleme ve analiz sağlar. Kolay kullanımı ve bulut tabanlı altyapısı ile büyük projelerde tercih edilir.",
+          "rightImg": "/resimler/yazilim-right-1.jpg",
+          "sectors": ["Şehir Planlama", "Haritacılık", "İnşaat"]
+        }
+      ]
+    }
+  ],
+  "customerStories": [
+    {
+      "title": "Yenilikçi GNSS Çözümleri",
+      "description": "Yüksek hassasiyetli GNSS çözümleriyle projelerinizde fark yaratın.",
+      "imageLeft": "/assets/images/gnss-left.jpg",
+      "imageRight": "/assets/images/gnss-right.jpg",
+      "bottomText": "Bu çözüm sayesinde hassasiyet oranı %95 arttı.",
+      "brand": "Stec",
+      "type": "gnss"
+    },
+    {
+      "title": "DJI ve Lidar Teknolojisi",
+      "description": "Lidar ile hassas ölçümler yaparak projelerinizi bir adım öne taşıyın.",
+      "imageLeft": "/assets/images/lidar-left.jpg",
+      "imageRight": "/assets/images/lidar-right.jpg",
+      "bottomText": "Lidar teknolojisi ile %30 daha hızlı veri işleme.",
+      "brand": "DJI",
+      "type": "lidar"
+    }
+  ],
+  "pageSections": [
+    {
+      "type": "aboutus",
+      "title": "GNSS Teknik",
+      "subtitle": "Sizinle tanıştığımız için çok mutluyuz!",
+      "description": "GNSS Teknik olarak, hassas konumlandırma çözümlerinde lideriz. Müşteri odaklı yaklaşımımızla, ileri teknolojiyi sizlerle buluşturuyoruz.",
+      "paragraphs": [
+        "Yılların verdiği deneyim ve uzmanlık ile müşterilerimize en doğru çözümleri sunuyoruz.",
+        "Kalite ve güvenilirlikten ödün vermeden, inovatif teknolojilerle hizmetinizdeyiz."
+      ],
+      "otherp": [
+        "Haritalama ve konumlandırma çözümlerimiz, mühendislik ve inşaat projelerinde yüksek hassasiyet sağlar. GNSS cihazlarımız, her türlü saha koşulunda güvenilir veriler sunar.",
+        "İleri seviye GNSS sistemlerimiz, yer kontrol noktalarının belirlenmesi ve topoğrafik haritalama süreçlerini hızlandırır. Sürekli yenilenen teknolojimizle projelerinizi daha verimli hale getiriyoruz.",
+        "Müşterilerimize satış sonrası destek ve eğitim hizmetleriyle her adımda yanınızdayız. Uzman ekibimiz, cihaz kurulumundan yazılım entegrasyonuna kadar kapsamlı çözümler sunar.",
+        "GNSS Teknik olarak, Ar-Ge yatırımlarımız sayesinde teknolojiyi bir adım ileriye taşıyoruz. Çözüm ortaklarımızla birlikte daha güçlü ve etkili sistemler geliştiriyoruz.",
+        "Müşteri memnuniyetini en ön planda tutarak, ihtiyaçlarınıza özel çözümler üretiyoruz. Kaliteli hizmet ve güvenilirlik bizim için vazgeçilmezdir."
+      ],
+      "imageLeft": "/resimler/aboutus-left.jpg",
+      "imageRight": "/resimler/aboutus-right.jpg",
+      "buttonText": "Hakkımızda Daha Fazla",
+      "buttonLink": "/aboutus",
+      "layout": "right"
+    },
+    {
+      "type": "categories",
+      "title": "Teknoloji Kategorilerimiz",
+      "subtitle": "GNSS, Lidar ve Daha Fazlası!",
+      "description": "Farklı teknoloji kategorilerimizle ihtiyacınıza uygun çözümler sunuyoruz.",
+      "paragraphs": [
+        "GNSS ile hassas konumlandırma çözümleri.",
+        "Lidar teknolojisi ile detaylı haritalama.",
+        "İHA sistemleri ile hızlı ve etkili veri toplama."
+      ],
+      "imageLeft": "/resimler/kategori.jpg",
+      "imageRight": "",
+      "buttonText": "Tüm Kategorileri Gör",
+      "buttonLink": "/kategori",
+      "layout": "right"
+    },
+    {
+      "type": "marketing",
+      "title": "Yeni Marketing Sitemiz ile Tanışın!",
+      "subtitle": "Harita Mühendisliği ve Teknoloji Çözümleri",
+      "description": "Harita mühendisliği ve ileri teknoloji ürünlerimizle iş süreçlerinizi hızlandırın. Yeni marketing sitemizle birlikte, ihtiyacınıza uygun çözümleri daha hızlı ve etkili bir şekilde keşfedin.",
+      "paragraphs": [
+        "Haritalama teknolojilerimizle uydu, lidar ve GNSS çözümleri sunuyoruz. Hem bireysel hem de kurumsal müşterilerimize en güncel ve hassas haritalama hizmetlerini sağlamak için uzman mühendis kadromuzla çalışıyoruz.",
+        "Yeni marketing sitemizde, farklı sektörlere yönelik detaylı ürün kategorileri ve kullanım alanlarına göre öneriler bulabilirsiniz. Kapsamlı ürün bilgileri ve karşılaştırma tabloları sayesinde ihtiyaçlarınıza uygun çözümleri kolayca seçebilirsiniz. Ayrıca, satış sonrası destek ve eğitim hizmetlerimizle kullanıcı deneyimini en üst seviyeye taşıyoruz."
+      ],
+      "imageLeft": "/resimler/market.jpg",
+      "imageRight": "",
+      "buttonText": "Marketing Sitemizi İnceleyin",
+      "buttonLink": "/marketing",
+      "layout": "right"
+    }
   ]
 }
