@@ -3,7 +3,7 @@
     {
       "name": "GNSS",
       "title": "GNSS Teknolojisi: Hassas Konumlandırma",
-      "icon": "public/navbar-icons/gnss-icon.png",
+      "icon": "/navbar-icons/gnss-icon.png",
       "photo": "/navbar-photos/gnss.JPG",
       "path": "/gnss",
       "description": "GNSS (Global Navigation Satellite System), küresel ölçekte konum belirleme hizmeti sunan bir sistemler grubudur. Bu sistem, dünya üzerindeki herhangi bir noktayı hassas bir şekilde tespit edebilmek için yörüngede dönen uydulardan gelen sinyalleri kullanır. GNSS, özellikle GPS (Global Positioning System) ile tanınsa da, GLONASS, Galileo, BeiDou gibi başka sistemler de mevcuttur ve her biri farklı coğrafi bölgelerde hizmet verir. GNSS teknolojisi, enlem, boylam ve irtifa gibi konum bilgilerini yüksek doğrulukla sağlar. Ayrıca, hava, deniz ve kara ulaşımında, tarımda, haritalama işlerinde, coğrafi bilgi sistemlerinde (GIS) ve acil durum yönetiminde yaygın olarak kullanılır. GNSS sinyalleri, yalnızca konum değil, aynı zamanda zaman senkronizasyonu ve hız ölçümü gibi veriler de sunar. Bu sistemler, dünya genelinde kullanıcıların doğru konum bilgisine erişmelerini sağlamak için bir arada çalışır."
@@ -94,7 +94,7 @@
     },
     {
       "name": "CHCNAV",
-      "icon": "marka-icons/CHCNAV.png",
+      "icon": "marka-icons/chcnav.png",
       "path": "/chcnav",
       "banner-photo": "marka-photos/default-banner.jpg",
       "banner-description": "CHCNAV ile hassas konumlandırma çözümleri.",
@@ -113,21 +113,21 @@
     },
     {
       "name": "AUTEL",
-      "icon": "marka-icons/AUTEL.png",
+      "icon": "marka-icons/autel.png",
       "path": "/autel",
       "banner-photo": "marka-photos/autel-banner.jpg",
       "banner-description": "Autel ile gelişmiş hava haritalama.",
       "banner-url": "https://www.autel.com",
-      "filter": ["/iha","/yazilim", "/aksesuar"]
+      "filter": ["/iha", "/yazilim", "/aksesuar"]
     },
     {
       "name": "DJI",
-      "icon": "marka-icons/DJI.png",
+      "icon": "marka-icons/dji.png",
       "path": "/dji",
       "banner-photo": "marka-photos/dji-banner.JPG",
       "banner-description": "DJI ile profesyonel drone çözümleri.",
       "banner-url": "https://www.dji.com",
-      "filter": ["/iha","/yazilim", "/aksesuar"]
+      "filter": ["/iha", "/yazilim", "/aksesuar"]
     },
     {
       "name": "SOKKIA",
@@ -136,20 +136,27 @@
       "banner-photo": "marka-photos/default-banner.jpg",
       "banner-description": "SOKKIA ile ileri teknoloji ölçüm cihazları.",
       "banner-url": "https://www.sokkia.com",
-      "filter": ["/total-station","/nivo", "/aksesuar"]
+      "filter": ["/total-station", "/nivo", "/aksesuar"]
     },
     {
       "name": "STEC",
-      "icon": "marka-icons/STEC.png",
+      "icon": "marka-icons/stec.png",
       "path": "/stec",
       "banner-photo": "marka-photos/stec-banner.jpg",
       "banner-description": "STEC ile yüksek hassasiyetli ölçümler.",
       "banner-url": "https://www.stec.com",
-      "filter": ["/gnss", "/total-station", "/nivo","/lidar","/yazilim", "/aksesuar"]
+      "filter": [
+        "/gnss",
+        "/total-station",
+        "/nivo",
+        "/lidar",
+        "/yazilim",
+        "/aksesuar"
+      ]
     },
     {
       "name": "SENCEIVE",
-      "icon": "marka-icons/SENCEIVE.png",
+      "icon": "marka-icons/senceive.png",
       "path": "/senceive",
       "banner-photo": "marka-photos/default-banner.jpg",
       "banner-description": "SENCEIVE ile akıllı sensör sistemleri.",
@@ -158,7 +165,7 @@
     },
     {
       "name": "BENEWAKE",
-      "icon": "marka-icons/BENEWAKE.png",
+      "icon": "marka-icons/benewake.png",
       "path": "/benewake",
       "banner-photo": "marka-photos/default-banner.jpg",
       "banner-description": "BENEWAKE ile yüzey tarama çözümleri.",
@@ -187,9 +194,10 @@
       "name": "STEC AXIS-1 Total Station",
       "description": "Yüksek hassasiyetli ölçüm ve gelişmiş özellikler sunan total station.",
       "images": [
-        "/marka-photos/stec/stec-axis-1.1.JPG",
-        "/marka-photos/stec/stec-axis-1.2.JPG",
-        "/marka-photos/stec/stec-axis-1.3.JPG"
+        "/marka-photos/stec/axis-1.0.png",
+        "/marka-photos/stec/axis-1.1.png",
+        "/marka-photos/stec/axis-1.2.png",
+        "/marka-photos/stec/axis-1.3.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -208,9 +216,9 @@
       "name": "STEC AXIS-2 Total Station",
       "description": "Daha yüksek hassasiyet ve gelişmiş özellikler sunan AXIS-2 total station.",
       "images": [
-        "/marka-photos/stec/stec-axis-2.1.jpg",
-        "/marka-photos/stec/stec-axis-2.2.jpg",
-        "/marka-photos/stec/stec-axis-2.3.jpg"
+        "/marka-photos/stec/axis-2.0.png",
+        "/marka-photos/stec/axis-2.1.png",
+        "/marka-photos/stec/axis-2.2.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -229,9 +237,11 @@
       "name": "STEC AXIS-3 Total Station",
       "description": "Yüksek hassasiyet ve kullanıcı dostu arayüz sunan AXIS 3 total station.",
       "images": [
-        "/marka-photos/stec/stec-axis-3.1.jpg",
-        "/marka-photos/stec/stec-axis-3.2.jpg",
-        "/marka-photos/stec/stec-axis-3.3.jpg"
+        "/marka-photos/stec/axis-3.0.png",
+        "/marka-photos/stec/axis-3.1.png",
+        "/marka-photos/stec/axis-3.2.png",
+        "/marka-photos/stec/axis-3.3.png",
+        "/marka-photos/stec/axis-3.4.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -252,8 +262,11 @@
       "name": "STEC AXIS-4 Total Station",
       "description": "Yüksek hassasiyet ve esneklik sunan AXIS 4 serisi total station.",
       "images": [
-        "/marka-photos/stec/stec-axis-4.1.JPG",
-        "/marka-photos/stec/stec-axis-4.2.JPG"
+        "/marka-photos/stec/axis-4.0.png",
+        "/marka-photos/stec/axis-4.1.png",
+        "/marka-photos/stec/axis-4.2.png",
+        "/marka-photos/stec/axis-4.3.png",
+        "/marka-photos/stec/axis-4.4.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -276,9 +289,10 @@
       "name": "STEC AXIS-9 Total Station",
       "description": "Yüksek hassasiyet ve esneklik sunan AXIS 9 serisi total station.",
       "images": [
-        "/marka-photos/stec/stec-axis-9.1.jpg",
-        "/marka-photos/stec/stec-axis-9.2.jpg",
-        "/marka-photos/stec/stec-axis-9.3.jpg"
+        "/marka-photos/stec/axis-9.0.png",
+        "/marka-photos/stec/axis-9.1.png",
+        "/marka-photos/stec/axis-9.2.png",
+        "/marka-photos/stec/axis-9.3.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -299,8 +313,9 @@
       "name": "STEC AXIS-10 Robotic Total Station",
       "description": "Yüksek performans ve esneklik sunan AXIS 10 serisi robotic total station.",
       "images": [
-        "/marka-photos/stec/stec-axis-10.1.JPG",
-        "/marka-photos/stec/stec-axis-10.2.JPG"
+        "/marka-photos/stec/axis-10.0.png",
+        "/marka-photos/stec/axis-10.1.png",
+        "/marka-photos/stec/axis-10.2.png"
       ],
       "category": "total-station",
       "brand": "stec",
@@ -318,9 +333,9 @@
       "name": "STEC SE Lite GNSS Receiver",
       "description": "Küçük boyutuna rağmen yüksek performans sunan SE Lite GNSS alıcısı.",
       "images": [
-        "/marka-photos/stec/stec-se-lite.1.jpg",
-        "/marka-photos/stec/stec-se-lite.2.jpg",
-        "/marka-photos/stec/stec-se-lite.3.jpg"
+        "/marka-photos/stec/se-lite.0.png",
+        "/marka-photos/stec/se-lite.1.png",
+        "/marka-photos/stec/se-lite.2.png"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -340,10 +355,10 @@
       "name": "STEC SV1 GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan SV1 GNSS alıcısı.",
       "images": [
-        "/marka-photos/stec/stec-sv1.1.jpg",
-        "/marka-photos/stec/stec-sv1.2.jpg",
-        "/marka-photos/stec/stec-sv1.3.jpg",
-        "/marka-photos/stec/stec-sv1.4.jpg"
+        "/marka-photos/stec/sv1.0.png",
+        "/marka-photos/stec/sv1.1.png",
+        "/marka-photos/stec/sv1.2.png",
+        "/marka-photos/stec/sv1.3.png"
       ],
       "category": "gnss",
       "brand": "stec",
@@ -361,6 +376,33 @@
         "Kamera destekli AR stake-out çözümü ile hassas hedefleme sağlar."
       ]
     },
+    {
+      "id": 13,
+      "name": "STEC SDi GNSS Receiver",
+      "description": "Yüksek hassasiyetli, AR destekli ve IMU tabanlı GNSS alıcısı.",
+      "images": [
+        "/marka-photos/stec/sdi.0.png",
+        "/marka-photos/stec/sdi.1.png",
+        "/marka-photos/stec/sdi.2.png",
+        "/marka-photos/stec/sdi.3.png",
+        "/marka-photos/stec/sdi.4.png"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "specs": [
+        "1,408 kanal desteği ile tüm küresel GNSS sistemlerini destekler.",
+        "8mm RTK yatay, 15mm dikey hassasiyet sunar.",
+        "IMU destekli eğimli ölçüm özelliği ile 60°'ye kadar kalibrasyonsuz ölçüm yapabilir.",
+        "L-Band ve PPP (Precise Point Positioning) desteği sayesinde internet bağlantısı olmadan hassas konumlama yapabilir.",
+        "UHF Radyo Modemi (2W Tx/Rx) ile 15 km'ye kadar veri iletimi yapabilir.",
+        "Dahili 4G GSM, Wi-Fi ve Bluetooth desteği ile veri transferi kolaydır.",
+        "HDR destekli CMOS kamera ile AR destekli noktaları hassas bir şekilde hedefleyebilir.",
+        "IP68 su ve toz geçirmezlik sertifikasına sahiptir, -30°C ile 65°C arasında çalışabilir.",
+        "Magnesium alaşımlı gövdesi sayesinde hafif (890g) ve dayanıklıdır.",
+        "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
+        "NFC özelliği ile hızlı bağlantı kurulabilir."
+      ]
+    },    
     {
       "id": 22,
       "name": "CHCnav iBase GNSS Receiver",
@@ -556,9 +598,9 @@
       "name": "CHCnav LandStar 8 Yazılımı",
       "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
       "images": [
-        "/marka-photos/chcnav/landstar8-1.jpg",
-        "/marka-photos/chcnav/landstar8-2.jpg",
-        "/marka-photos/chcnav/landstar8-3.jpg"
+        "/marka-photos/chcnav/landstar8-0.png",
+        "/marka-photos/chcnav/landstar8-1.png",
+        "/marka-photos/chcnav/landstar8-2.png"
       ],
       "category": "yazilim",
       "brand": "chcnav",
@@ -587,9 +629,10 @@
       "name": "CHCnav CGO 2.0 Yazılımı",
       "description": "Gelişmiş GNSS veri işleme çözümleri sunan CGO 2.0 yazılımı.",
       "images": [
-        "/marka-photos/chcnav/cgo2-1.jpg",
-        "/marka-photos/chcnav/cgo2-2.jpg",
-        "/marka-photos/chcnav/cgo2-3.jpg"
+        "/marka-photos/chcnav/cgo2-0.png",
+        "/marka-photos/chcnav/cgo2-1.png",
+        "/marka-photos/chcnav/cgo2-2.png",
+        "/marka-photos/chcnav/cgo2-3.png"
       ],
       "category": "yazilim",
       "brand": "chcnav",
@@ -618,9 +661,8 @@
       "name": "CHCnav MapCloud 2.0",
       "description": "Güçlü haritalama motoru ve bulut tabanlı entegrasyon sunan GIS veri toplama ve haritalama uygulaması.",
       "images": [
-        "/marka-photos/chcnav/mapcloud-1.jpg",
-        "/marka-photos/chcnav/mapcloud-2.jpg",
-        "/marka-photos/chcnav/mapcloud-3.jpg"
+        "/marka-photos/chcnav/mapcloud-0.png",
+        "/marka-photos/chcnav/mapcloud-0.png"
       ],
       "category": "yazilim",
       "brand": "chcnav",
@@ -644,9 +686,8 @@
       "name": "CHCnav MAS",
       "description": "Veri görselleştirme ve alarm yönetimi sunan bulut tabanlı izleme ve alarm platformu.",
       "images": [
-        "/marka-photos/chcnav/mas-1.jpg",
-        "/marka-photos/chcnav/mas-2.jpg",
-        "/marka-photos/chcnav/mas-3.jpg"
+        "/marka-photos/chcnav/mas-0.png",
+        "/marka-photos/chcnav/mas-1.png"
       ],
       "category": "yazilim",
       "brand": "chcnav",
@@ -864,10 +905,10 @@
       "name": "CHCnav CTS-A100 Total Station",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan CTS-A100 total station.",
       "images": [
-        "/marka-photos/chcnav/cts-a100-0.jpg",
-        "/marka-photos/chcnav/cts-a100-1.jpg",
-        "/marka-photos/chcnav/cts-a100-2.jpg",
-        "/marka-photos/chcnav/cts-a100-3.jpg"
+        "/marka-photos/chcnav/cts-a100-0.png",
+        "/marka-photos/chcnav/cts-a100-1.png",
+        "/marka-photos/chcnav/cts-a100-2.png",
+        "/marka-photos/chcnav/cts-a100-3.png"
       ],
       "category": "total-station",
       "brand": "chcnav",
@@ -894,9 +935,9 @@
       "name": "CHCnav AA9 Airborne LiDAR + RGB System",
       "description": "Yüksek hassasiyetli hava LiDAR ve RGB sistemi ile hızlı ve doğru 3D haritalama.",
       "images": [
-        "/marka-photos/chcnav/aa9-1.jpg",
-        "/marka-photos/chcnav/aa9-2.jpg",
-        "/marka-photos/chcnav/aa9-3.jpg"
+        "/marka-photos/chcnav/aa9-1.png",
+        "/marka-photos/chcnav/aa9-2.png",
+        "/marka-photos/chcnav/aa9-3.png"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -1009,9 +1050,9 @@
       "name": "CHCnav AlphaUni 300/900/1300 LiDAR Sistemi",
       "description": "Yüksek hassasiyet ve esneklik sunan AlphaUni 300/900/1300 LiDAR sistemleri, çok platformlu haritalama çözümleri sağlar.",
       "images": [
-        "/marka-photos/chcnav/alphauni-1.jpg",
-        "/marka-photos/chcnav/alphauni-2.jpg",
-        "/marka-photos/chcnav/alphauni-3.jpg"
+        "/marka-photos/chcnav/alphauni-1.png",
+        "/marka-photos/chcnav/alphauni-2.png",
+        "/marka-photos/chcnav/alphauni-3.png"
       ],
       "category": "lidar",
       "brand": "chcnav",
@@ -1090,9 +1131,9 @@
       "name": "CHCnav CoProcess LiDAR İşleme Yazılımı",
       "description": "Gelişmiş LiDAR veri işleme ve analiz yetenekleri sunan CoProcess yazılımı, profesyonel haritalama ve analiz çözümleri sağlar.",
       "images": [
-        "/marka-photos/chcnav/copre-1.jpg",
-        "/marka-photos/chcnav/copre-2.jpg",
-        "/marka-photos/chcnav/copre-3.jpg"
+        "/marka-photos/chcnav/copre-1.png",
+        "/marka-photos/chcnav/copre-2.png",
+        "/marka-photos/chcnav/copre-3.png"
       ],
       "category": "yazilim",
       "brand": "chcnav",
@@ -1115,9 +1156,9 @@
       "name": "CHCnav CoPre LiDAR İşleme Yazılımı",
       "description": "Hızlı ve etkili LiDAR veri işleme çözümleri sunan CoPre, mobil haritalama için optimize edilmiş özellikler içerir.",
       "images": [
-        "/marka-photos/chcnav/copre-1.jpg",
-        "/marka-photos/chcnav/copre-2.jpg",
-        "/marka-photos/chcnav/copre-3.jpg"
+        "/marka-photos/chcnav/copre-1.png",
+        "/marka-photos/chcnav/copre-2.png",
+        "/marka-photos/chcnav/copre-3.png"
       ],
       "category": "yazilim",
       "brand": "chcnav",
@@ -1194,7 +1235,6 @@
         "/marka-photos/chcnav/c30-0.png",
         "/marka-photos/chcnav/c30-1.png",
         "/marka-photos/chcnav/c30-2.png"
-
       ],
       "category": "iha",
       "brand": "chcnav",
@@ -1437,9 +1477,9 @@
       "name": "CHCnav CGI-830 GNSS ve IMU Sensör",
       "description": "Gelişmiş GNSS ve IMU özellikli hassas konumlandırma ve yön bulma sensörü.",
       "images": [
-        "/marka-photos/chcnav/cgi-830-1.jpg",
-        "/marka-photos/chcnav/cgi-830-2.jpg",
-        "/marka-photos/chcnav/cgi-830-3.jpg"
+        "/marka-photos/chcnav/cgi-830-1.png",
+        "/marka-photos/chcnav/cgi-830-2.png",
+        "/marka-photos/chcnav/cgi-830-3.png"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -1464,7 +1504,6 @@
         "/marka-photos/chcnav/cgi-610-0.png",
         "/marka-photos/chcnav/cgi-610-1.png",
         "/marka-photos/chcnav/cgi-610-2.png"
-
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -1512,9 +1551,9 @@
       "name": "CHCnav CGI-230 GNSS ve IMU Sensör",
       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
       "images": [
-        "/marka-photos/chcnav/cgi-230-1.jpg",
-        "/marka-photos/chcnav/cgi-230-2.jpg",
-        "/marka-photos/chcnav/cgi-230-3.jpg"
+        "/marka-photos/chcnav/cgi-230-1.png",
+        "/marka-photos/chcnav/cgi-230-2.png",
+        "/marka-photos/chcnav/cgi-230-3.png"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -1538,9 +1577,10 @@
       "name": "CHCnav H3 GNSS Monitoring Receiver",
       "description": "Yüksek hassasiyetli ve çok yönlü GNSS izleme alıcısı.",
       "images": [
-        "/marka-photos/chcnav/h3-1.jpg",
-        "/marka-photos/chcnav/h3-2.jpg",
-        "/marka-photos/chcnav/h3-3.jpg"
+        "/marka-photos/chcnav/h3-0.png",
+        "/marka-photos/chcnav/h3-1.png",
+        "/marka-photos/chcnav/h3-2.png",
+        "/marka-photos/chcnav/h3-3.png"
       ],
       "category": "sensor",
       "brand": "chcnav",
@@ -1587,7 +1627,7 @@
       "name": "CHCnav TG63",
       "description": "Motor greyderler için 3D otomatik seviye kontrol sistemi.",
       "images": [
-        "/marka-photos/chcnav/tg63-1.jpg",
+        "/marka-photos/chcnav/tg63-1.png",
         "/marka-photos/chcnav/tg63-2.jpg",
         "/marka-photos/chcnav/tg63-3.jpg"
       ],

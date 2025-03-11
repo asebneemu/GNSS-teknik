@@ -48,10 +48,11 @@ export default function ProductDetailPage() {
         ← Geri Dön
       </button>
 
-      <div className="flex gap-8 justify-center items-start">
-        {/* Sol Kısım: Küçük Resimler ve Büyük Resim */}
-        <div className="flex w-1/2 items-start">
-          {/* Küçük Resimler: Sol Yanında ve Alt Alta */}
+      {/* Resimler ve Bilgiler */}
+      <div className="flex flex-col md:flex-row gap-8 justify-center items-center md:items-start">
+        {/* Resimler Kısmı */}
+        <div className="flex w-full md:w-1/2 items-start">
+          {/* Küçük Resimler */}
           <div className="flex flex-col space-y-4 mr-4 mt-10 max-h-[600px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
             {product.images?.slice(1).map((image, index) => (
               <img
@@ -66,7 +67,7 @@ export default function ProductDetailPage() {
             ))}
           </div>
 
-          {/* Büyük Resim: Sağda, Yazıya Yakın */}
+          {/* Büyük Resim */}
           <div className="w-[450px] h-[600px] rounded-md overflow-hidden ml-auto mr-4">
             <img
               src={mainImage}
@@ -77,8 +78,8 @@ export default function ProductDetailPage() {
           </div>
         </div>
 
-        {/* Sağ Kısım: Ürün Bilgileri (Sola Yaslı) */}
-        <div className="w-1/2 flex flex-col justify-center text-left">
+        {/* Ürün Bilgileri */}
+        <div className="w-full md:w-1/2 flex flex-col justify-center text-left">
           <h1 className="text-4xl font-bold text-gray-900">{product.name}</h1>
           <p className="text-lg text-gray-700 mt-4">{product.description}</p>
           {product.specs && (

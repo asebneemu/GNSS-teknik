@@ -56,7 +56,7 @@ export default function NavbarMain() {
               <NavbarLink
                 icon={
                   <img 
-                    src={`/${item.icon}`} 
+                  src={`${import.meta.env.BASE_URL}${item.icon}`} 
                     alt={item.name} 
                     className="w-12 transition-all"  
                   />
