@@ -3,7 +3,7 @@
     {
       "name": "GNSS",
       "title": "GNSS Teknolojisi: Hassas Konumlandırma",
-      "icon": "/navbar-icons/gnss-icon.png",
+      "icon": "public/navbar-icons/gnss-icon.png",
       "photo": "/navbar-photos/gnss.JPG",
       "path": "/gnss",
       "description": "GNSS (Global Navigation Satellite System), küresel ölçekte konum belirleme hizmeti sunan bir sistemler grubudur. Bu sistem, dünya üzerindeki herhangi bir noktayı hassas bir şekilde tespit edebilmek için yörüngede dönen uydulardan gelen sinyalleri kullanır. GNSS, özellikle GPS (Global Positioning System) ile tanınsa da, GLONASS, Galileo, BeiDou gibi başka sistemler de mevcuttur ve her biri farklı coğrafi bölgelerde hizmet verir. GNSS teknolojisi, enlem, boylam ve irtifa gibi konum bilgilerini yüksek doğrulukla sağlar. Ayrıca, hava, deniz ve kara ulaşımında, tarımda, haritalama işlerinde, coğrafi bilgi sistemlerinde (GIS) ve acil durum yönetiminde yaygın olarak kullanılır. GNSS sinyalleri, yalnızca konum değil, aynı zamanda zaman senkronizasyonu ve hız ölçümü gibi veriler de sunar. Bu sistemler, dünya genelinde kullanıcıların doğru konum bilgisine erişmelerini sağlamak için bir arada çalışır."
@@ -402,10 +402,129 @@
         "USB Type-C üzerinden hızlı şarj ve veri aktarımı destekler.",
         "NFC özelliği ile hızlı bağlantı kurulabilir."
       ]
-    },    
+    },
+    {
+      "id": 14,
+      "name": "STEC LiScan50 Handheld Laser Scanner",
+      "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
+      "images": [
+        "/marka-photos/stec/liscan50.0.png",
+        "/marka-photos/stec/liscan50.1.png",
+        "/marka-photos/stec/liscan50.2.png",
+        "/marka-photos/stec/liscan50.3.png",
+        "/marka-photos/stec/liscan50.4.png"
+      ],
+      "category": "lidar",
+      "brand": "stec",
+      "specs": [
+        "70m maksimum ölçüm menzili (R=80%), 40m ölçüm menzili (R=10%)",
+        "905nm dalga boyu ile Class I lazer teknolojisi",
+        "FOV: 360° yatay, -7° ile +52° dikey görüş açısı",
+        "200,000 nokta/saniye ölçüm hızı",
+        "2cm rölatif, 5cm mutlak doğruluk",
+        "18 megapiksel panoramik kamera",
+        "Ergonomik ve hafif tasarım: 1,010g (kamera ve batarya dahil)",
+        "-10˚C ile +50˚C çalışma sıcaklığı, -20˚C ile +60˚C depolama sıcaklığı",
+        "20W güç tüketimi, 12V - 17.6V DC güç kaynağı",
+        "1.5 saat batarya süresi",
+        "64GB USB flash disk veri depolama",
+        "Tripod, base plate, pole ile uyumluluk",
+        "USB Type-C üzerinden şarj ve veri aktarımı",
+        "SLAM teknolojisi ile hareket halinde veri kaydı"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "STEC LiScan100 El Tipi Lazer Tarayıcı",
+      "description": "Kablosuz, hafif ve kullanımı kolay LiDAR tarayıcı. Yüksek hassasiyetli nokta bulutları ve panoramik görüntüler yakalar.",
+      "images": [
+        "/marka-photos/stec/liscan100.0.png",
+        "/marka-photos/stec/liscan100.1.png",
+        "/marka-photos/stec/liscan100.2.png",
+        "/marka-photos/stec/liscan100.3.png",
+        "/marka-photos/stec/liscan100.4.png"
+      ],
+      "category": "lidar",
+      "brand": "stec",
+      "specs": [
+        "120m/300m maksimum ölçüm menzili",
+        "905nm dalga boyu ile Class I lazer teknolojisi",
+        "FOV: 360° yatay, 260° dikey görüş açısı",
+        "320,000 nokta/saniye ölçüm hızı",
+        "1cm rölatif, 3-5cm mutlak doğruluk",
+        "72 megapiksel panoramik kamera",
+        "Ergonomik ve hafif tasarım: havacılık alüminyumu ve seramik kaplama",
+        "-10˚C ile +50˚C çalışma sıcaklığı, -20˚C ile +60˚C depolama sıcaklığı",
+        "20W güç tüketimi, 12V - 17.6V DC güç kaynağı",
+        "3 saat batarya süresi",
+        "Tripod, base plate, pole ile uyumluluk",
+        "USB Type-C üzerinden şarj ve veri aktarımı",
+        "SLAM teknolojisi ile hareket halinde veri kaydı",
+        "GNSS modülü ile CORS bağlantısı ve gerçek zamanlı kinematik konumlandırma",
+        "Uygulama üzerinden gerçek zamanlı tarama izleme ve nokta bulutu önizlemesi"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "STEC DLS-15 Dijital Nivelman Cihazı",
+      "description": "Hassas yükseklik ölçümleri için tasarlanmış dijital seviyelendirme cihazı. Optik ve dijital okuma ile yüksek doğruluk sunar.",
+      "images": [
+        "/marka-photos/stec/dls-1507.0.png",
+        "/marka-photos/stec/dls-1507.1.png",
+        "/marka-photos/stec/dls-1507.2.png",
+        "/marka-photos/stec/dls-1507.3.png",
+        "/marka-photos/stec/dls-1507.4.png"
+      ],
+      "category": "nivo",
+      "brand": "stec",
+      "specs": [
+        "1.5mm (dijital okuma) ve 2.0mm (optik okuma) yükseklik doğruluğu",
+        "1.5m - 100m dijital ölçüm mesafesi",
+        "D ≤ 10m: 10mm, D > 10m: D * 0.001 mesafe doğruluğu",
+        "1mm / 0.5mm hassasiyetle minimum yükseklik farkı gösterimi",
+        "32x büyütmeli teleskop ve 3” çözünürlük",
+        "1°20′ görüş açısı",
+        "Manyetik sönümlü kompansatör ile ±12′ dengeleme aralığı",
+        "16MB dahili veri depolama kapasitesi",
+        "Mini-USB bağlantı arayüzü",
+        "LCD ekran (128×32 dpi) ve aydınlatmalı gösterge",
+        "-20℃ ile +50℃ çalışma sıcaklık aralığı",
+        "230mm x 150mm x 210mm boyutlarında, 2.5kg ağırlık"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "STEC DLS-03 Dijital Nivelman Cihazı",
+      "description": "Hassas yükseklik ölçümleri için tasarlanmış dijital seviyelendirme cihazı. Optik ve dijital okuma ile yüksek doğruluk sunar.",
+      "images": [
+        "/marka-photos/stec/dls03.0.png",
+        "/marka-photos/stec/dls03.1.png",
+        "/marka-photos/stec/dls03.2.png",
+        "/marka-photos/stec/dls03.3.png",
+        "/marka-photos/stec/dls03.4.png",
+        "/marka-photos/stec/dls03.5.png"
+      ],
+      "category": "nivo",
+      "brand": "stec",
+      "specs": [
+        "0.3mm (dijital okuma) ve 2.0mm (optik okuma) yükseklik doğruluğu",
+        "2m - 110m dijital ölçüm mesafesi",
+        "D ≤ 10m: 10mm, D > 10m: D * 0.001 mesafe doğruluğu",
+        "0.01mm / 0.1mm / 1mm hassasiyetle minimum yükseklik farkı gösterimi",
+        "32x büyütmeli teleskop ve 3” çözünürlük",
+        "1°30′ görüş açısı",
+        "Manyetik sönümlü kompansatör ile ±12′ dengeleme aralığı",
+        "128MB dahili veri depolama kapasitesi",
+        "Mini-USB bağlantı arayüzü",
+        "LCD ekran (128×32 dpi) ve aydınlatmalı gösterge",
+        "-20℃ ile +50℃ çalışma sıcaklık aralığı",
+        "230mm x 225mm x 203mm boyutlarında, 3.1kg ağırlık",
+        "IP65 su ve toz geçirmezlik sertifikası"
+      ]
+    },
     {
       "id": 22,
-      "name": "CHCnav iBase GNSS Receiver",
+      "name": "CHCNAV iBase GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan iBase GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/iBase-0.png",
@@ -434,7 +553,7 @@
     },
     {
       "id": 23,
-      "name": "CHCnav i73+ GNSS Receiver",
+      "name": "CHCNAV i73+ GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan i73+ GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/i73+-0.png",
@@ -463,7 +582,7 @@
     },
     {
       "id": 24,
-      "name": "CHCnav i83 GNSS Receiver",
+      "name": "CHCNAV i83 GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan i83 GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/i83-0.png",
@@ -495,7 +614,7 @@
     },
     {
       "id": 25,
-      "name": "CHCnav i93 GNSS Receiver",
+      "name": "CHCNAV i93 GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan i93 GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/i93-0.png",
@@ -530,7 +649,7 @@
     },
     {
       "id": 26,
-      "name": "CHCnav i89 GNSS Receiver",
+      "name": "CHCNAV i89 GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan i89 GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/i89-0.png",
@@ -562,7 +681,7 @@
     },
     {
       "id": 27,
-      "name": "CHCnav i76 GNSS Receiver",
+      "name": "CHCNAV i76 GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan i76 GNSS alıcısı.",
       "images": [
         "/marka-photos/chcnav/i76-0.png",
@@ -595,7 +714,7 @@
     },
     {
       "id": 30,
-      "name": "CHCnav LandStar 8 Yazılımı",
+      "name": "CHCNAV LandStar 8 Yazılımı",
       "description": "Gelişmiş haritalama ve ölçüm çözümleri sunan LandStar 8 yazılımı.",
       "images": [
         "/marka-photos/chcnav/landstar8-0.png",
@@ -626,7 +745,7 @@
     },
     {
       "id": 31,
-      "name": "CHCnav CGO 2.0 Yazılımı",
+      "name": "CHCNAV CGO 2.0 Yazılımı",
       "description": "Gelişmiş GNSS veri işleme çözümleri sunan CGO 2.0 yazılımı.",
       "images": [
         "/marka-photos/chcnav/cgo2-0.png",
@@ -658,7 +777,7 @@
     },
     {
       "id": 32,
-      "name": "CHCnav MapCloud 2.0",
+      "name": "CHCNAV MapCloud 2.0",
       "description": "Güçlü haritalama motoru ve bulut tabanlı entegrasyon sunan GIS veri toplama ve haritalama uygulaması.",
       "images": [
         "/marka-photos/chcnav/mapcloud-0.png",
@@ -683,7 +802,7 @@
     },
     {
       "id": 33,
-      "name": "CHCnav MAS",
+      "name": "CHCNAV MAS",
       "description": "Veri görselleştirme ve alarm yönetimi sunan bulut tabanlı izleme ve alarm platformu.",
       "images": [
         "/marka-photos/chcnav/mas-0.png",
@@ -708,7 +827,7 @@
     },
     {
       "id": 36,
-      "name": "CHCnav P5U GNSS Reference Receiver",
+      "name": "CHCNAV P5U GNSS Reference Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
       "images": [
         "/marka-photos/chcnav/p5-0.png",
@@ -735,7 +854,7 @@
     },
     {
       "id": 37,
-      "name": "CHCnav P5E-Net GNSS Receiver",
+      "name": "CHCNAV P5E-Net GNSS Receiver",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan P5E-Net GNSS referans alıcısı.",
       "images": [
         "/marka-photos/chcnav/p5e-0.png",
@@ -762,7 +881,7 @@
     },
     {
       "id": 38,
-      "name": "CHCnav DL8 Datalink",
+      "name": "CHCNAV DL8 Datalink",
       "description": "Uzun mesafe GNSS RTK düzeltmeleri için güvenilir veri iletimi sunan UHF radyo modem.",
       "images": [
         "/marka-photos/chcnav/dl8-0.png",
@@ -787,7 +906,7 @@
     },
     {
       "id": 41,
-      "name": "CHCnav LT60H Rugged GNSS Smartphone",
+      "name": "CHCNAV LT60H Rugged GNSS Smartphone",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan LT60H GNSS akıllı telefon.",
       "images": [
         "/marka-photos/chcnav/lt60h-0.png",
@@ -815,7 +934,7 @@
     },
     {
       "id": 42,
-      "name": "CHCnav LT800H GNSS RTK Rugged Tablet",
+      "name": "CHCNAV LT800H GNSS RTK Rugged Tablet",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan LT800H GNSS RTK tablet.",
       "images": [
         "/marka-photos/chcnav/lt800h-0.png",
@@ -846,7 +965,7 @@
     },
     {
       "id": 43,
-      "name": "CHCnav HCE600 Rugged Field Controller",
+      "name": "CHCNAV HCE600 Rugged Field Controller",
       "description": "Yüksek dayanıklılık ve hassasiyet sunan HCE600 saha kontrol cihazı.",
       "images": [
         "/marka-photos/chcnav/hce600-0.png",
@@ -874,7 +993,7 @@
     },
     {
       "id": 45,
-      "name": "CHCnav LT700H RTK Android Tablet",
+      "name": "CHCNAV LT700H RTK Android Tablet",
       "description": "Dayanıklı yapısı ve yüksek hassasiyetli GNSS desteği ile LT700H RTK tableti.",
       "images": [
         "/marka-photos/chcnav/lt700h-0.png",
@@ -902,7 +1021,7 @@
     },
     {
       "id": 50,
-      "name": "CHCnav CTS-A100 Total Station",
+      "name": "CHCNAV CTS-A100 Total Station",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan CTS-A100 total station.",
       "images": [
         "/marka-photos/chcnav/cts-a100-0.png",
@@ -932,7 +1051,7 @@
     },
     {
       "id": 59,
-      "name": "CHCnav AA9 Airborne LiDAR + RGB System",
+      "name": "CHCNAV AA9 Airborne LiDAR + RGB System",
       "description": "Yüksek hassasiyetli hava LiDAR ve RGB sistemi ile hızlı ve doğru 3D haritalama.",
       "images": [
         "/marka-photos/chcnav/aa9-1.png",
@@ -959,7 +1078,7 @@
     },
     {
       "id": 60,
-      "name": "CHCnav AA10 LiDAR Sistemi",
+      "name": "CHCNAV AA10 LiDAR Sistemi",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan AA10 LiDAR+RGB sistemi.",
       "images": [
         "/marka-photos/chcnav/aa10-0.png",
@@ -988,7 +1107,7 @@
     },
     {
       "id": 61,
-      "name": "CHCnav AA15 LiDAR Sistemi",
+      "name": "CHCNAV AA15 LiDAR Sistemi",
       "description": "Yüksek hassasiyet ve hızlı veri toplama sunan AA15 LiDAR sistemi.",
       "images": [
         "/marka-photos/chcnav/aa15-0.png",
@@ -1017,7 +1136,7 @@
     },
     {
       "id": 62,
-      "name": "CHCnav AA450 LiDAR Sistemi",
+      "name": "CHCNAV AA450 LiDAR Sistemi",
       "description": "Hafif ve yüksek performanslı AA450 LiDAR sistemi, UAV tabanlı hassas haritalama çözümleri sunar.",
       "images": [
         "/marka-photos/chcnav/aa450-0.png",
@@ -1047,7 +1166,7 @@
     },
     {
       "id": 63,
-      "name": "CHCnav AlphaUni 300/900/1300 LiDAR Sistemi",
+      "name": "CHCNAV AlphaUni 300/900/1300 LiDAR Sistemi",
       "description": "Yüksek hassasiyet ve esneklik sunan AlphaUni 300/900/1300 LiDAR sistemleri, çok platformlu haritalama çözümleri sağlar.",
       "images": [
         "/marka-photos/chcnav/alphauni-1.png",
@@ -1073,7 +1192,7 @@
     },
     {
       "id": 64,
-      "name": "CHCnav AU20 LiDAR Sistemi",
+      "name": "CHCNAV AU20 LiDAR Sistemi",
       "description": "Esnek ve yüksek performanslı AU20 LiDAR sistemi, çok platformlu haritalama çözümleri sunar.",
       "images": [
         "/marka-photos/chcnav/au20-0.png",
@@ -1099,7 +1218,7 @@
     },
     {
       "id": 65,
-      "name": "CHCnav RS10 Lidar",
+      "name": "CHCNAV RS10 Lidar",
       "description": "İç ve dış mekanlarda yüksek hassasiyetli 3D tarama ve haritalama yapabilen taşınabilir Lidar çözümü.",
       "images": [
         "/marka-photos/chcnav/rs10-0.png",
@@ -1128,7 +1247,7 @@
     },
     {
       "id": 68,
-      "name": "CHCnav CoProcess LiDAR İşleme Yazılımı",
+      "name": "CHCNAV CoProcess LiDAR İşleme Yazılımı",
       "description": "Gelişmiş LiDAR veri işleme ve analiz yetenekleri sunan CoProcess yazılımı, profesyonel haritalama ve analiz çözümleri sağlar.",
       "images": [
         "/marka-photos/chcnav/copre-1.png",
@@ -1153,7 +1272,7 @@
     },
     {
       "id": 69,
-      "name": "CHCnav CoPre LiDAR İşleme Yazılımı",
+      "name": "CHCNAV CoPre LiDAR İşleme Yazılımı",
       "description": "Hızlı ve etkili LiDAR veri işleme çözümleri sunan CoPre, mobil haritalama için optimize edilmiş özellikler içerir.",
       "images": [
         "/marka-photos/chcnav/copre-1.png",
@@ -1177,8 +1296,8 @@
     },
     {
       "id": 70,
-      "name": "CHCnav X500 IHA",
-      "description": "Yüksek performans ve esneklik sunan X500 IHA, çok platformlu haritalama ve keşif çözümleri sunar.",
+      "name": "CHCNAV X500 İHA",
+      "description": "Yüksek performans ve esneklik sunan X500 İHA, çok platformlu haritalama ve keşif çözümleri sunar.",
       "images": [
         "/marka-photos/chcnav/x500-0.png",
         "/marka-photos/chcnav/x500-1.png",
@@ -1204,7 +1323,7 @@
     },
     {
       "id": 71,
-      "name": "CHCnav C5 IHA Hava Haritalama Kamerası",
+      "name": "CHCNAV C5 İHA Hava Haritalama Kamerası",
       "description": "Hafif ve yüksek performanslı C5 kamera, hava haritalama ve fotogrametrik uygulamalar için tasarlanmıştır.",
       "images": [
         "/marka-photos/chcnav/c5-0.png",
@@ -1229,7 +1348,7 @@
     },
     {
       "id": 72,
-      "name": "CHCnav C30 IHA Hava Haritalama Kamerası",
+      "name": "CHCNAV C30 İHA Hava Haritalama Kamerası",
       "description": "Profesyonel hava haritalama çözümleri sunan C30 kamera, yüksek çözünürlüklü ve hassas çekimler yapar.",
       "images": [
         "/marka-photos/chcnav/c30-0.png",
@@ -1254,7 +1373,7 @@
     },
     {
       "id": 80,
-      "name": "CHCnav APACHE 3 Batimetri",
+      "name": "CHCNAV APACHE 3 Batimetri",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 3, hidroğrafik ölçümler için optimize edilmiştir.",
       "images": [
         "/marka-photos/chcnav/apache3-0.png",
@@ -1275,7 +1394,7 @@
     },
     {
       "id": 81,
-      "name": "CHCnav APACHE 3 PRO Batimetri",
+      "name": "CHCNAV APACHE 3 PRO Batimetri",
       "description": "Gelişmiş hidroğrafik ölçüm özellikleriyle donatılmış APACHE 3 PRO, profesyonel kullanımlar için idealdir.",
       "images": [
         "/marka-photos/chcnav/apache3pro-0.png",
@@ -1297,7 +1416,7 @@
     },
     {
       "id": 82,
-      "name": "CHCnav APACHE 4 Batimetri",
+      "name": "CHCNAV APACHE 4 Batimetri",
       "description": "Yüksek hassasiyet ve dayanıklılık sunan APACHE 4, hidroğrafik ölçümler için optimize edilmiştir.",
       "images": [
         "/marka-photos/chcnav/apache4-0.png",
@@ -1319,7 +1438,7 @@
     },
     {
       "id": 83,
-      "name": "CHCnav APACHE 6 Batimetri",
+      "name": "CHCNAV APACHE 6 Batimetri",
       "description": "Yüksek çözünürlüklü çok ışınlı eko sondaj desteği ile APACHE 6, kapsamlı denizcilik ölçümleri için idealdir.",
       "images": [
         "/marka-photos/chcnav/apache6-0.png",
@@ -1341,7 +1460,7 @@
     },
     {
       "id": 90,
-      "name": "CHCnav D270 Hidrografik Sistem",
+      "name": "CHCNAV D270 Hidrografik Sistem",
       "description": "Hassas batimetrik ölçümler ve deniz tabanı haritalama için optimize edilmiş D270 sistemi.",
       "images": [
         "/marka-photos/chcnav/d270-0.png",
@@ -1363,7 +1482,7 @@
     },
     {
       "id": 91,
-      "name": "CHCnav D390 Hidrografik Sistem",
+      "name": "CHCNAV D390 Hidrografik Sistem",
       "description": "Profesyonel batimetrik ölçüm ve denizcilik uygulamaları için D390.",
       "images": [
         "/marka-photos/chcnav/d390-0.png",
@@ -1385,7 +1504,7 @@
     },
     {
       "id": 92,
-      "name": "CHCnav RS600 Hidrografik Sistem",
+      "name": "CHCNAV RS600 Hidrografik Sistem",
       "description": "Akustik doppler akım profili ölçümleri için RS600 sistemi.",
       "images": [
         "/marka-photos/chcnav/rs600-0.png",
@@ -1406,7 +1525,7 @@
     },
     {
       "id": 93,
-      "name": "CHCnav RS1200 Hidrografik Sistem",
+      "name": "CHCNAV RS1200 Hidrografik Sistem",
       "description": "Yüksek hassasiyetli akustik doppler akım profili ölçümleri için RS1200 sistemi.",
       "images": [
         "/marka-photos/chcnav/rs1200-0.png",
@@ -1427,7 +1546,7 @@
     },
     {
       "id": 94,
-      "name": "CHCnav HQ-400 Hidrografik Sistem",
+      "name": "CHCNAV HQ-400 Hidrografik Sistem",
       "description": "Çoklu ışınlı eko sondaj ve hassas batimetrik ölçümler için HQ-400.",
       "images": [
         "/marka-photos/chcnav/hq-400-0.png",
@@ -1449,7 +1568,7 @@
     },
     {
       "id": 100,
-      "name": "CHCnav PS-2000 Sensör",
+      "name": "CHCNAV PS-2000 Sensör",
       "description": "Yüksek hassasiyetli ve temassız deformasyon izleme sistemi.",
       "images": [
         "/marka-photos/chcnav/ps2000-0.png",
@@ -1474,7 +1593,7 @@
     },
     {
       "id": 101,
-      "name": "CHCnav CGI-830 GNSS ve IMU Sensör",
+      "name": "CHCNAV CGI-830 GNSS ve IMU Sensör",
       "description": "Gelişmiş GNSS ve IMU özellikli hassas konumlandırma ve yön bulma sensörü.",
       "images": [
         "/marka-photos/chcnav/cgi-830-1.png",
@@ -1498,7 +1617,7 @@
     },
     {
       "id": 102,
-      "name": "CHCnav CGI-610 GNSS ve IMU Sensör",
+      "name": "CHCNAV CGI-610 GNSS ve IMU Sensör",
       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
       "images": [
         "/marka-photos/chcnav/cgi-610-0.png",
@@ -1522,7 +1641,7 @@
     },
     {
       "id": 103,
-      "name": "CHCnav P2 GNSS ve IMU Sensör",
+      "name": "CHCNAV P2 GNSS ve IMU Sensör",
       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
       "images": [
         "/marka-photos/chcnav/p2-0.png",
@@ -1548,7 +1667,7 @@
     },
     {
       "id": 104,
-      "name": "CHCnav CGI-230 GNSS ve IMU Sensör",
+      "name": "CHCNAV CGI-230 GNSS ve IMU Sensör",
       "description": "Yüksek hassasiyetli GNSS ve IMU özellikli izleme ve konumlandırma sensörü.",
       "images": [
         "/marka-photos/chcnav/cgi-230-1.png",
@@ -1574,7 +1693,7 @@
     },
     {
       "id": 105,
-      "name": "CHCnav H3 GNSS Monitoring Receiver",
+      "name": "CHCNAV H3 GNSS Monitoring Receiver",
       "description": "Yüksek hassasiyetli ve çok yönlü GNSS izleme alıcısı.",
       "images": [
         "/marka-photos/chcnav/h3-0.png",
@@ -1602,7 +1721,7 @@
     },
     {
       "id": 110,
-      "name": "CHCnav TX63",
+      "name": "CHCNAV TX63",
       "description": "Yüksek hassasiyetli makine kontrol sistemi.",
       "images": [
         "/marka-photos/chcnav/tx63-0.png",
@@ -1624,7 +1743,7 @@
     },
     {
       "id": 111,
-      "name": "CHCnav TG63",
+      "name": "CHCNAV TG63",
       "description": "Motor greyderler için 3D otomatik seviye kontrol sistemi.",
       "images": [
         "/marka-photos/chcnav/tg63-1.png",
@@ -1645,7 +1764,7 @@
     },
     {
       "id": 112,
-      "name": "CHCnav TD63 PRO",
+      "name": "CHCNAV TD63 PRO",
       "description": "Dozerler için 3D otomatik kontrol sistemi.",
       "images": [
         "/marka-photos/chcnav/td63pro-0.png",
@@ -1664,7 +1783,532 @@
         "Endüstriyel anten ve sağlam kablo yapısı.",
         "-40°C ile +85°C arasında çalışma sıcaklığı."
       ]
-    }
+    },
+    {
+      "id": 201,
+      "name": "DJI Matrice 350 RTK",
+      "description": "Üst düzey güvenlik ve gelişmiş otonom uçuş özellikleri sunan endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m350-0.png",
+        "/marka-photos/dji/m350-1.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "55 Dakika Maksimum Uçuş Süresi: Uzun süreli operasyonlar için kesintisiz performans.",
+        "IP55 Koruma Seviyesi: Zorlu hava koşullarında bile güvenli uçuş.",
+        "20 km Maksimum İletim Mesafesi: O3 Enterprise ile 4 antenli sistem ve geliştirilmiş sinyal gücü.",
+        "TB65 Akıllı Batarya: 400 şarj döngüsü, hızlı şarj ve düşük sıcaklıkta otomatik ısınma.",
+        "Gece Görüş FPV Kamerası: Düşük ışık koşullarında çevreyi net bir şekilde görüntüleme.",
+        "6 Yönlü Sensör ve CSM Radar: 360° engel algılama ve hassas konumlandırma.",
+        "DJI RC Plus Kontrol Cihazı: 7 inç yüksek parlaklık ekran, IP54 koruma ve -20°C ile +50°C çalışma sıcaklığı.",
+        "Yeni GNSS & RTK Modülü: GPS, GLONASS, BeiDou ve Galileo desteği ile daha hızlı RTK sabitleme.",
+        "2.7 kg Maksimum Taşıma Kapasitesi: Çift gimbal bağlantı noktası ile çoklu sensör desteği."
+      ]
+    },
+    {
+      "id": 209,
+      "name": "DJI Zenmuse H20",
+      "description": "Çok sensörlü profesyonel drone kamerası. 23× hibrit zoom, lazer mesafe ölçer ve geniş açılı kamera içerir.",
+      "images": [
+        "/marka-photos/dji/h20-0.png",
+        "/marka-photos/dji/h20-2.png",
+        "/marka-photos/dji/h20seri.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multi-sensor-camera",
+      "typeTitle": "Çok Sensörlü Kamera",
+      "specs": [
+        "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera",
+        "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
+        "Lazer Mesafe Ölçer: 3 – 1200 metre, ±0.2 m hassasiyet",
+        "Video Çözünürlüğü: 4K/30 fps",
+        "Gimbal Yapısı: 3 eksenli stabilizasyon sistemi",
+        "Su ve Toz Dayanıklılığı: IP44 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "DJI Zenmuse H20T",
+      "description": "Termal kamera, yüksek çözünürlüklü zoom, geniş açılı kamera ve lazer mesafe ölçer kombinasyonuna sahip hibrit hava görüntüleme sistemi.",
+      "images": [
+        "/marka-photos/dji/h20t-0.png",
+        "/marka-photos/dji/h20t-1.png",
+        "/marka-photos/dji/h20t-2.png",
+        "/marka-photos/dji/h20seri.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multi-sensor-camera",
+      "typeTitle": "Çok Sensörlü Kamera",
+      "specs": [
+        "Kamera Sensörleri: 20 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 23× hibrit optik zoom, 200× dijital zoom",
+        "Lazer Mesafe Ölçer: 3 – 1200 metre, ±0.2 m hassasiyet",
+        "Video Çözünürlüğü: 4K/30 fps",
+        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı",
+        "Isı Ölçüm Hassasiyeti: ±2°C veya ±%2",
+        "Isı Ölçüm Modları: Noktasal sıcaklık ölçümü, alan sıcaklık analizi, izoterm belirleme",
+        "Alarm Sistemi: Belirlenen sıcaklık eşiklerini aşan nesneler için alarm bildirimi",
+        "Gimbal Yapısı: 3 eksenli stabilizasyon sistemi",
+        "Su ve Toz Dayanıklılığı: IP44 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "DJI Zenmuse H20N",
+      "description": "Gece görüş ve termal görüntüleme özellikleriyle donatılmış, düşük ışık koşullarında üstün performans sunan hibrit drone kamerası.",
+      "images": [
+        "/marka-photos/dji/h20n-0.png",
+        "/marka-photos/dji/h20n-1.png",
+        "/marka-photos/dji/h20n-2.png",
+        "/marka-photos/dji/h20n-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multi-sensor-camera",
+      "typeTitle": "Çok Sensörlü Kamera",
+      "specs": [
+        "Starlight Geniş Açılı Kamera: 1/2.7” CMOS, 2 MP çözünürlük",
+        "Starlight Zoom Kamera: 1/1.8” CMOS, 4 MP çözünürlük, 20× hibrit optik zoom, 128× maksimum zoom",
+        "Çift Termal Kamera: 640×512 @30Hz, 53mm ve 196mm odak uzunluğu",
+        "Termal Zoom: 2× ve 8× optik zoom, 32× maksimum zoom",
+        "Lazer Mesafe Ölçer: 3 – 1200 metre, ±0.2m hassasiyet",
+        "Gimbal Yapısı: 3 eksenli stabilizasyon sistemi",
+        "Gece Görüş Modu: Düşük ışıkta renkli ve net görüntüleme",
+        "Akıllı Uçuş Özellikleri: Nesne takibi, otomatik sıcaklık analizi, hedef belirleme, bölgesel analiz",
+        "Su ve Toz Dayanıklılığı: IP44 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Desteklenen Drone Modelleri: DJI Matrice 300 RTK"
+      ]
+    },
+
+    {
+      "id": 214,
+      "name": "DJI Matrice 30T RTK",
+      "description": "Termal kamera ve gelişmiş uçuş sistemleriyle donatılmış kompakt ve taşınabilir endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m30t-0.png",
+        "/marka-photos/dji/m30t-1.png",
+        "/marka-photos/dji/m30t-2.png",
+        "/marka-photos/dji/m30t-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maksimum Uçuş Süresi: 41 dakika",
+        "İletim Mesafesi: 15 km (OcuSync 3 Enterprise)",
+        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
+        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 16× optik zoom, 200× maksimum dijital zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "DJI Matrice 4T RTK",
+      "description": "Termal görüntüleme, zoom kamera ve lazer mesafe ölçer ile donatılmış, kompakt ve dayanıklı endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m4t-0.png",
+        "/marka-photos/dji/m4t-1.png",
+        "/marka-photos/dji/m4t-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maksimum Uçuş Süresi: 50 dakika",
+        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
+        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+      ]
+    },
+    {
+      "id": 216,
+      "name": "DJI Matrice 4E RTK",
+      "description": "Gelişmiş RTK desteği, zoom kamera ve lazer mesafe ölçer ile donatılmış kompakt ve dayanıklı endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m4e-0.png",
+        "/marka-photos/dji/m4e-1.png",
+        "/marka-photos/dji/m4e-2.png",
+        "/marka-photos/dji/m4e-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maksimum Uçuş Süresi: 50 dakika",
+        "İletim Mesafesi: 20 km (DJI O4 Enterprise)",
+        "Kamera Sensörleri: 48 MP zoom kamera, 12 MP geniş açılı kamera",
+        "Zoom Kapasitesi: 20× optik zoom, 200× maksimum dijital zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Batarya Sistemi: TB40 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP55 sertifikası",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "DJI Mavic 3 Enterprise RTK (M3E RTK)",
+      "description": "Hassas haritalama ve mühendislik projeleri için optimize edilmiş RTK destekli kompakt drone.",
+      "images": [
+        "/marka-photos/dji/m3e-0.png",
+        "/marka-photos/dji/m3e-1.png",
+        "/marka-photos/dji/m3e-2.png",
+        "/marka-photos/dji/m3e-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "rtk-drone",
+      "typeTitle": "RTK Drone",
+      "specs": [
+        "Maksimum Uçuş Süresi: 45 dakika",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Kamera Sensörü: 20 MP 4/3 CMOS mekanik deklanşörlü kamera",
+        "Haritalama Hassasiyeti: RTK desteği ile santimetre seviyesinde konumlandırma",
+        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
+        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli uçuş planlama, hassas nesne takibi, haritalama"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "DJI Mavic 3 Thermal (M3T RTK)",
+      "description": "Termal kamera, RTK desteği ve gelişmiş uçuş sistemleriyle donatılmış kompakt endüstriyel drone.",
+      "images": [
+        "/marka-photos/dji/m3t-0.png",
+        "/marka-photos/dji/m3t-1.png",
+        "/marka-photos/dji/m3t-2.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "thermal-rtk-drone",
+      "typeTitle": "Termal RTK Drone",
+      "specs": [
+        "Maksimum Uçuş Süresi: 45 dakika",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Kamera Sensörleri: 48 MP geniş açılı kamera, 640×512 termal kamera",
+        "Zoom Kapasitesi: 56× dijital zoom, 7× optik zoom",
+        "Lazer Mesafe Ölçer: 1200 metreye kadar ±0.2m hassasiyet",
+        "Termal Kamera: 640×512 çözünürlük, 30 Hz yenileme hızı, izoterm analiz desteği",
+        "Batarya Sistemi: TB30 akıllı batarya, hızlı değişim desteği",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Gimbal Yapısı: 3 eksenli gimbal",
+        "Akıllı Uçuş Özellikleri: AI destekli nesne tanıma, otomatik rota planlama, gece görüş modu"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "DJI Mavic 3 Multispectral (M3M)",
+      "description": "RGB ve multispektral kameralarla donatılmış, hassas tarım ve çevresel analizler için optimize edilmiş profesyonel drone.",
+      "images": [
+        "/marka-photos/dji/m3m-0.png",
+        "/marka-photos/dji/m3m-1.png",
+        "/marka-photos/dji/m3m-2.png",
+        "/marka-photos/dji/m3m-3.png",
+        "/marka-photos/dji/m3m-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "multispectral-drone",
+      "typeTitle": "Multispektral Drone",
+      "specs": [
+        "RGB Kamera: 20 MP 4/3 CMOS sensörlü mekanik deklanşörlü kamera",
+        "Multispektral Kamera: 5 MP çözünürlüğe sahip dört spektral bant (Yeşil, Kırmızı, Kızılötesi Kırmızı Kenar, Yakın Kızılötesi)",
+        "RTK Hassasiyeti: Centimetre seviyesinde RTK konumlandırma desteği",
+        "Uçuş Süresi: 43 dakikaya kadar",
+        "İletim Mesafesi: 15 km (DJI O3 Enterprise)",
+        "Hareketli Engel Algılama: Tam yönlü engel algılama sensörleri",
+        "Batarya Sistemi: 100W şarj hub’ı ve 88W hızlı şarj desteği",
+        "Su ve Toz Dayanıklılığı: Zorlu çevresel koşullara dayanıklı tasarım",
+        "Çalışma Sıcaklığı: -10°C ile +40°C",
+        "Otonom Uçuş Özellikleri: Akıllı uçuş planlama, bölgesel analiz, nesne takibi",
+        "Bulut API ve Açık Ekosistem: Üçüncü taraf yazılımlarla entegrasyon"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "DJI U10 Laser Gas Leak Detection System",
+      "description": "Metan gazı kaçaklarını tespit etmek için TDLAS teknolojisini kullanan lazer bazlı endüstriyel gaz dedektörü.",
+      "images": [
+        "/marka-photos/dji/u10-0.png",
+        "/marka-photos/dji/u10-1.png",
+        "/marka-photos/dji/u10-2.png",
+        "/marka-photos/dji/u10-3.png"
+      ],
+      "category": "sensor",
+      "brand": "dji",
+      "type": "gas-detection-sensor",
+      "typeTitle": "Gaz Kaçak Tespit Sensörü",
+      "specs": [
+        "Tespit Edilen Gaz Türü: Metan (CH₄)",
+        "Algılama Teknolojisi: Tunable Diode Laser Absorption Spectroscopy (TDLAS)",
+        "Tespit Hassasiyeti: 1 ppm veya daha yüksek hassasiyet",
+        "Algılama Mesafesi: 100 metreye kadar gaz tespiti",
+        "Gerçek Zamanlı Veri Analizi: Gaz yoğunluğunu ppm cinsinden analiz eder ve anlık veri aktarımı sağlar",
+        "Çevresel Dayanıklılık: Farklı hava koşullarında güvenli çalışma",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "UAV Entegrasyonu: DJI Matrice 200, 300 RTK ile uyumludur",
+        "Veri Çıkışı: Anlık veri kaydı, analiz ve 3D haritalama entegrasyonu",
+        "Ağırlık: ≤1 kg"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "DJI Zenmuse L1",
+      "description": "LiDAR modülü, 20 MP RGB kamera ve yüksek doğruluklu IMU ile entegre edilmiş, profesyonel hava haritalama ve 3D modelleme çözümü.",
+      "images": [
+        "/marka-photos/dji/l1-0.png",
+        "/marka-photos/dji/l1-1.png",
+        "/marka-photos/dji/l1-2.png",
+        "/marka-photos/dji/l1-3.png",
+        "/marka-photos/dji/l1-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "lidar-camera",
+      "typeTitle": "Havadan Lidar Kamera",
+      "specs": [
+        "Lidar Modülü: Livox Lidar modülü, 450 metreye kadar algılama menzili ve 240.000 nokta/saniye tarama kapasitesi sunar",
+        "Kamera Sensörü: 1 inç CMOS sensöre sahip 20 MP RGB kamera, mekanik deklanşör ile net görüntüler yakalar",
+        "IMU Doğruluğu: 0.025° roll/pitch ve 0.15° yaw hassasiyeti",
+        "Algılama Menzili: 450 m (80% yansıtıcılık), 190 m (10% yansıtıcılık)",
+        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme özelliği ile saha doğrulaması sağlar",
+        "Taramalar: Tekli ve çoklu dönüş desteği ile 480.000 nokta/saniye veri toplar",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası ile zorlu çevre koşullarına uyumlu",
+        "Gimbal Stabilizasyonu: 3 eksenli gimbal sistemi",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "DJI Zenmuse L2",
+      "description": "Yüksek hassasiyetli LiDAR modülü, 20 MP RGB kamera ve IMU ile entegre edilmiş, profesyonel hava haritalama çözümü.",
+      "images": [
+        "/marka-photos/dji/l2-0.png",
+        "/marka-photos/dji/l2-1.png",
+        "/marka-photos/dji/l2-2.png",
+        "/marka-photos/dji/l2-3.png",
+        "/marka-photos/dji/l2-4.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "lidar-camera",
+      "typeTitle": "Havadan Lidar Kamera",
+      "specs": [
+        "Lidar Modülü: 450 metre algılama menzili ve 240.000 nokta/saniye tarama hızı sunan Livox LiDAR modülü",
+        "RGB Kamera: 20 MP çözünürlüklü 4/3 CMOS sensöre sahip kamera",
+        "IMU Doğruluğu: 0.02° roll/pitch ve 0.05° yaw hassasiyeti",
+        "Algılama Menzili: 450 m (80% yansıtıcılık), 250 m (10% yansıtıcılık)",
+        "Nokta Bulutu Canlı İzleme: Gerçek zamanlı izleme ve saha doğrulama imkanı",
+        "Çoklu Tarama Desteği: Tekli ve çoklu dönüş desteği ile karmaşık alanlarda veri kalitesi artırılır",
+        "Çalışma Sıcaklığı: -20°C ile +50°C arasında",
+        "Su ve Toz Dayanıklılığı: IP54 sertifikası",
+        "Gimbal Yapısı: 3 eksenli gimbal stabilizasyonu",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "DJI Zenmuse P1",
+      "description": "Full-frame 45 MP sensör, mekanik deklanşör ve RTK modülü ile yüksek hassasiyetli hava fotogrametrisi kamerası.",
+      "images": [
+        "/marka-photos/dji/p1-0.png",
+        "/marka-photos/dji/p1-1.png",
+        "/marka-photos/dji/p1-2.png",
+        "/marka-photos/dji/p1-3.png"
+      ],
+      "category": "iha",
+      "brand": "dji",
+      "type": "photogrammetry-camera",
+      "typeTitle": "Fotogrametri Kamerası",
+      "specs": [
+        "Sensör: Full-frame 45 MP CMOS sensör",
+        "Mekanik Deklanşör: 1/2000 saniye global deklanşör",
+        "Lens Uyumluluğu: 24 mm, 35 mm ve 50 mm değiştirilebilir lens seçenekleri",
+        "RTK Modülü: Santimetre seviyesinde hassasiyet sağlayan dahili RTK desteği",
+        "Haritalama Verimliliği: DJI Smart Oblique Capture ile daha geniş kapsama alanı",
+        "Zaman Senkronizasyonu: TimeSync 2.0 ile IMU, RTK ve kamera verileri senkronize edilir",
+        "Görüntü Formatları: JPEG ve RAW DNG desteği",
+        "Video Kaydı: 8K çözünürlüğünde video kaydı",
+        "Çalışma Sıcaklığı: -20°C ile +50°C",
+        "Su ve Toz Dayanıklılığı: IP4X sertifikası",
+        "Platform Uyumluluğu: DJI Matrice 300 RTK ve Matrice 350 RTK"
+      ]
+    },
+    {
+      "id": 300,
+      "name": "Autel Dragonfish Lite",
+      "title": "Dragonfish Lite",
+      "description": "Endüstriyel uygulamalar için uzun uçuş süresi ve yüksek hassasiyet sunan hibrit sabit kanat drone.",
+      "images": [
+        "/marka-photos/autel/dragonfish-lite-0.png",
+        "/marka-photos/autel/dragonfish-lite-1.png",
+        "/marka-photos/autel/dragonfish-lite-2.png",
+        "/marka-photos/autel/dragonfish-lite-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "sabit-kanat-iha",
+      "typeTitle": "Sabit Kanatlı İHA",
+      "specs": [
+        "Maksimum 75 dakika uçuş süresi ile uzun süreli görevlerde kesintisiz çalışma sağlar.",
+        "30 m/s yatay uçuş hızı ile hızlı görev tamamlamaya olanak tanır.",
+        "5.5 kg maksimum kalkış ağırlığı sayesinde geniş yük taşıma kapasitesi sunar.",
+        "GNSS (GPS, GLONASS, BeiDou, Galileo) ve RTK ile santimetre seviyesinde hassas konumlandırma sağlar.",
+        "30 km görüntü aktarım mesafesi ile uzak mesafelerden kesintisiz veri iletimi yapar.",
+        "IP43 su ve toz koruma seviyesi ile zorlu hava koşullarında sorunsuz çalışır.",
+        "Akıllı izleme, arazi takip, otomatik dönüş ve hassas iniş gibi akıllı uçuş özelliklerine sahiptir.",
+        "9.7 inç yer kontrol ekranı ve 4.5 saatlik batarya süresi ile uzun süreli operasyonlarda kolay kontrol imkanı sağlar.",
+        "Rüzgarsız ortamda sabit kanat uçuşunda 15 m/s, dikey kalkışta 12 m/s rüzgar dayanımı sunar.",
+        "Çalışma sıcaklığı aralığı -20°C ile +50°C arasındadır."
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Autel Dragonfish Standard",
+      "description": "Uzun uçuş süresi, yüksek taşıma kapasitesi ve hassas konumlandırma özelliklerine sahip profesyonel sabit kanatlı İHA.",
+      "images": [
+        "/marka-photos/autel/dragonfish-standart-0.png",
+        "/marka-photos/autel/dragonfish-standart-1.png",
+        "/marka-photos/autel/dragonfish-standart-2.png",
+        "/marka-photos/autel/dragonfish-standart-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "sabit-kanat-iha",
+      "typeTitle": "Sabit Kanatlı İHA",
+      "specs": [
+        "120 dakika uçuş süresi ile uzun operasyonel görevlerde maksimum verimlilik sağlar.",
+        "30 m/s yatay uçuş hızı ile geniş alanları kısa sürede tarayabilir.",
+        "9 kg maksimum kalkış ağırlığı ile 1.5 kg’a kadar faydalı yük taşıyabilir.",
+        "30 km menzilde yüksek hızlı çift frekanslı görüntü ve veri aktarımı yapabilir.",
+        "Sabit kanat uçuşunda 15 m/s, dikey kalkış modunda 12 m/s rüzgar direncine sahiptir.",
+        "IP43 koruma seviyesi ile suya ve toza karşı dayanıklıdır.",
+        "RTK modunda 1 cm + 1 ppm yatay ve 1.5 cm + 1 ppm dikey doğruluk sağlar.",
+        "-20°C ile +50°C arasında sorunsuz çalışır.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemlerini destekler.",
+        "9.7 inç 2048x1536 çözünürlüklü ekran ve 4.5 saate kadar çalışma süresine sahiptir.",
+        "3 dakikada kurulum ve 5 saniyede sistem kontrolü ile zamandan tasarruf sağlar.",
+        "Akıllı takip, otomatik görev uçuşları, arazi takip ve hassas iniş özellikleri bulunur."
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Autel Dragonfish Pro",
+      "description": "180 dakika uçuş süresi ve 30 km iletim menzili sunan profesyonel endüstriyel İHA.",
+      "images": [
+        "/marka-photos/autel/dragonfish-pro-0.png",
+        "/marka-photos/autel/dragonfish-pro-1.png",
+        "/marka-photos/autel/dragonfish-pro-2.png",
+        "/marka-photos/autel/dragonfish-pro-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "sabit-kanat-iha",
+      "typeTitle": "Sabit Kanatlı İHA",
+      "specs": [
+        "Maksimum Uçuş Süresi: Rüzgarsız ortamda 180 dakika.",
+        "İletim Menzili: 30 km'ye kadar HD görüntü aktarımı.",
+        "Taşıma Kapasitesi: 2.5 kg’a kadar yük taşıma.",
+        "Maksimum Uçuş Hızı: 30 m/s hız kapasitesi.",
+        "Rüzgar Direnci: 15 m/s (kanat modu), 12 m/s (dikey mod).",
+        "Maksimum Kalkış Ağırlığı: 17 kg toplam kalkış ağırlığı.",
+        "Çalışma Sıcaklığı: -20°C ile +50°C arasında kullanım.",
+        "GNSS Desteği: GPS+GLONASS+BeiDou+Galileo ile yüksek hassasiyet.",
+        "Batarya: 3.6 kg ağırlığında akıllı lityum polimer batarya.",
+        "Koruma Sınıfı: IP43 su ve toz geçirmezlik.",
+        "Uyumluluk: DG-Z2, T3, T3H, L20T, L50T gimbal sistemleri ile uyumlu.",
+        "Kontrol Sistemi: Autel Voyager uygulaması ile tam uyumluluk."
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Autel Alpha",
+      "title": "Alpha",
+      "description": "Yüksek taşıma kapasitesi ve uzun uçuş süresi sunan, profesyonel endüstriyel çok rotorlu İHA.",
+      "images": [
+        "/marka-photos/autel/alpha-0.png",
+        "/marka-photos/autel/alpha-1.png",
+        "/marka-photos/autel/alpha-2.png",
+        "/marka-photos/autel/alpha-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "cok-rotorlu-iha",
+      "typeTitle": "Çok Rotorlu İHA'lar",
+      "specs": [
+        "40 dakikaya kadar uçuş süresi ile uzun süreli görevlerde kullanım sağlar.",
+        "10 kg’a kadar faydalı yük taşıyabilir.",
+        "35 kg’a kadar maksimum kalkış ağırlığını destekler.",
+        "22 m/s yatay uçuş hızı sunar.",
+        "20 m/s’ye kadar rüzgar dayanımı ile zorlu hava koşullarına uygundur.",
+        "GPS, GLONASS, BeiDou ve Galileo desteği ile yüksek hassasiyet sağlar.",
+        "Santimetre seviyesinde RTK konum doğruluğu sağlar.",
+        "-20°C ile +50°C arasında çalışma sıcaklığı aralığı sunar.",
+        "IP55 toz ve suya karşı dayanıklılık sertifikasına sahiptir.",
+        "12S akıllı lityum batarya ile 45 dakika şarj süresine sahiptir.",
+        "10.1 inç ekranlı kontrol cihazı ile 20 km iletim menzili sunar.",
+        "Otomatik kalkış, iniş, akıllı takip, uçuş planlama ve arazi takip özelliklerine sahiptir."
+      ]
+    },{
+      "id": 304,
+      "name": "Autel Titan",
+      "title": "Titan",
+      "description": "Ağır yük taşıma ve uzun mesafeli görevler için 10 kg taşıma kapasitesi ve 55 dakika uçuş süresine sahip profesyonel çok rotorlu İHA.",
+      "images": [
+        "/marka-photos/autel/titan-0.png",
+        "/marka-photos/autel/titan-1.png",
+        "/marka-photos/autel/titan-2.png",
+        "/marka-photos/autel/titan-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "cok-rotorlu-iha",
+      "typeTitle": "Çok Rotorlu İHA'lar",
+      "specs": [
+        "55 dakikaya kadar rüzgarsız ortamda kesintisiz uçuş süresi sunar.",
+        "10 kg’a kadar yük taşıma kapasitesi sağlar.",
+        "50 km mesafeye kadar uzun mesafeli uçuş imkânı sunar.",
+        "25 m/s yatay uçuş hızı kapasitesi bulunur.",
+        "12 m/s seviyesine kadar rüzgar dayanımı vardır.",
+        "GPS, GLONASS, BDS ve Galileo uydu sistemleri desteği sağlar.",
+        "IP55 su ve toz geçirmezlik standardına sahiptir.",
+        "720° omnidirectional engel algılama ve gece görüş desteği mevcuttur.",
+        "Hot-swappable, çift batarya yedekleme tasarımı sayesinde kesintisiz operasyon sağlar.",
+        "A-Mesh ağı desteği ile çoklu cihaz iletişimi ve master-slave kontrol seçenekleri sunar.",
+        "Boyutları: 1879×1866×584 mm (pervane dahil), katlı durumda 752×328×526 mm.",
+        "Ağırlığı: Gimbal ve batarya dahil toplam 23 kg’dır."
+      ]
+    }                            
   ],
   "infoCards": [
     {

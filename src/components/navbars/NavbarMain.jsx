@@ -6,6 +6,9 @@ import { useEffect } from "react";
 
 export default function NavbarMain() {
   const { mainNavbar } = useData();
+
+  console.log("NavbarMain - mainNavbar:", mainNavbar);  // Debug log
+  
   const { 
     activeMainPath, 
     setActiveMainPath, 
@@ -55,11 +58,8 @@ export default function NavbarMain() {
             <div key={index} className="flex flex-col items-center">
               <NavbarLink
                 icon={
-                  <img 
-                  src={`${import.meta.env.BASE_URL}${item.icon}`} 
-                    alt={item.name} 
-                    className="w-12 transition-all"  
-                  />
+                  <img src={import.meta.env.BASE_URL + item.icon} alt={item.name} className="w-12 h-12 object-contain transition-all" />
+
                 }
                 name={item.name}
                 path={`/kategori${item.path}`}
