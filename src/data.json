@@ -2263,8 +2263,8 @@
       ],
       "category": "iha",
       "brand": "autel",
-      "type": "cok-rotorlu-iha",
-      "typeTitle": "Çok Rotorlu İHA'lar",
+     "type": "endustriyel-iha",
+      "typeTitle": "Endüstriyel Ağır Yük İHA'ları",
       "specs": [
         "40 dakikaya kadar uçuş süresi ile uzun süreli görevlerde kullanım sağlar.",
         "10 kg’a kadar faydalı yük taşıyabilir.",
@@ -2292,8 +2292,8 @@
       ],
       "category": "iha",
       "brand": "autel",
-      "type": "cok-rotorlu-iha",
-      "typeTitle": "Çok Rotorlu İHA'lar",
+      "type": "endustriyel-iha",
+      "typeTitle": "Endüstriyel Ağır Yük İHA'ları",
       "specs": [
         "55 dakikaya kadar rüzgarsız ortamda kesintisiz uçuş süresi sunar.",
         "10 kg’a kadar yük taşıma kapasitesi sağlar.",
@@ -2308,7 +2308,528 @@
         "Boyutları: 1879×1866×584 mm (pervane dahil), katlı durumda 752×328×526 mm.",
         "Ağırlığı: Gimbal ve batarya dahil toplam 23 kg’dır."
       ]
-    }                            
+    },
+    {
+      "id": 304,
+      "name": "Autel EVO Max 4N",
+      "title": "EVO Max 4N",
+      "description": "Gece görüş, termal görüntüleme ve düşük ışıkta yüksek hassasiyet sunan profesyonel keşif drone’u.",
+      "images": [
+        "/marka-photos/autel/evo-max-4n-0.png",
+        "/marka-photos/autel/evo-max-4n-1.png",
+        "/marka-photos/autel/evo-max-4n-2.png",
+        "/marka-photos/autel/evo-max-4n-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+     "type": "multi-sensor-iha",
+"typeTitle": "Çok Sensörlü İHA'lar",
+      "specs": [
+        "Ultra düşük ışıkta net görüntüleme sağlayan gece görüş kamerası içerir.",
+        "640×512 çözünürlüğe sahip termal sensör ile hassas sıcaklık ölçümleri yapar.",
+        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü yapabilir.",
+        "Maksimum 42 dakika havada kalabilir.",
+        "50 km’ye kadar kesintisiz veri aktarımı yapabilir.",
+        "25 m/s maksimum yatay uçuş hızına sahiptir.",
+        "12 m/s rüzgar hızına kadar stabil uçuş sağlar.",
+        "IP43 sertifikası ile suya ve toza karşı dayanıklıdır.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemleriyle yüksek hassasiyet sunar.",
+        "Akıllı takip, bölgesel tarama, haritalama ve arazi takip özellikleri içerir.",
+        "-20°C ile +50°C arasında çalışabilir."
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Autel EVO Max 4T",
+      "title": "EVO Max 4T",
+      "description": "Zoom, geniş açı, termal kamera ve lazer mesafe ölçer entegreli profesyonel görev dronu.",
+      "images": [
+        "/marka-photos/autel/evo-max-4t-0.png",
+        "/marka-photos/autel/evo-max-4t-1.png",
+        "/marka-photos/autel/evo-max-4t-2.png",
+        "/marka-photos/autel/evo-max-4t-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+     "type": "multi-sensor-iha",
+"typeTitle": "Çok Sensörlü İHA'lar",
+      "specs": [
+        "48 MP sensör, 10× optik zoom, 160× dijital zoom desteği sunar.",
+        "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
+        "640×512 çözünürlük, 30Hz yenileme hızı ve sıcaklık izleme desteği içerir.",
+        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü yapabilir.",
+        "Maksimum 42 dakika havada kalabilir.",
+        "50 km’ye kadar yüksek güvenilirlikte veri iletimi sağlar.",
+        "25 m/s yatay hız kapasitesine sahiptir.",
+        "12 m/s seviyesine kadar rüzgar dayanımı gösterir.",
+        "IP43 sertifikalı koruma sunar.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemleriyle desteklenir.",
+        "-20°C ile +50°C arasında stabil performans sunar.",
+        "Otomatik rota planlama, nesne takibi, sıcaklık analizi ve akıllı hedef belirleme içerir."
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Autel EVO Max 4T XE",
+      "title": "EVO Max 4T XE",
+      "description": "Profesyonel güvenlik ve keşif görevleri için geliştirilen, çoklu sensörlü üst düzey keşif İHA’sı.",
+      "images": [
+        "/marka-photos/autel/evo-max-4t-xe-0.png",
+        "/marka-photos/autel/evo-max-4t-xe-1.png",
+        "/marka-photos/autel/evo-max-4t-xe-2.png",
+        "/marka-photos/autel/evo-max-4t-xe-3.png"
+      ],
+      "category": "iha",
+      "brand": "autel",
+      "type": "multi-sensor-iha",
+      "typeTitle": "Çok Sensörlü İHA'lar",
+      "specs": [
+        "48 MP sensör, 10× optik zoom ve 160× dijital zoom desteği sunar.",
+        "50 MP çözünürlük, 1/1.28\" CMOS sensör ve düşük ışık optimizasyonu sağlar.",
+        "640×512 çözünürlükte, 30Hz yenileme hızı ile sıcaklık ölçümü yapar.",
+        "1200 metreye kadar ±0.2m hassasiyetle mesafe ölçümü gerçekleştirir.",
+        "Maksimum 42 dakika uçuş kapasitesine sahiptir.",
+        "50 km'ye kadar kesintisiz veri aktarımı sunar.",
+        "25 m/s yatay uçuş hızına sahiptir.",
+        "12 m/s seviyesine kadar dayanıklılık sağlar.",
+        "IP43 sertifikası ile zorlu hava koşullarına karşı koruma sağlar.",
+        "GPS, GLONASS, BeiDou ve Galileo sistemleri ile santimetre seviyesinde hassas konumlandırma sağlar.",
+        "-20°C ile +50°C arasında güvenli şekilde çalışır.",
+        "Akıllı rota planlama, otomatik hedef takibi, sıcaklık analizi ve bölgesel tarama özellikleri mevcuttur."
+      ]
+    },
+    {
+      "id": 320,
+      "name": "Benewake Horn-X2 Pro Lidar",
+      "title": "Horn-X2 Pro Lidar",
+      "description": "Endüstriyel ve otonom sistemler için uzun menzilli, yüksek çözünürlüklü Lidar sensörü.",
+      "images": [
+        "/marka-photos/benewake/horn-x2-pro.png",
+        "/marka-photos/benewake/horn-x2-pro.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "Maksimum 300 metreye kadar yüksek doğruluklu algılama yapabilir.",
+        "0.05 derece çözünürlük ile detaylı 3D haritalama sağlar.",
+        "360° yatay tarama ve ±15° dikey tarama desteği mevcuttur.",
+        "Saniyede 1.28 milyon nokta veri çıkışı ile yüksek yoğunluklu veri sağlar.",
+        "25 W ortalama güç tüketimi ile verimli çalışır.",
+        "IP67 suya ve toza dayanıklılık sertifikasına sahiptir.",
+        "-40°C ile +85°C arasında kesintisiz çalışabilir.",
+        "Ethernet ve CAN destekli çıkışlarla kolay entegrasyon sağlar.",
+        "16 hedef yankıya kadar destek ile yoğun ortamlarda stabil veri sağlar.",
+        "Zorlu endüstriyel ortamlarda çalışmaya uygun, sağlam yapıda üretilmiştir."
+      ]
+    },
+    {
+      "id": 321,
+      "name": "Benewake AD2-S X3",
+      "title": "AD2-S X3 Lidar Sensörü",
+      "description": "Akıllı şehirler ve trafik yönetimi için geliştirilmiş, 256 hatlı yüksek çözünürlüklü 3D Lidar sensörü.",
+      "images": [
+        "/marka-photos/benewake/ad2s-x3.png",
+        "/marka-photos/benewake/ad2s-x3.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "256 satır çözünürlükle 150 metreye kadar algılama mesafesi sağlar.",
+        "120° x 25.6° görüş açısı ile geniş alan kapsama sunar.",
+        "Mikro-saniye düzeyinde zaman senkronizasyonu ile 2 milyon nokta/saniye veri üretir.",
+        "Gaze fonksiyonu sayesinde kritik bölgelerde çözünürlüğü iki katına çıkarır.",
+        "Santimetre seviyesinde pozisyonlama doğruluğu sunar.",
+        "Çoklu sensör birleşimi ve dijital platform entegrasyonu ile esnek kullanım sağlar.",
+        "IP67 koruma sınıfı ile zorlu hava koşullarına dayanıklıdır.",
+        "Ethernet üzerinden hızlı veri aktarımı sağlar.",
+        "-20°C ile +60°C arasında stabil performans sunar."
+      ]
+    },
+    {
+      "id": 322,
+      "name": "Benewake TF02-i",
+      "title": "TF02-i Lidar Sensörü",
+      "description": "40 metreye kadar ölçüm yapabilen, IP65 korumalı ve hızlı yanıt süreli, drone ve akıllı ulaşım sistemleri için geliştirilmiş LiDAR sensörü.",
+      "images": [
+        "/marka-photos/benewake/tf02i-0.png",
+        "/marka-photos/benewake/tf02i-1.png",
+        "/marka-photos/benewake/tf02i-2.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1m ile 40m arasında ölçüm yapabilir.",
+        "-20°C ile 70°C arasında güvenilir performans sunar.",
+        "3° görüş açısı ile dar alanlarda bile net algılama sağlar.",
+        "1 cm çözünürlük ile ince detaylarda hassasiyet sağlar.",
+        "1 Hz ila 1000 Hz arasında ayarlanabilir tarama frekansı ile hızlı veri toplar.",
+        "7V ile 30V arasında çalışma gerilimi sunar.",
+        "≤70mA@12V enerji tüketimi ile tasarruf sağlar.",
+        "IP65 koruma sınıfı ile toz ve suya karşı dayanıklıdır.",
+        "60g ağırlığında hafif ve taşınabilir yapıdadır.",
+        "100K lux ışık altında dahi kararlı ölçüm sağlar."
+      ]
+    },
+    {
+      "id": 323,
+      "name": "Benewake TF03",
+      "title": "TF03 Lidar Sensörü",
+      "description": "180 metreye kadar uzun menzil algılama kapasitesi, IP67 koruma sınıfı ve zorlu çevre koşullarına dayanıklılığıyla drone, akıllı ulaşım ve endüstriyel uygulamalar için geliştirilmiş yüksek hassasiyetli LiDAR sensörü.",
+      "images": [
+        "/marka-photos/benewake/tf03.png",
+        "/marka-photos/benewake/tf03.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 metre ile 180 metre arasında hassas ölçüm sağlar.",
+        "10 metreye kadar ±10 cm, 10 metreden sonra %1 doğruluk sunar.",
+        "1 Hz ila 1000 Hz arasında ayarlanabilir tarama frekansı.",
+        "0.5° dar görüş açısıyla nokta hassasiyetini artırır.",
+        "1 cm çözünürlük ile detaylı ölçüm sağlar.",
+        "-25°C ile 60°C arasında stabil performans sunar.",
+        "IP67 suya, toza ve zorlu çevre koşullarına karşı dayanıklıdır.",
+        "UART, CAN, RS-232, RS-485 ve 4-20 mA analog çıkış ile esnek bağlantı desteği sağlar.",
+        "5V ile 24V arasında çalışma gerilimi sunar.",
+        "≤1W enerji tüketimi ile verimli kullanım sağlar.",
+        "44 mm x 43 mm x 32 mm ölçülerinde kompakt tasarım.",
+        "89 g ± 3 g hafifliğiyle kolay montaj sağlar."
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Benewake TF-NOVA",
+      "title": "TF-NOVA Lidar Sensörü",
+      "description": "Kompakt yapıda, 40 metre algılama mesafesi ve yüksek hassasiyet sağlayan, drone, robotik ve endüstriyel otomasyon uygulamaları için tasarlanmış Lidar sensörü.",
+      "images": [
+        "/marka-photos/benewake/tfnova.png",
+        "/marka-photos/benewake/tfnova.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 m ile 40 m arasında ölçüm yapabilir.",
+        "1 cm çözünürlükle yüksek hassasiyet sağlar.",
+        "3° görüş açısı ile dar alanlarda dahi net algılama sağlar.",
+        "1 Hz ila 1000 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "100K lux ortam ışığı altında kararlı performans sağlar.",
+        "IP67 koruma seviyesi ile toz, su ve zorlu çevre koşullarına dayanıklıdır.",
+        "-20°C ile +70°C arasında güvenilir çalışma performansı gösterir.",
+        "5V ile 24V arasında çalışma gerilimi sunar.",
+        "≤1.5W düşük güç tüketimi sağlar.",
+        "52 g ağırlığı ve kompakt boyutları ile kolay taşınır ve entegre edilir."
+      ]
+    },
+    {
+      "id": 325,
+      "name": "Benewake TFS20-L",
+      "title": "TFS20-L Lidar Sensörü",
+      "description": "20 metreye kadar algılama mesafesi, ultra kompakt tasarımı ve düşük güç tüketimi ile drone, robotik ve endüstriyel uygulamalar için ideal LiDAR sensörü.",
+      "images": [
+        "/marka-photos/benewake/tfs20l.png",
+        "/marka-photos/benewake/tfs20l.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.2 m ile 20 m arasında hassas ölçüm yapabilir.",
+        "0.2 m - 6 m aralığında ±6 cm doğruluk sağlar, sonrasında %1 hata payı ile çalışır.",
+        "1 Hz ile 250 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "<2° görüş açısı ile dar alanlarda net algılama sağlar.",
+        "1 cm çözünürlükle yüksek detaylı veri sunar.",
+        "100K lux ışık altında dahi kararlı performans sağlar.",
+        "3.3V çalışma voltajına sahiptir.",
+        "≤0.35W düşük güç tüketimi ile enerji verimliliği sağlar.",
+        "21 mm x 15 mm x 7.87 mm boyutları ve 1.35 g ağırlığı ile ultra kompakt yapıdadır."
+      ]
+    },
+    {
+      "id": 326,
+      "name": "Benewake TFA170-L",
+      "title": "TFA170-L Lidar Sensörü",
+      "description": "170 metre algılama kapasitesi, ultra hafif tasarımı ve yüksek doğruluğu ile drone ve endüstriyel uygulamalarda hassas mesafe ölçümü sağlayan LiDAR sensörü.",
+      "images": [
+        "/marka-photos/benewake/tfa170l.png",
+        "/marka-photos/benewake/tfa170l.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 m ile 170 m arasında hassas ölçüm yapabilir.",
+        "0.2 m - 10 m aralığında ±10 cm doğruluk, 10 m sonrası %1 hata payı ile çalışır.",
+        "1 Hz ile 1000 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "0.4° yatay, 0.04° dikey görüş açısı ile yüksek çözünürlüklü algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri sunar.",
+        "-20°C ile +60°C arasında kararlı performans sunar.",
+        "RS-232 bağlantı arayüzü ile hızlı ve güvenilir veri aktarımı sağlar.",
+        "12V DC çalışma gerilimine sahiptir.",
+        "≤1W düşük güç tüketimi ile enerji verimliliği sağlar.",
+        "31 x 30.2 x 19.2 mm boyutları ve yalnızca 10 g ağırlığı ile ultra hafif ve kompakt tasarımıyla dikkat çeker."
+      ]
+    },
+    {
+      "id": 327,
+      "name": "Benewake TFmini-S",
+      "title": "TFmini-S Mikro LiDAR Sensörü",
+      "description": "0.1 m ile 12 m arasında ölçüm yapabilen, kompakt ve hafif tasarımlı mikro LiDAR sensörü. Gelişmiş çerçeve hızı ve çok yönlü arayüzleriyle drone, robotik ve IoT uygulamalarında güvenilir mesafe ölçümü sağlar.",
+      "images": [
+        "/marka-photos/benewake/tfminis.png",
+        "/marka-photos/benewake/tfminis.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 m ile 12 m arasında ölçüm yapabilir.",
+        "0.1 m - 6 m aralığında ±6 cm doğruluk, 6 m sonrası %1 hata payı ile çalışır.",
+        "1 Hz ile 1000 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "2° görüş açısı ile dar alanlarda dahi net algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri sunar.",
+        "70K lux ışık altında dahi kararlı performans sağlar.",
+        "0°C ile 60°C arasında güvenilir performans sunar.",
+        "UART ve I²C bağlantı arayüzleri ile esnek entegrasyon imkanı sağlar.",
+        "5V ±0.1V çalışma gerilimine sahiptir.",
+        "≤0.7W düşük güç tüketimi ile enerji verimliliği sağlar.",
+        "42 mm x 15 mm x 16 mm boyutları ve 5 g ±0.3 g ağırlığı ile ultra kompakt ve hafif tasarıma sahiptir."
+      ]
+    },
+    {
+      "id": 328,
+      "name": "Benewake TFmini Plus",
+      "title": "TFmini Plus LiDAR Sensörü",
+      "description": "0.1 m ile 12 m arasında ölçüm yapabilen, kompakt ve hafif tasarımlı LiDAR sensörü. Gelişmiş çerçeve hızı, yüksek hassasiyeti ve IP65 koruma sınıfıyla drone, robotik ve IoT uygulamalarında güvenilir mesafe ölçümü sağlar.",
+      "images": [
+        "/marka-photos/benewake/tfminiplus.png",
+        "/marka-photos/benewake/tfminiplus.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 m ile 12 m arasında ölçüm yapabilir.",
+        "0.1 m - 5 m aralığında ±5 cm doğruluk, 5 m sonrası %1 hata payı ile çalışır.",
+        "1 Hz ile 1000 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "3.6° görüş açısı ile dar alanlarda dahi net algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri sunar.",
+        "70K lux ışık altında dahi kararlı performans sağlar.",
+        "-20°C ile 60°C arasında güvenilir performans sunar.",
+        "UART ve I²C bağlantı arayüzleri ile esnek entegrasyon imkanı sağlar.",
+        "5V ±0.5V çalışma gerilimine sahiptir.",
+        "550mW düşük güç tüketimi ile enerji verimliliği sağlar.",
+        "35 mm x 18.5 mm x 21 mm boyutları ve 12 g ±1 g ağırlığı ile ultra kompakt ve hafif tasarıma sahiptir."
+      ]
+    },
+    {
+      "id": 329,
+      "name": "Benewake TFmini-i",
+      "title": "TFmini-i Endüstriyel LiDAR Sensörü",
+      "description": "0.1 m ile 12 m arasında ölçüm yapabilen, kompakt ve dayanıklı tasarımlı endüstriyel LiDAR sensörü. IP65 koruma sınıfı, geniş giriş voltajı aralığı ve esnek arayüzleriyle endüstriyel uygulamalarda güvenilir mesafe ölçümü sağlar.",
+      "images": [
+        "/marka-photos/benewake/tfmini-i.png",
+        "/marka-photos/benewake/tfmini-i.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 m ile 12 m arasında ölçüm yapabilir.",
+        "0.1 m - 6 m aralığında ±6 cm doğruluk, 6 m sonrası %1 hata payı ile çalışır.",
+        "1 Hz ile 100 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "2° görüş açısı ile dar alanlarda dahi net algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri sunar.",
+        "70K lux ışık altında dahi kararlı performans sağlar.",
+        "-20°C ile 60°C arasında güvenilir performans sunar.",
+        "RS-485 ve CAN bağlantı arayüzleri ile esnek entegrasyon imkanı sağlar.",
+        "7V - 30V geniş çalışma gerilimine sahiptir.",
+        "≤0.8W düşük güç tüketimi ile enerji verimliliği sağlar.",
+        "50 mm x 34 mm x 41 mm boyutları ve 52 g ağırlığı ile kompakt ve dayanıklı tasarıma sahiptir."
+      ]
+    },
+    {
+      "id": 330,
+      "name": "Benewake TF02-Pro",
+      "title": "TF02-Pro Orta Menzilli LiDAR Sensörü",
+      "description": "0.1 m ile 40 m arasında ölçüm yapabilen, kompakt ve dayanıklı orta menzilli LiDAR sensörü. IP65 koruma sınıfı, yüksek hassasiyeti ve esnek arayüzleriyle drone, akıllı ulaşım ve tarım uygulamalarında güvenilir mesafe ölçümü sağlar.",
+      "images": [
+        "/marka-photos/benewake/tf02-pro-0.png",
+        "/marka-photos/benewake/tf02-pro-0.png",
+        "/marka-photos/benewake/tf02-pro-1.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 m ile 40 m arasında ölçüm yapabilir.",
+        "0.1 m - 5 m aralığında ±5 cm doğruluk, 5 m sonrası %1 hata payı ile çalışır.",
+        "1 Hz ile 1000 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "3° görüş açısı ile dar alanlarda dahi net algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri sunar.",
+        "100K lux ışık altında dahi kararlı performans sağlar.",
+        "-20°C ile 60°C arasında güvenilir performans sunar.",
+        "UART ve I²C bağlantı arayüzleri ile esnek entegrasyon imkanı sağlar.",
+        "5V - 12V geniş çalışma gerilimine sahiptir.",
+        "≤1W düşük güç tüketimi ile enerji verimliliği sağlar.",
+        "69 mm x 41.5 mm x 26 mm boyutları ve 50 g ağırlığı ile kompakt ve dayanıklı tasarıma sahiptir."
+      ]
+    },
+    {
+      "id": 331,
+      "name": "Benewake TF-Luna",
+      "title": "TF-Luna Kompakt LiDAR Sensörü",
+      "description": "0.2 m ile 8 m arasında ölçüm yapabilen, kompakt ve hafif tasarımlı LiDAR sensörü. Yüksek hassasiyeti, düşük güç tüketimi ve esnek arayüzleriyle robotik, drone ve endüstriyel otomasyon uygulamalarında güvenilir mesafe ölçümü sağlar.",
+      "images": [
+        "/marka-photos/benewake/tf-luna-0.png",
+        "/marka-photos/benewake/tf-luna-0.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.2 m ile 8 m arasında ölçüm yapabilir.",
+        "0.2 m - 3 m aralığında ±6 cm doğruluk, 3 m sonrası %2 hata oranı ile çalışır.",
+        "1 Hz ile 250 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "2° görüş açısı ile dar alanlarda bile net algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri sağlar.",
+        "70K lux ortam ışığına karşı dirençli çalışır.",
+        "-10°C ile 60°C arasında çalışma sıcaklığına sahiptir.",
+        "UART ve I²C bağlantı arayüzleri ile kolay entegrasyon sağlar.",
+        "5V ±0.1V çalışma gerilimine sahiptir.",
+        "≤0.35W düşük güç tüketimi ile enerji tasarrufu sağlar.",
+        "35 mm x 21.25 mm x 13.5 mm boyutları ve yalnızca 5 g ağırlığı ile ultra kompakt tasarıma sahiptir."
+      ]
+    },
+    {
+      "id": 332,
+      "name": "Benewake TF02-Pro-W",
+      "title": "TF02-Pro-W Endüstriyel LiDAR Sensörü",
+      "description": "Endüstriyel hacim izleme ve seviye tespiti için tasarlanmış, kendi kendini temizleme özelliğine sahip dayanıklı LiDAR sensörü. Yüksek doğruluk, geniş tarama frekansı ve esnek bağlantı arayüzleri ile zorlu ortamlarda güvenilir ölçüm sağlar.",
+      "images": [
+        "/marka-photos/benewake/tf02-pro-w-0.png",
+        "/marka-photos/benewake/tf02-pro-w-0.png",
+        "/marka-photos/benewake/tf02-pro-w-1.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.1 metre ile 25 metre arasında ölçüm yapabilir.",
+        "0.1 metre ile 5 metre arasında ±5 cm doğruluk; 5 metreden sonra %1 hata oranı ile çalışır.",
+        "1 Hz ile 1000 Hz arasında ayarlanabilir tarama frekansı desteği sunar.",
+        "3 derece görüş açısı ile dar alanlarda bile net algılama sağlar.",
+        "1 cm çözünürlükle yüksek hassasiyetli veri üretir.",
+        "100.000 lux seviyesine kadar ortam ışığında kararlı çalışır.",
+        "-20°C ile 60°C arasında istikrarlı performans gösterir.",
+        "UART, RS-485 ve I²C arayüzleri ile kolay entegrasyon imkanı sunar.",
+        "5V - 12V geniş giriş voltajı aralığına sahiptir.",
+        "1W düşük güç tüketimi ile enerji tasarrufu sağlar.",
+        "69 mm x 41.5 mm x 26 mm boyutlarındadır.",
+        "50 gram ağırlığında kompakt ve hafif tasarıma sahiptir."
+      ]
+    },
+    {
+      "id": 323,
+      "name": "Benewake TF350",
+      "title": "TF350 Uzun Menzilli Endüstriyel LiDAR Sensörü",
+      "description": "350 metreye kadar algılama mesafesi, 1 cm çözünürlük ve IP67 koruma standardı ile endüstriyel uygulamalar için geliştirilmiş uzun menzilli LiDAR sensörü. Yüksek hassasiyet ve zorlu koşullara dayanıklı tasarımıyla güvenilir performans sunar.",
+      "images": [
+        "/marka-photos/benewake/tf350-0.png",
+        "/marka-photos/benewake/tf350-0.png",
+        "/marka-photos/benewake/tf350-1.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "350 metreye kadar algılama kapasitesi sunar.",
+        "1 cm çözünürlük ve %1 hata payı ile yüksek hassasiyet sağlar.",
+        "1 Hz ile 1000 Hz arasında ayarlanabilir tarama hızı desteği sunar.",
+        "0.7 derece dikey görüş açısı ile dar ve net algılama sağlar.",
+        "1 cm çözünürlükle detaylı veri üretir.",
+        "Yüksek parlaklık seviyelerinde bile kararlı performans sağlar.",
+        "-20°C ile 60°C arasında istikrarlı çalışır.",
+        "IP67 suya ve toza karşı dayanıklılık standardına sahiptir.",
+        "UART, CAN ve RS-485 bağlantı seçenekleriyle esnek entegrasyon sağlar.",
+        "10V - 30V geniş voltaj desteği sunar.",
+        "4.5W maksimum güç tüketimi ile verimli çalışır.",
+        "155 mm x 95 mm x 75 mm boyutlarındadır.",
+        "1.1 kg ağırlığında sağlam gövdeye sahiptir."
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Benewake TFA1500-L",
+      "title": "TFA1500-L Kilometre Seviyesinde Uzun Menzilli LiDAR Sensörü",
+      "description": "1500 metreye kadar menzili ve yüksek frekanslı ölçüm yeteneği ile endüstriyel ve mühendislik uygulamaları için tasarlanmış uzun menzilli LiDAR sensörüdür. Kompakt yapısı, düşük güç tüketimi ve hassas veri iletimi özellikleriyle öne çıkar.",
+      "images": [
+        "/marka-photos/benewake/tfa1500-l.png",
+        "/marka-photos/benewake/tfa1500-l.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "0.05 metre ile 1500 metre arasında ölçüm yapabilir.",
+        "100 metreye kadar ±50 cm; 100-200 metre arasında %1.5 hata oranı ile çalışır.",
+        "Uzun mesafede 50 Hz, kısa mesafede 1000 Hz’e kadar ayarlanabilir tarama hızı sunar.",
+        "0.5 dereceden daha düşük görüş açısı ile dar alanlarda bile yüksek hassasiyet sağlar.",
+        "1 cm çözünürlükle kesintisiz ve detaylı veri üretir.",
+        "100.000 lux’e kadar ortam ışığında stabil çalışma performansı sunar.",
+        "-40°C ile 60°C arasında sorunsuz çalışır.",
+        "UART arayüzü ile hızlı ve kolay entegrasyon sağlar.",
+        "9V ile 36V arasında geniş voltaj aralığına sahiptir.",
+        "1.1W’dan az güç tüketimi ile enerji verimliliği sağlar.",
+        "33 mm x 34 mm x 18 mm kompakt ölçülere sahiptir.",
+        "20 gram ağırlığında ultra hafif tasarımıyla taşınabilirlik sağlar."
+      ]
+    },
+    {
+      "id": 325,
+      "name": "Benewake TR Serisi",
+      "title": "TR Serisi Yüksek Performanslı 2D LiDAR Sensörleri",
+      "description": "SLAM navigasyonu, engel tespiti ve robotik uygulamalar için tasarlanmış, yüksek hassasiyetli ve dayanıklı 2D LiDAR sensör ailesidir. Geniş görüş açısı, hızlı tarama ve kompakt tasarımıyla profesyonel endüstriyel uygulamalarda güvenilir çözüm sunar.",
+      "images": [
+        "/marka-photos/benewake/tr-serisi-0.png",
+        "/marka-photos/benewake/tr-serisi-0.png"
+      ],
+      "category": "sensor",
+      "brand": "benewake",
+      "type": "lidar-sensor",
+      "typeTitle": "Lidar Sensörleri",
+      "specs": [
+        "20 metreye kadar ölçüm kapasitesi sunar.",
+        "10 Hz ile 30 Hz arasında ayarlanabilir tarama frekansı sağlar.",
+        "0.225° sabit açı çözünürlüğü ile net veri üretir.",
+        "360° yatay tarama kapasitesine sahiptir.",
+        "40.000 nokta/saniyeye kadar nokta yoğunluğu sağlar.",
+        "-20°C ile 60°C arasında güvenilir şekilde çalışır.",
+        "IP65 koruma seviyesi ile toz ve suya dayanıklıdır.",
+        "60 mm x 60 mm x 80 mm boyutlarındadır.",
+        "Kompakt tasarımı sayesinde hafif yapıya sahiptir."
+      ]
+    }    
+                                                                      
   ],
   "infoCards": [
     {
